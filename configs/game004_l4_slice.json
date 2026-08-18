@@ -1,5 +1,5 @@
 {
-  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L4","task_id":"GAME-004","slice_id":"L4","difficulty_level":"L4","rule_id":"infer_from_examples","rule_label":"观察范例，推断当前规则","child_prompt":"先看范例，再安排新对象","background":"res://assets/candidates/image2/GAME004_SLICE-L4_master_candidate_v002.png",
+  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L4","task_id":"GAME-004","slice_id":"L4","difficulty_level":"L4","rule_id":"infer_from_examples","rule_label":"观察范例，推断当前规则","child_prompt":"先看范例，再安排新对象","object_position":[0.5,0.63],"background":"res://assets/candidates/image2/GAME004_SLICE-L4_master_candidate_v002.png",
   "regions":[
     {"name":"水域","kind":"water","rect":[0.02,0.29,0.29,0.25],"color":"#42c6e4"},
     {"name":"林地","kind":"forest","rect":[0.35,0.23,0.30,0.25],"color":"#6ba05d"},

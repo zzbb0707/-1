@@ -1,9 +1,9 @@
 {
-  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L3","task_id":"GAME-004","slice_id":"L3","difficulty_level":"L3","rule_id":"controlled_switch","rule_label":"当前规则会切换：水域 → 林地 → 阳光","child_prompt":"先看当前规则，再安排新对象","background":"res://assets/candidates/image2/GAME004_SLICE-L3_master_candidate_v002.png",
+  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L3","task_id":"GAME-004","slice_id":"L3","difficulty_level":"L3","rule_id":"controlled_switch","rule_label":"当前规则会切换：水域 → 林地 → 阳光","child_prompt":"先看当前规则，再安排新对象","object_position":[0.5,0.71],"background":"res://assets/candidates/image2/GAME004_SLICE-L3_master_candidate_v002.png",
   "regions":[
-    {"name":"水域","kind":"water","rect":[0.01,0.31,0.30,0.32],"color":"#45bed9"},
-    {"name":"林地","kind":"forest","rect":[0.35,0.31,0.30,0.32],"color":"#6fa85c"},
-    {"name":"向阳花圃","kind":"sun","rect":[0.69,0.31,0.30,0.32],"color":"#f0ad3c"}
+    {"name":"水域","kind":"water","rect":[0.01,0.30,0.30,0.28],"color":"#45bed9"},
+    {"name":"林地","kind":"forest","rect":[0.35,0.30,0.30,0.28],"color":"#6fa85c"},
+    {"name":"向阳花圃","kind":"sun","rect":[0.69,0.30,0.30,0.28],"color":"#f0ad3c"}
   ],
   "rounds":[
     {"opportunity_id":"GAME004-L3-R01","object":"浮叶幼苗","object_color":"#79d6c4","correct_region":"水域","rule_id":"habitat_water","rule_label":"规则：寻找有水的环境","hint":"只看水环境，不看种子的颜色","success_message":"水路连通，浮叶幼苗舒展开了"},

@@ -4,7 +4,7 @@ const VIEW_SIZE := Vector2(1000, 1250)
 const AppBridgeScript = preload("res://scripts/app_bridge.gd")
 const DEFAULT_CONFIG := "res://configs/game004_l1_slice.json"
 const STAGE := Rect2(170, 175, 660, 950)
-const OBJECT_RECT := Rect2(365, 650, 270, 180)
+const DEFAULT_OBJECT_RECT := Rect2(365, 810, 270, 170)
 
 var launch_context: Dictionary = {
     "schema_version": "game-bridge-v0", "task_id": "GAME-004",
@@ -19,6 +19,7 @@ var events: Array[Dictionary] = []
 var rounds: Array = []
 var regions: Dictionary = {}
 var background: Texture2D
+var object_rect := DEFAULT_OBJECT_RECT
 var config_path := DEFAULT_CONFIG
 var slice_id := "L1"
 var round_index := 0
@@ -71,6 +72,8 @@ func _load_game_config() -> void:
     launch_context.game_config_id = str(game_config.get("game_config_id", launch_context.game_config_id))
     message = str(game_config.get("child_prompt", message))
     rounds = game_config.get("rounds", [])
+    var object_position: Array = game_config.get("object_position", [0.5, 0.68])
+    object_rect = Rect2(STAGE.position + Vector2(float(object_position[0]) * STAGE.size.x - 135.0, float(object_position[1]) * STAGE.size.y - 85.0), Vector2(270, 170))
     regions.clear()
     for raw_region in game_config.get("regions", []):
         var normalized: Array = raw_region.get("rect", [0.1, 0.4, 0.3, 0.3])
@@ -129,7 +132,7 @@ func _pointer_down(position: Vector2) -> void:
     if Rect2(850, 40, 100, 58).has_point(position): _request_quit("toolbar_quit"); return
     if Rect2(720, 40, 110, 58).has_point(position): _show_hint(); return
     pointer_down_position = position; pointer_dragged = false
-    if OBJECT_RECT.has_point(position):
+    if object_rect.has_point(position):
         if first_response_ms < 0:
             first_response_ms = Time.get_ticks_msec()
             _emit("first_response", {"reaction_time_ms": first_response_ms - current_round_started_ms, "input_method": "tap"})
@@ -204,7 +207,7 @@ func _draw() -> void:
     draw_rect(STAGE, Color("#d9e8df"), false, 3)
     for region_name in regions: _draw_region(region_name, regions[region_name])
     var data: Dictionary = rounds[round_index]
-    var object_pos := drag_position if drag_object else OBJECT_RECT.get_center()
+    var object_pos := drag_position if drag_object else object_rect.get_center()
     if selected_region != "": object_pos = regions[selected_region].rect.get_center()
     _draw_object(object_pos, str(data.get("object", "对象")), Color(str(data.get("object_color", "#8ed0b2"))))
     _draw_rule(data)
