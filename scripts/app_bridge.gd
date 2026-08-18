@@ -1,0 +1,49 @@
+class_name AppBridge
+extends RefCounted
+
+const SCHEMA_VERSION := "game-bridge-v0"
+
+var context: Dictionary = {}
+var events: Array[Dictionary] = []
+var game_session_id := "game-session-preview"
+
+func load_context(default_context: Dictionary) -> Dictionary:
+    context = default_context.duplicate(true)
+    var file := FileAccess.open("user://launch_context.json", FileAccess.READ)
+    if file:
+        var parsed = JSON.parse_string(file.get_as_text())
+        if parsed is Dictionary and parsed.has("task_id"):
+            context.merge(parsed, true)
+    game_session_id = str(context.get("game_session_id", "game-session-preview"))
+    return context
+
+func emit_event(event_type: String, payload: Dictionary) -> Dictionary:
+    var event := {
+        "event_id": "%s-%d" % [event_type, Time.get_ticks_usec()],
+        "event_type": event_type,
+        "occurred_at": Time.get_datetime_string_from_system(true),
+        "task_id": context.get("task_id", "GAME-004"),
+        "game_config_id": context.get("game_config_id", "GAMECFG-GAME-004-GF03-L1-P01"),
+        "task_session_id": context.get("task_session_id", "preview-session"),
+        "game_session_id": game_session_id,
+        "content_version": context.get("content_version", "GAME-004-V1"),
+        "ruleset_version": context.get("ruleset_version", "ALLOC-CORE-V1"),
+        "payload": payload
+    }
+    events.append(event)
+    var file := FileAccess.open("user://game004_events.ndjson", FileAccess.READ_WRITE)
+    if file:
+        file.seek_end()
+        file.store_line(JSON.stringify(event))
+        file.close()
+    return event
+
+func build_result(session_status: String, summary: Dictionary) -> Dictionary:
+    var result := summary.duplicate(true)
+    result["event_type"] = "game_result"
+    result["session_status"] = session_status
+    result["task_id"] = context.get("task_id", "GAME-004")
+    result["game_config_id"] = context.get("game_config_id", "GAMECFG-GAME-004-GF03-L1-P01")
+    result["task_session_id"] = context.get("task_session_id", "preview-session")
+    result["game_session_id"] = game_session_id
+    return result
