@@ -224,8 +224,8 @@ func _draw() -> void:
     draw_string(ThemeDB.fallback_font, Vector2(70, 135), "把对象放进合适的区域", HORIZONTAL_ALIGNMENT_LEFT, -1, 24, Color("#a9c5dd"))
     draw_rect(Rect2(70, 160, 860, 2), Color("#5f88a6"))
     draw_string(ThemeDB.fallback_font, Vector2(70, 180), "回合 %d / %d" % [mini(round_index + 1, rounds.size()), rounds.size()], HORIZONTAL_ALIGNMENT_LEFT, -1, 22, Color("#c7dded"))
-    _draw_button(Rect2(720, 40, 110, 58), "提示", Color("#315b77"))
-    _draw_button(Rect2(850, 40, 100, 58), "退出", Color("#4d5367"))
+    _draw_button(Rect2(720, 40, 110, 58), "提示", Color("#286a86"))
+    _draw_button(Rect2(850, 40, 100, 58), "退出", Color("#66566f"))
     draw_rect(STAGE, Color("#17324b"), true)
     draw_rect(STAGE, Color("#5f88a6"), false, 3)
     for region_name in regions:
@@ -235,8 +235,8 @@ func _draw() -> void:
     if selected_region != "":
         object_pos = regions[selected_region].rect.get_center()
     _draw_object(object_pos, data.object, data.object_color)
-    draw_rect(Rect2(80, 1015, 840, 62), Color("#0d1e31"), true)
-    draw_string(ThemeDB.fallback_font, Vector2(105, 1055), message, HORIZONTAL_ALIGNMENT_LEFT, 790, 27, message_tone)
+    draw_rect(Rect2(80, 985, 840, 92), Color("#0d1e31"), true)
+    draw_string(ThemeDB.fallback_font, Vector2(105, 1043), message, HORIZONTAL_ALIGNMENT_CENTER, 790, 30, message_tone)
     if session_status == "started" and round_index == 0 and completed_count == 0:
         draw_string(ThemeDB.fallback_font, Vector2(305, 395), "拖动，或先点对象再点区域", HORIZONTAL_ALIGNMENT_CENTER, 390, 22, Color("#9fc1d8"))
     if session_status != "started":
@@ -272,7 +272,7 @@ func _draw_object(pos: Vector2, label: String, color: Color) -> void:
     draw_circle(pos, 70, Color(0.05, 0.1, 0.16, 0.55))
     draw_circle(pos, 58, color)
     draw_circle(pos - Vector2(18, 18), 16, Color(1, 1, 1, 0.58))
-    draw_string(ThemeDB.fallback_font, pos + Vector2(-100, 105), label, HORIZONTAL_ALIGNMENT_CENTER, 200, 27, Color("#f8fbff"))
+    draw_string(ThemeDB.fallback_font, pos + Vector2(-120, 110), label, HORIZONTAL_ALIGNMENT_CENTER, 240, 32, Color("#f8fbff"))
 
 func _draw_button(rect: Rect2, label: String, color: Color) -> void:
     draw_style_box(_box(color, 12, color.lightened(0.18)), rect)
