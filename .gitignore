@@ -1,3 +1,5 @@
 .godot/
 artifacts/
 *.base64.txt
+*.import
+*.uid
