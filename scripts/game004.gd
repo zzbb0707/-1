@@ -169,7 +169,9 @@ func _complete_game() -> void:
     session_status = "completed"
     message = "今天的生态舱完成了"
     message_tone = Color("#b9f6c4")
-    _emit("game_complete", {"completed_count": completed_count, "attempt_count": attempt_count, "error_count": error_count, "hint_count": hint_count})
+    var summary := {"completed_count": completed_count, "attempt_count": attempt_count, "error_count": error_count, "hint_count": hint_count, "auto_success_rate": float(completed_count) / max(1.0, float(attempt_count))}
+    _emit("game_complete", summary)
+    _emit("game_result", bridge.build_result(session_status, summary))
     queue_redraw()
 
 func _request_quit(reason: String) -> void:
@@ -177,7 +179,7 @@ func _request_quit(reason: String) -> void:
         return
     session_status = "quit"
     _emit("game_quit", {"reason": reason, "completed_count": completed_count, "round_index": round_index + 1})
-    _emit("game_result", _result_payload())
+    _emit("game_result", bridge.build_result(session_status, _result_payload()))
     message = "已安全退出"
     queue_redraw()
 
@@ -213,6 +215,8 @@ func _draw() -> void:
     _draw_object(object_pos, data.object, data.object_color)
     draw_rect(Rect2(80, 1015, 840, 62), Color("#0d1e31"), true)
     draw_string(ThemeDB.fallback_font, Vector2(105, 1055), message, HORIZONTAL_ALIGNMENT_LEFT, 790, 27, message_tone)
+    if session_status == "started" and round_index == 0 and completed_count == 0:
+        draw_string(ThemeDB.fallback_font, Vector2(305, 395), "拖动，或先点对象再点区域", HORIZONTAL_ALIGNMENT_CENTER, 390, 22, Color("#9fc1d8"))
     if session_status != "started":
         draw_rect(Rect2(140, 385, 720, 220), Color(0.04, 0.12, 0.2, 0.94), true)
         draw_rect(Rect2(140, 385, 720, 220), Color("#8bb8cf"), false, 3)
