@@ -1,0 +1,102 @@
+﻿{
+  "task": "GAME-004 Image 2 视觉纵切任务书",
+  "brief_version": "V1",
+  "generated_at": "2026-08-18T23:51:05+08:00",
+  "generator": "Codex 内置 image_generation",
+  "model": "Image 2",
+  "reference_image_paths": [],
+  "reference_policy": "首批按任务书直接文生图；未使用参考图原文件，也未寻找或猜测截图内容。",
+  "codex_session_id": null,
+  "codex_session_id_note": "当前工具上下文未提供可获取的会话 ID。",
+  "shared_scene_anchor": "同一主生态舱舞台轮廓、同一固定机位、同一圆润玩具化半写实 PBR 材质、同一柔和电影光和统一生态色彩语言。",
+  "level_progression": {
+    "L1": "2 区：水域与向阳花圃；单个待安排对象；展示生态循环第一段。",
+    "L3": "3 区：保留水域与向阳花圃并加入林地/苔藓区；展示规则切换位和中段生态成长。",
+    "L4": "4 区：加入维护/修复区；展示两个完成范例、无关外观特征、受控例外和多系统连接。"
+  },
+  "outputs": [
+    {
+      "file": "GAME004_SLICE-L1_master_candidate_v001.png",
+      "status": "candidate",
+      "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-207704a8-2079-4649-b6e0-efdbd804a22e.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "5FB8CF8055657C39FDF61E701BE72F8F6CDF9835B19547F99117B97F746080AE"
+    },
+    {
+      "file": "GAME004_SLICE-L3_master_candidate_v001.png",
+      "status": "candidate",
+      "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-045c3297-f9de-414c-9f72-de779ec48030.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "6861AB490C46C09E5B4814E328FEFA45B93172998247F81C6D731C985B4FBF4F"
+    },
+    {
+      "file": "GAME004_SLICE-L4_master_candidate_v001.png",
+      "status": "candidate",
+      "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-80db7978-31db-4936-9e0a-e7188ee4c4ef.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "5E831F1368A4B793E00117ED2372DBB2B9B243DA867FA29C91F1098D5C24B07F"
+    }
+  ],
+  "failures_and_retries": [
+    {
+      "stage": "视觉检查",
+      "result": "工具失败",
+      "detail": "两次调用本地 view_image 检查时，Windows sandbox helper 返回 helper_unknown_error；不影响 PNG 生成与复制，未触发重生成。"
+    },
+    {
+      "stage": "Image 2 生成",
+      "result": "无失败、无重试",
+      "detail": "L1、L3、L4 各一次调用完成。"
+    }
+  ],
+  "revision_records": [
+    {
+      "revision": "v002",
+      "generated_at": "2026-08-19T00:06:19+08:00",
+      "generator": "Codex 内置 image_generation",
+      "model": "Image 2",
+      "codex_session_id": null,
+      "image_generation_context_id": "01a0158b-dc74-7922-98c3-85a34a62bc57",
+      "reference_policy": "以对应 v001 候选作为 Image 2 编辑参考；未使用外部截图或其他参考图。",
+      "outputs": [
+        {
+          "file": "GAME004_SLICE-L1_master_candidate_v002.png",
+          "status": "candidate",
+          "edit_target": "assets/candidates/image2/GAME004_SLICE-L1_master_candidate_v001.png",
+          "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-9a00de74-7e55-42a5-915c-8475607e7323.png",
+          "width": 941,
+          "height": 1672,
+          "sha256": "2E0231620CCAAA5C04FBC4FDF1FD2AD234764F2BBE94FAB30E009F7F202634E6"
+        },
+        {
+          "file": "GAME004_SLICE-L3_master_candidate_v002.png",
+          "status": "candidate",
+          "edit_target": "assets/candidates/image2/GAME004_SLICE-L3_master_candidate_v001.png",
+          "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-83615f2f-e158-43f0-9a71-582a7beb3172.png",
+          "width": 941,
+          "height": 1672,
+          "sha256": "3547F15E27895343E8C706B493AD7281085E86109588FD2AA6D0E8199F34B431"
+        },
+        {
+          "file": "GAME004_SLICE-L4_master_candidate_v002.png",
+          "status": "candidate",
+          "edit_target": "assets/candidates/image2/GAME004_SLICE-L4_master_candidate_v001.png",
+          "source_default_path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0158b-dc74-7922-98c3-85a34a62bc57\\exec-563ab9b2-643c-4542-9ae6-15160de5d51b.png",
+          "width": 941,
+          "height": 1672,
+          "sha256": "9E69EF22F01E59FD1A88AA270DCFBAEA2AA2BF38753C72B506C07883F68DA9D0"
+        }
+      ],
+      "changes": {
+        "L1": "中央对象改为明确可拖放的水生种子荚/幼苗；顶部规则位缩小；底部提示安全区保留。",
+        "L3": "加入克制的规则图标切换位；中央待分类对象、三区触控边界和底部提示安全区明确化；降低植物遮边。",
+        "L4": "中央对象改为圆润儿童园艺工具；四区边界和水路简化增强；范例区保留水生与林地/花圃关系；降低背景装饰密度。"
+      },
+      "failures_and_retries": "三张各一次 Image 2 编辑调用完成，无生成失败、无重试；三张 v002 已完成本地视觉检查。"
+    }
+  ],
+  "approval_boundary": "v001 与 v002 全部保持 candidate 状态；未移入 assets/approved/。"
+}
