@@ -2,6 +2,7 @@ extends Node2D
 
 const VIEW_SIZE := Vector2(1000, 1250)
 const AppBridgeScript = preload("res://scripts/app_bridge.gd")
+const CONFIG_PATH := "res://configs/game004_l1_p01.json"
 const STAGE := Rect2(55, 195, 890, 900)
 const ROUND_COUNT := 3
 
@@ -20,6 +21,7 @@ var launch_context: Dictionary = {
 }
 
 var bridge = AppBridgeScript.new()
+var game_config: Dictionary = {}
 var events: Array[Dictionary] = []
 var round_index := 0
 var current_round_started_ms := 0
@@ -52,10 +54,25 @@ var regions := {
 }
 
 func _ready() -> void:
+    _load_game_config()
     _load_launch_context()
-    _emit("game_start", {"round_count": ROUND_COUNT, "launch_mode": launch_context.get("launch_mode", "preview")})
+    _emit("game_start", {"round_count": rounds.size(), "launch_mode": launch_context.get("launch_mode", "preview"), "low_sensory": launch_context.get("low_sensory", false)})
     _start_round(0)
     queue_redraw()
+
+func _load_game_config() -> void:
+    var file := FileAccess.open(CONFIG_PATH, FileAccess.READ)
+    if not file:
+        push_error("GAME-004 config missing: " + CONFIG_PATH)
+        return
+    var parsed = JSON.parse_string(file.get_as_text())
+    if parsed is Dictionary:
+        game_config = parsed
+        if parsed.get("rounds") is Array and not parsed.rounds.is_empty():
+            rounds = []
+            for raw_round in parsed.rounds:
+                var color := Color(str(raw_round.get("object_color", "#ffffff")))
+                rounds.append({"object": raw_round.get("object", "未知对象"), "kind": raw_round.get("kind", "water"), "correct": raw_round.get("correct_region", "水池"), "object_color": color})
 
 func _load_launch_context() -> void:
     launch_context = bridge.load_context(launch_context)
@@ -71,7 +88,11 @@ func _start_round(index: int) -> void:
     message = "把发光物放到合适的区域"
     message_tone = Color("#dbeafe")
     var data: Dictionary = rounds[round_index]
-    _emit("opportunity_presented", {"opportunity_id": "GAME004-R%02d" % (round_index + 1), "object": data.object, "regions": ["水池", "阳光花圃"], "rule": "按生态需要安排"})
+    var configured_rounds: Array = game_config.get("rounds", [])
+    var opportunity_id := "GAME004-R%02d" % (round_index + 1)
+    if round_index < configured_rounds.size():
+        opportunity_id = str(configured_rounds[round_index].get("opportunity_id", opportunity_id))
+    _emit("opportunity_presented", {"opportunity_id": opportunity_id, "object": data.object, "regions": ["水池", "阳光花圃"], "rule": "按生态需要安排"})
     queue_redraw()
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -145,7 +166,7 @@ func _attempt_region(region_name: String, input_method: String) -> void:
         await get_tree().create_timer(0.95).timeout
         if session_status != "started":
             return
-        if round_index + 1 >= ROUND_COUNT:
+        if round_index + 1 >= rounds.size():
             _complete_game()
         else:
             _start_round(round_index + 1)
@@ -195,13 +216,14 @@ func _draw() -> void:
     draw_rect(Rect2(Vector2.ZERO, VIEW_SIZE), Color("#10243a"))
     draw_circle(Vector2(820, 170), 220, Color("#1f446a"))
     draw_circle(Vector2(820, 170), 160, Color("#203d72"))
-    for i in range(12):
-        var star := Vector2(680 + (i * 71) % 270, 70 + (i * 47) % 210)
-        draw_circle(star, 2.5, Color("#bde8ff"))
+    if not bool(launch_context.get("low_sensory", false)):
+        for i in range(12):
+            var star := Vector2(680 + (i * 71) % 270, 70 + (i * 47) % 210)
+            draw_circle(star, 2.5, Color("#bde8ff"))
     draw_string(ThemeDB.fallback_font, Vector2(70, 90), "星图生态舱", HORIZONTAL_ALIGNMENT_LEFT, -1, 42, Color("#f5fbff"))
     draw_string(ThemeDB.fallback_font, Vector2(70, 135), "把对象放进合适的区域", HORIZONTAL_ALIGNMENT_LEFT, -1, 24, Color("#a9c5dd"))
     draw_rect(Rect2(70, 160, 860, 2), Color("#5f88a6"))
-    draw_string(ThemeDB.fallback_font, Vector2(70, 180), "回合 %d / %d" % [mini(round_index + 1, ROUND_COUNT), ROUND_COUNT], HORIZONTAL_ALIGNMENT_LEFT, -1, 22, Color("#c7dded"))
+    draw_string(ThemeDB.fallback_font, Vector2(70, 180), "回合 %d / %d" % [mini(round_index + 1, rounds.size()), rounds.size()], HORIZONTAL_ALIGNMENT_LEFT, -1, 22, Color("#c7dded"))
     _draw_button(Rect2(720, 40, 110, 58), "提示", Color("#315b77"))
     _draw_button(Rect2(850, 40, 100, 58), "退出", Color("#4d5367"))
     draw_rect(STAGE, Color("#17324b"), true)

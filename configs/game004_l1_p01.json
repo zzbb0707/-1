@@ -1,0 +1,35 @@
+{
+  "schema_version": "game-config-v0",
+  "game_config_id": "GAMECFG-GAME-004-GF03-L1-P01",
+  "task_id": "GAME-004",
+  "game_family": "rule_ecosystem_habitat",
+  "game_scene_key": "game004_star_habitat",
+  "development_stage": "S3",
+  "difficulty_level": "L1",
+  "presentation_contract": {
+    "mode": "single_stage_simultaneous",
+    "ui_baseline": "TASK-D5-U05_single-stage-v82",
+    "stable_stage": true,
+    "prompt_position": "inside_stage_bottom",
+    "complete_feedback_position": "stage_center"
+  },
+  "child_prompt": "把发光物放到合适的区域",
+  "parent_observer_hint": "观察孩子是否根据区域特征安排对象，不把固定位置正确当作能力结论。",
+  "round_count": 3,
+  "allow_quit": true,
+  "max_duration_sec": 180,
+  "hint_policy": {
+    "initial_level": 0,
+    "max_level": 1,
+    "error_action": "show_relevant_feature_and_allow_retry"
+  },
+  "rounds": [
+    {"opportunity_id": "GAME004-R01", "object": "水生种子", "kind": "water", "correct_region": "水池", "object_color": "#77d8e8"},
+    {"opportunity_id": "GAME004-R02", "object": "向阳种子", "kind": "sun", "correct_region": "阳光花圃", "object_color": "#ffd46a"},
+    {"opportunity_id": "GAME004-R03", "object": "晶体幼苗", "kind": "water", "correct_region": "水池", "object_color": "#b8a6ff"}
+  ],
+  "record_fields": [
+    "game_session_id", "task_id", "started", "completion_time_sec", "reaction_time_ms",
+    "attempt_count", "error_count", "hint_count", "auto_success_rate", "quit_before_finish", "stop_used"
+  ]
+}
