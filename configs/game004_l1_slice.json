@@ -1,0 +1,12 @@
+{
+  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L1","task_id":"GAME-004","slice_id":"L1","difficulty_level":"L1","rule_id":"habitat","rule_label":"看环境：它适合哪里？","child_prompt":"观察环境，把种子放到合适的区域","background":"res://assets/candidates/image2/GAME004_SLICE-L1_master_candidate_v002.png",
+  "regions":[
+    {"name":"水域","kind":"water","rect":[0.02,0.31,0.42,0.34],"color":"#49c9e8"},
+    {"name":"向阳花圃","kind":"sun","rect":[0.56,0.31,0.42,0.34],"color":"#f4b742"}
+  ],
+  "rounds":[
+    {"opportunity_id":"GAME004-L1-R01","object":"水生种子","object_color":"#80d8b7","correct_region":"水域","rule_id":"habitat","hint":"看看哪里有水和水生植物","success_message":"水面泛起波纹，种子找到家了"},
+    {"opportunity_id":"GAME004-L1-R02","object":"向阳种子","object_color":"#ffd36d","correct_region":"向阳花圃","rule_id":"habitat","hint":"看看阳光照在哪片土壤上","success_message":"花圃亮起来，幼苗开始向光生长"}
+  ],
+  "record_fields":["game_session_id","task_id","slice_id","difficulty_level","attempt_count","error_count","hint_count","auto_success_rate","quit_before_finish","stop_used"]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version":"game-config-v1","game_config_id":"GAMECFG-GAME-004-SLICE-L4","task_id":"GAME-004","slice_id":"L4","difficulty_level":"L4","rule_id":"infer_from_examples","rule_label":"观察范例，推断当前规则","child_prompt":"先看范例，再安排新对象","background":"res://assets/candidates/image2/GAME004_SLICE-L4_master_candidate_v002.png",
+  "regions":[
+    {"name":"水域","kind":"water","rect":[0.02,0.29,0.29,0.25],"color":"#42c6e4"},
+    {"name":"林地","kind":"forest","rect":[0.35,0.23,0.30,0.25],"color":"#6ba05d"},
+    {"name":"向阳花圃","kind":"sun","rect":[0.69,0.29,0.29,0.25],"color":"#e9a93b"},
+    {"name":"维护区","kind":"tool","rect":[0.26,0.70,0.48,0.18],"color":"#8b765b"}
+  ],
+  "rounds":[
+    {"opportunity_id":"GAME004-L4-R01","object":"紫色水草芽","object_color":"#b485dc","correct_region":"水域","rule_id":"infer_habitat","rule_label":"推断规则：范例按生长环境分组","examples":["睡莲→水域","苔藓→林地"],"hint":"紫色只是外观，想想水草需要什么环境","success_message":"你忽略了颜色干扰，水草进入水域"},
+    {"opportunity_id":"GAME004-L4-R02","object":"圆叶遮荫苗","object_color":"#f0cf65","correct_region":"林地","rule_id":"infer_habitat","rule_label":"保持规则：仍按生长环境分组","examples":["芦苇→水域","向日葵→花圃"],"hint":"不要按黄色分，看看它喜欢阴凉还是阳光","success_message":"林地获得新的遮荫植物"},
+    {"opportunity_id":"GAME004-L4-R03","object":"圆头园艺铲","object_color":"#73b7ae","correct_region":"维护区","rule_id":"controlled_exception","rule_label":"受控例外：工具按功能归位","examples":["水壶→维护区","睡莲→水域"],"hint":"它不是植物，看看哪里存放维护工具","success_message":"维护工具归位，灌溉水路恢复了"}
+  ],
+  "record_fields":["game_session_id","task_id","slice_id","difficulty_level","rule_id","examples","attempt_count","error_count","hint_count","auto_success_rate","quit_before_finish","stop_used"]
+}
