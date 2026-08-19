@@ -25,7 +25,6 @@
                        "opportunity_id":  "GF03-L1-P03-R01",
                        "order":  1,
                        "frozen_content":  "红圆→圆区，蓝方→方区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -56,13 +55,14 @@
                        "distractor_guidance":  "颜色仅伴随目标，不作为规则",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-CUP",
+                       "target_asset_path":  "res://assets/processed/objects_v001/cup_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R02",
                        "order":  2,
                        "frozen_content":  "黄方→方区，绿圆→圆区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -93,13 +93,14 @@
                        "distractor_guidance":  "忽略黄色与绿色差异",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-SHOE",
+                       "target_asset_path":  "res://assets/processed/objects_v001/shoe_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R03",
                        "order":  3,
                        "frozen_content":  "大圆→圆区，小方→方区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -130,13 +131,14 @@
                        "distractor_guidance":  "忽略大小差异",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-RED_CIRCLE_SEED",
+                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R04",
                        "order":  4,
                        "frozen_content":  "花纹方→方区，透明圆→圆区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -167,13 +169,14 @@
                        "distractor_guidance":  "忽略花纹与透明材质",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-WHITE_ROUND_DROP",
+                       "target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R05",
                        "order":  5,
                        "frozen_content":  "圆工具标→圆区，方种子标→方区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -204,13 +207,14 @@
                        "distractor_guidance":  "忽略工具与种子图标语义",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-PURPLE_SQUARE_TOOL",
+                       "target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R06",
                        "order":  6,
                        "frozen_content":  "左右区域交换后圆/方各一次，记录位置依赖。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -241,7 +245,9 @@
                        "distractor_guidance":  "左右位置交换；不得以固定位置作答",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-LARGE_STONE",
+                       "target_asset_path":  "res://assets/processed/objects_v001/large_stone_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    }
                ]
 }

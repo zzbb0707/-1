@@ -25,7 +25,6 @@
                        "opportunity_id":  "GF03-L1-P02-R01",
                        "order":  1,
                        "frozen_content":  "鱼→水区，鸟→天空区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -56,13 +55,14 @@
                        "distractor_guidance":  "鱼与鸟互为高差异干扰",
                        "natural_outcome_label":  "对应生境启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-FISH",
+                       "target_asset_path":  "res://assets/processed/objects_v001/fish_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R02",
                        "order":  2,
                        "frozen_content":  "花→花园，锤子→工具台。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -93,13 +93,14 @@
                        "distractor_guidance":  "花与锤子互为高差异干扰",
                        "natural_outcome_label":  "花园生长；工具台启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-BIRD",
+                       "target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R03",
                        "order":  3,
                        "frozen_content":  "苹果→食物区，小车→交通区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -130,13 +131,14 @@
                        "distractor_guidance":  "苹果与小车互为高差异干扰",
                        "natural_outcome_label":  "对应区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-FLOWER",
+                       "target_asset_path":  "res://assets/processed/objects_v001/flower_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R04",
                        "order":  4,
                        "frozen_content":  "杯子→餐具区，鞋→穿戴区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -167,13 +169,14 @@
                        "distractor_guidance":  "杯子与鞋互为高差异干扰",
                        "natural_outcome_label":  "对应区域完成整理",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-HAMMER",
+                       "target_asset_path":  "res://assets/processed/objects_v001/hammer_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R05",
                        "order":  5,
                        "frozen_content":  "种子→土地区，水滴→水区。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -204,13 +207,14 @@
                        "distractor_guidance":  "种子与水滴互为高差异干扰",
                        "natural_outcome_label":  "土地区生长；水流出现",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-APPLE",
+                       "target_asset_path":  "res://assets/processed/objects_v001/apple_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R06",
                        "order":  6,
                        "frozen_content":  "灯泡→光区，石头→岩区；记录高差异稳定。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -241,7 +245,9 @@
                        "distractor_guidance":  "灯泡与石头互为高差异干扰",
                        "natural_outcome_label":  "光区点亮；岩区稳定",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-TOY_CAR",
+                       "target_asset_path":  "res://assets/processed/objects_v001/toy_car_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    }
                ]
 }

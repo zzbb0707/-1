@@ -46,6 +46,7 @@ var message_tone := Color("#dbeafe")
 var feedback_until_ms := 0
 var feedback_region := ""
 var feedback_label := ""
+var feedback_texture: Texture2D
 var debug_open := true
 var session_status := "started"
 
@@ -107,6 +108,7 @@ func _load_game_config() -> void:
     var image_path := str(game_config.get("background", ""))
     if ResourceLoader.exists(image_path): background = load(image_path)
     current_object_texture = null
+    feedback_texture = null
     if regions.is_empty() and not rounds.is_empty():
         _build_pack_regions(rounds[0])
     _load_object_texture()
@@ -166,6 +168,7 @@ func _start_round(index: int) -> void:
     first_response_ms = -1
     current_round_started_ms = Time.get_ticks_msec()
     var data: Dictionary = rounds[round_index]
+    feedback_texture = null
     if not game_pack_id.is_empty():
         regions.clear()
         _build_pack_regions(data)
@@ -234,6 +237,8 @@ func _attempt_region(region_name: String, input_method: String) -> void:
     if is_correct:
         completed_count += 1; selected_region = region_name; feedback_region = region_name
         feedback_label = str(data.get("natural_outcome_label", data.get("success_message", "生态开始运转了")))
+        var outcome_path := str(data.get("natural_outcome_asset_path", ""))
+        if outcome_path != "" and ResourceLoader.exists(outcome_path): feedback_texture = load(outcome_path)
         message = feedback_label; message_tone = Color("#b9f6c4")
         feedback_until_ms = Time.get_ticks_msec() + 900
         _emit("success", {"opportunity_id": opportunity_id, "slice_id": slice_id, "prompt_level": 0, "first_attempt": attempt_count == completed_count})
@@ -305,6 +310,8 @@ func _draw_feedback(region_name: String) -> void:
     var tone := Color("#b8f4d3")
     draw_arc(rect.get_center(), min(rect.size.x, rect.size.y) * 0.36, 0, TAU, 32, tone, 6)
     draw_circle(rect.get_center(), 12, tone)
+    if feedback_texture:
+        draw_texture_rect(feedback_texture, Rect2(rect.get_center() - Vector2(50, 78), Vector2(100, 100)), false)
     draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, rect.size.y * 0.5), feedback_label, HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 20, tone)
     if not bool(launch_context.get("low_sensory", false)):
         draw_circle(rect.get_center() + Vector2(0, -30), 7, Color("#fff1a8"))

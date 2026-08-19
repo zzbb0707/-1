@@ -1,0 +1,44 @@
+﻿{
+    "schema_version":  "game004-natural-outcome-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "status":  "processed_candidate",
+    "rights_status":  "unknown",
+    "items":  [
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R01",
+                      "file":  "sprout_result_v001.png",
+                      "label":  "sprout",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R02",
+                      "file":  "lamp_result_v001.png",
+                      "label":  "lamp",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R03",
+                      "file":  "leaf_result_v001.png",
+                      "label":  "leaf",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R04",
+                      "file":  "stone_result_v001.png",
+                      "label":  "stone",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R05",
+                      "file":  "water_result_v001.png",
+                      "label":  "water",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "outcome_asset_id":  "OUT-GF03-L1-P01-R06",
+                      "file":  "workbench_result_v001.png",
+                      "label":  "workbench",
+                      "status":  "processed_candidate"
+                  }
+              ]
+}

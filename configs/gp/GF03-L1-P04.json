@@ -25,7 +25,6 @@
                        "opportunity_id":  "GF03-L1-P04-R01",
                        "order":  1,
                        "frozen_content":  "完全相同图配对。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -56,13 +55,14 @@
                        "distractor_guidance":  "使用非同图高差异项",
                        "natural_outcome_label":  "正确配对区域响应",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-PURPLE_SQUARE_TOOL",
+                       "target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R02",
                        "order":  2,
                        "frozen_content":  "鱼/鸟高差异分类。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -93,13 +93,14 @@
                        "distractor_guidance":  "鱼与鸟互为高差异干扰",
                        "natural_outcome_label":  "对应生境启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-LARGE_STONE",
+                       "target_asset_path":  "res://assets/processed/objects_v001/large_stone_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R03",
                        "order":  3,
                        "frozen_content":  "圆/方形状分类。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -130,13 +131,14 @@
                        "distractor_guidance":  "非目标形状作为干扰",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-ROUND_ICON",
+                       "target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R04",
                        "order":  4,
                        "frozen_content":  "花/工具功能高差异分类。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -167,13 +169,14 @@
                        "distractor_guidance":  "花与工具互为高差异干扰",
                        "natural_outcome_label":  "花园生长；工具区启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-SQUARE_ICON",
+                       "target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R05",
                        "order":  5,
                        "frozen_content":  "区域左右交换后配对。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -204,13 +207,14 @@
                        "distractor_guidance":  "交换左右位置，禁止固定位置线索",
                        "natural_outcome_label":  "正确区域响应",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-FISH",
+                       "target_asset_path":  "res://assets/processed/objects_v001/fish_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R06",
                        "order":  6,
                        "frozen_content":  "新外观同形状配对；生成L1复核摘要。",
-                       "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -241,7 +245,9 @@
                        "distractor_guidance":  "外观变化为无关特征",
                        "natural_outcome_label":  "对应形状区域响应",
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "target_asset_id":  "AS-GAME004-L1-BIRD",
+                       "target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
                    }
                ]
 }
