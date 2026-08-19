@@ -19,6 +19,7 @@ var events: Array[Dictionary] = []
 var rounds: Array = []
 var regions: Dictionary = {}
 var background: Texture2D
+var current_object_texture: Texture2D
 var object_rect := DEFAULT_OBJECT_RECT
 var config_path := DEFAULT_CONFIG
 var slice_id := "L1"
@@ -39,6 +40,7 @@ var pointer_dragged := false
 var message := "观察环境，把对象放到合适的区域"
 var message_tone := Color("#dbeafe")
 var feedback_until_ms := 0
+var feedback_region := ""
 var debug_open := true
 var session_status := "started"
 
@@ -80,8 +82,23 @@ func _load_game_config() -> void:
         var rect := Rect2(STAGE.position + Vector2(float(normalized[0]) * STAGE.size.x, float(normalized[1]) * STAGE.size.y), Vector2(float(normalized[2]) * STAGE.size.x, float(normalized[3]) * STAGE.size.y))
         regions[str(raw_region.name)] = {"rect": rect, "kind": raw_region.get("kind", "unknown"), "color": Color(str(raw_region.get("color", "#4f7f78")))}
     var image_path := str(game_config.get("background", ""))
-    if ResourceLoader.exists(image_path):
-        background = load(image_path)
+    if ResourceLoader.exists(image_path): background = load(image_path)
+    current_object_texture = null
+    _load_object_texture()
+
+func _load_object_texture() -> void:
+    if rounds.is_empty() or round_index >= rounds.size(): return
+    var object_name := str(rounds[round_index].get("object", ""))
+    var asset_path := ""
+    if object_name.contains("水") or object_name.contains("浮叶"):
+        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_water_seed_v001.png"
+    elif object_name.contains("苔") or object_name.contains("林"):
+        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_moss_bud_v001.png"
+    elif object_name.contains("铲") or object_name.contains("工具"):
+        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_tool_v001.png"
+    elif object_name.contains("向阳") or object_name.contains("花"):
+        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_sun_seed_v001.png"
+    if asset_path != "" and ResourceLoader.exists(asset_path): current_object_texture = load(asset_path)
 
 func _load_launch_context() -> void:
     launch_context = bridge.load_context(launch_context)
@@ -94,6 +111,7 @@ func _start_round(index: int) -> void:
     drag_object = false
     first_response_ms = -1
     current_round_started_ms = Time.get_ticks_msec()
+    _load_object_texture()
     message = str(game_config.get("child_prompt", "观察环境，把对象放到合适的区域"))
     message_tone = Color("#dbeafe")
     var data: Dictionary = rounds[round_index]
@@ -157,7 +175,7 @@ func _attempt_region(region_name: String, input_method: String) -> void:
     var opportunity_id := str(data.get("opportunity_id", "GAME004-R%02d" % (round_index + 1)))
     _emit("attempt", {"opportunity_id": opportunity_id, "slice_id": slice_id, "object": data.get("object", "对象"), "selected_region": region_name, "rule_id": data.get("rule_id", "habitat"), "input_method": input_method, "correct": is_correct})
     if is_correct:
-        completed_count += 1; selected_region = region_name
+        completed_count += 1; selected_region = region_name; feedback_region = region_name
         message = str(data.get("success_message", "这里适合它，生态开始运转了")); message_tone = Color("#b9f6c4")
         feedback_until_ms = Time.get_ticks_msec() + 900
         _emit("success", {"opportunity_id": opportunity_id, "slice_id": slice_id, "prompt_level": 0, "first_attempt": attempt_count == completed_count})
@@ -206,6 +224,8 @@ func _draw() -> void:
     else: draw_rect(STAGE, Color("#17324b"), true)
     draw_rect(STAGE, Color("#d9e8df"), false, 3)
     for region_name in regions: _draw_region(region_name, regions[region_name])
+    if feedback_region != "" and Time.get_ticks_msec() < feedback_until_ms:
+        _draw_feedback(feedback_region)
     var data: Dictionary = rounds[round_index]
     var object_pos := drag_position if drag_object else object_rect.get_center()
     if selected_region != "": object_pos = regions[selected_region].rect.get_center()
@@ -217,6 +237,18 @@ func _draw() -> void:
         draw_rect(Rect2(245, 520, 510, 180), Color(0.04, 0.12, 0.2, 0.94), true)
         draw_string(ThemeDB.fallback_font, Vector2(285, 610), message, HORIZONTAL_ALIGNMENT_CENTER, 430, 34, message_tone)
     if debug_open: draw_string(ThemeDB.fallback_font, Vector2(55, 1205), "DEBUG %s events=%d attempts=%d errors=%d hints=%d" % [session_status, events.size(), attempt_count, error_count, hint_count], HORIZONTAL_ALIGNMENT_LEFT, -1, 17, Color("#7fa2bd"))
+
+func _draw_feedback(region_name: String) -> void:
+    var region: Dictionary = regions.get(region_name, {})
+    if region.is_empty(): return
+    var rect: Rect2 = region.rect
+    var tone := Color("#b8f4d3")
+    draw_arc(rect.get_center(), min(rect.size.x, rect.size.y) * 0.36, 0, TAU, 32, tone, 6)
+    draw_circle(rect.get_center(), 12, tone)
+    if not bool(launch_context.get("low_sensory", false)):
+        draw_circle(rect.get_center() + Vector2(0, -30), 7, Color("#fff1a8"))
+        draw_circle(rect.get_center() + Vector2(25, -10), 5, Color("#fff1a8"))
+    draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, 32), "生态启动", HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 20, tone)
 
 func _draw_rule(data: Dictionary) -> void:
     var label := str(data.get("rule_label", game_config.get("rule_label", "按生态需要安排")))
@@ -234,7 +266,11 @@ func _draw_region(name: String, data: Dictionary) -> void:
     draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, rect.size.y - 16), name, HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 22, Color("#ffffff"))
 
 func _draw_object(pos: Vector2, label: String, color: Color) -> void:
-    draw_circle(pos, 61, Color(0.03, 0.08, 0.12, 0.6)); draw_circle(pos, 53, color); draw_circle(pos - Vector2(16, 16), 14, Color(1, 1, 1, 0.55))
+    if current_object_texture:
+        var target := Rect2(pos - Vector2(62, 62), Vector2(124, 124))
+        draw_texture_rect(current_object_texture, target, false)
+    else:
+        draw_circle(pos, 61, Color(0.03, 0.08, 0.12, 0.6)); draw_circle(pos, 53, color); draw_circle(pos - Vector2(16, 16), 14, Color(1, 1, 1, 0.55))
     draw_string(ThemeDB.fallback_font, pos + Vector2(-115, 88), label, HORIZONTAL_ALIGNMENT_CENTER, 230, 27, Color("#ffffff"))
 
 func _draw_button(rect: Rect2, label: String, color: Color) -> void:
