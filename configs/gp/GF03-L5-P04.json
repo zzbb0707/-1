@@ -168,7 +168,8 @@
                        "distractor_guidance":  "改变外观但不改变类别意义",
                        "natural_outcome_label":  "对应概念区域响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R05",

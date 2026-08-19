@@ -249,7 +249,8 @@
                        "distractor_guidance":  "两组必须在当前规则上可区分；不要求口语解释",
                        "natural_outcome_label":  "匹配区域响应",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
                    }
                ]
 }

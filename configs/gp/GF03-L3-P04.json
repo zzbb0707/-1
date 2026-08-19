@@ -135,7 +135,8 @@
                        "distractor_guidance":  "颜色变化作为无关干扰",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_color_changed_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R04",
@@ -172,7 +173,8 @@
                        "distractor_guidance":  "形状变化作为无关干扰",
                        "natural_outcome_label":  "对应大小区域响应",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_shape_changed_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R05",

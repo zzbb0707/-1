@@ -1,0 +1,43 @@
+﻿{
+    "schema_version":  "game004-grid-obj-batch-45",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "grid_3x3_9items",
+    "submitted_at":  "2026-08-20T00:20:24.4526726+08:00",
+    "grids":  [
+                  {
+                      "grid_id":  "GRID-OBJ-4",
+                      "prediction_id":  "12f8f9553676446d8dcdb932a42ab73d",
+                      "labels":  [
+                                     "big_square",
+                                     "big_red_square",
+                                     "big_blue_circle",
+                                     "big_triangle",
+                                     "red_triangle",
+                                     "blue_circle",
+                                     "screwdriver",
+                                     "wooden_car",
+                                     "flower"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "grid_id":  "GRID-OBJ-5",
+                      "prediction_id":  "a2d4105352004bfea136a362309b013a",
+                      "labels":  [
+                                     "material_changed",
+                                     "new_brush",
+                                     "shape_changed",
+                                     "color_changed",
+                                     "new_star",
+                                     "new_moon",
+                                     "new_cloud",
+                                     "new_raindrop",
+                                     "new_snowflake"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  }
+              ]
+}

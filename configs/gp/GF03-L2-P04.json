@@ -209,7 +209,8 @@
                        "distractor_guidance":  "只呈现当前规则；其他属性为无关特征",
                        "natural_outcome_label":  "当前正确区域响应",
                        "natural_outcome_id":  "OUT-GF03-L2-P04-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R06",

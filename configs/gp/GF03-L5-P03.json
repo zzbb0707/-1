@@ -178,7 +178,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P03-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_brush_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P03-R05",

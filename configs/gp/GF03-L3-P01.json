@@ -249,7 +249,8 @@
                        "distractor_guidance":  "改变画风、角度或材质，禁止复用单图线索",
                        "natural_outcome_label":  "各正确概念区域响应",
                        "natural_outcome_id":  "OUT-GF03-L3-P01-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
                    }
                ]
 }
