@@ -1,0 +1,57 @@
+﻿{
+    "schema_version":  "game004-banana-l2l5-batch3",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "submitted_at":  "2026-08-19T23:19:47.4688192+08:00",
+    "items":  [
+                  {
+                      "label":  "new_shoe",
+                      "prediction_id":  "31774e395cb244e8bd8ad7f6d15cbae5",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "new_apple",
+                      "prediction_id":  "37f59c8dbba24d249d41bf8ec4dea14d",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "new_cup",
+                      "prediction_id":  "c8636a2d2c9b4776a483d11c19b2dc36",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "new_bird",
+                      "prediction_id":  "517fba78b42e46d59e580405ceff2a07",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "new_fish",
+                      "prediction_id":  "5d0df6633b9c4020b33c3e0dde08616c",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "new_flower",
+                      "prediction_id":  "982a97ff007842e29a2dcef10390f2bb",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "new_leaf",
+                      "prediction_id":  "67d6fc0f21a7443083126808f82eef54",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "new_stone",
+                      "prediction_id":  "c01f9caa74ce467293a2497761828980",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  }
+              ]
+}

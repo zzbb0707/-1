@@ -1,0 +1,57 @@
+﻿{
+    "schema_version":  "game004-banana-l2l5-batch5",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "submitted_at":  "2026-08-19T23:35:15.7797286+08:00",
+    "items":  [
+                  {
+                      "label":  "big_red_apple",
+                      "prediction_id":  "643b7591233a4698a7b959d96b57cce0",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "small_green_leaf",
+                      "prediction_id":  "cc9a2026c29143e499cc647809c91124",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "wooden_ball",
+                      "prediction_id":  "ae436622988449e9bc2db19e35b9550e",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "blue_square_block",
+                      "prediction_id":  "1b4b3f08fe034387901bda57bd0479fe",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "glass_ball",
+                      "prediction_id":  "a538863db9144f5faf19f0cbf3ae6b7d",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "wooden_block",
+                      "prediction_id":  "7f2bfe606c994888a0c1807c3d5c648f",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "plastic_small_ball",
+                      "prediction_id":  "3965ba618390449ca925eb40a120f6ff",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  },
+                  {
+                      "label":  "red_circle",
+                      "prediction_id":  "110f580a0fed4e12a528983cf9b4db7f",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Qwen PASS"
+                  }
+              ]
+}

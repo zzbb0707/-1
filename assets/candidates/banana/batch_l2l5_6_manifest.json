@@ -1,0 +1,57 @@
+﻿{
+    "schema_version":  "game004-banana-l2l5-batch6",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "submitted_at":  "2026-08-19T23:39:34.3237069+08:00",
+    "items":  [
+                  {
+                      "label":  "region_land_zone",
+                      "prediction_id":  "d06ac0482b7f478fa1f132a5e6e50cf9",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "region_flying_zone",
+                      "prediction_id":  "9d4840078898454b98fa8d236cbad0a2",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "region_plant_zone",
+                      "prediction_id":  "716704bb32c2497cb6e189784784009a",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "region_toys_zone",
+                      "prediction_id":  "dee1958a70b343c09c0832600d9de2d9",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "region_cleaning_zone",
+                      "prediction_id":  "55dab023196b47ca91eecca2e59756c7",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "outcome_flying_start",
+                      "prediction_id":  "29601ae754cc49419226193e9639d3a6",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "outcome_same_color_lit",
+                      "prediction_id":  "d6022d94af4e421d98d8d209cc5f4fc1",
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "label":  "outcome_four_zone_start",
+                      "prediction_id":  "9deb2cfe5f0e4f9db68c95e6124d08d8",
+                      "status":  "processing",
+                      "review":  ""
+                  }
+              ]
+}
