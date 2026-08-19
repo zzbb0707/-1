@@ -36,3 +36,22 @@ GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded 
 ```
 
 该锁定单只锁美术语言，不改变 `PROJECT_BASELINE.md` 中任何玩法、回合、规则或数量事实。
+
+## 生产模型锁定（2026-08，用户肉眼确认）
+
+- 唯一正式素材生产模型：`openai/gpt-image-2/text-to-image`（Atlas 中转站，$0.009/张，png，high quality）。
+- 原因：最初探索版（用户批准方向）由 Codex 内置 image_generation / Image 2 生成；GPT Image 2 是同源模型链，绿色色相、哑光材质、光泽与探索版对齐，已通过用户肉眼对比确认（`handoff/visual_review_batch02_stylecheck/`）。
+- Nano Banana Pro / Seedream / Qwen 生成的批次仅保留为对照或废弃参考，**不进入正式素材库**。
+- 所有正式素材继续遵循 `candidate → processed → approved`，无自动批准；L5 照片 rights_status 保持 unknown 直至授权。
+
+## 生态绿色色板锚点（2026-08 取色锁定）
+
+从用户批准的探索版素材（水域、水生种子荚）像素取色，作为所有素材生成的绿色色值锚点，禁止再依赖 "sage-green" 等含糊文字：
+
+- 鲜活黄绿 `#688800`
+- 草绿 `#98B848`
+- 鼠尾草绿 `#60A068`
+- 深青绿 `#287060`
+- 青绿辅助 `#307868`
+
+生成提示词必须包含：`habitat greens following this exact palette: #688800, #98B848, #60A068, #287060, #307868`，替代笼统的 "sage-green" 描述。
