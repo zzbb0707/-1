@@ -115,6 +115,10 @@ func _load_game_config() -> void:
     if regions.is_empty() and not rounds.is_empty():
         _build_pack_regions(rounds[0])
     _load_object_texture()
+    var gp_key := game_pack_id if not game_pack_id.is_empty() else slice_id
+    var progress := _load_daily_progress()
+    if progress.has(gp_key):
+        _emit("daily_progress_loaded", {"game_pack_id": gp_key, "progress": progress[gp_key]})
 
 func _build_pack_regions(data: Dictionary) -> void:
     var labels: Array = data.get("region_set", [])
@@ -269,7 +273,35 @@ func _show_hint() -> void:
 func _complete_game() -> void:
     session_status = "completed"; message = "%s代表关完成" % slice_id; message_tone = Color("#b9f6c4")
     var summary := _result_payload()
+    _save_daily_progress(summary)
     _emit("game_complete", summary); _emit("game_result", bridge.build_result(session_status, summary)); queue_redraw()
+
+func _save_daily_progress(summary: Dictionary) -> void:
+    var path := "user://game004_daily_progress.json"
+    var existing: Dictionary = {}
+    var file := FileAccess.open(path, FileAccess.READ)
+    if file:
+        var parsed = JSON.parse_string(file.get_as_text())
+        if parsed is Dictionary: existing = parsed
+        file.close()
+    var gp_key := game_pack_id if not game_pack_id.is_empty() else slice_id
+    existing[gp_key] = {
+        "game_pack_id": gp_key, "last_status": summary.get("session_status", "completed"),
+        "last_completed_count": summary.get("completed_count", 0), "round_total": summary.get("round_total", 6),
+        "completed_at": Time.get_datetime_string_from_system(), "baseline_version": BASELINE_VERSION
+    }
+    var save := FileAccess.open(path, FileAccess.WRITE)
+    if save:
+        save.store_string(JSON.stringify(existing))
+        save.close()
+
+func _load_daily_progress() -> Dictionary:
+    var path := "user://game004_daily_progress.json"
+    var file := FileAccess.open(path, FileAccess.READ)
+    if not file: return {}
+    var parsed = JSON.parse_string(file.get_as_text())
+    file.close()
+    return parsed if parsed is Dictionary else {}
 
 func _request_quit(reason: String) -> void:
     if session_status != "started": return
@@ -279,7 +311,17 @@ func _request_quit(reason: String) -> void:
     message = "已安全退出"; queue_redraw()
 
 func _result_payload() -> Dictionary:
-    return {"session_status": session_status, "slice_id": slice_id, "difficulty_level": game_config.get("difficulty_level", slice_id), "completed_count": completed_count, "attempt_count": attempt_count, "error_count": error_count, "hint_count": hint_count, "auto_success_rate": float(completed_count) / max(1.0, float(attempt_count)), "quit_before_finish": session_status != "completed", "stop_used": false, "downgrade_used": false, "safety_event": false, "duration_sec": (Time.get_ticks_msec() - session_started_ms) / 1000.0}
+    var data: Dictionary = rounds[round_index] if not rounds.is_empty() else {}
+    return {
+        "game_pack_id": game_pack_id, "slice_id": slice_id, "opportunity_id": data.get("opportunity_id", ""),
+        "round_index": round_index + 1, "round_total": rounds.size(), "completed_count": completed_count,
+        "attempt_count": attempt_count, "error_count": error_count, "hint_count": hint_count, "session_status": session_status,
+        "difficulty_level": game_config.get("difficulty_level", slice_id),
+        "auto_success_rate": float(completed_count) / max(1.0, float(attempt_count)),
+        "quit_before_finish": session_status != "completed",
+        "stop_used": false, "downgrade_used": false, "safety_event": false,
+        "duration_sec": (Time.get_ticks_msec() - session_started_ms) / 1000.0
+    }
 
 func _emit(event_type: String, payload: Dictionary) -> void:
     events.append(bridge.emit_event(event_type, payload))
