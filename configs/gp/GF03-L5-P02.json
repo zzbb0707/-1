@@ -58,7 +58,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_kitchen_tidy_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R02",
@@ -96,7 +97,8 @@
                        "natural_outcome_label":  "玩具区完成整理；候选MP收积木",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R02",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_blocks_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_blocks_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_toys_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R03",
@@ -173,7 +175,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_spoon_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_spoon_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_kitchen_tidy_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R05",
@@ -212,7 +215,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R05",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_book_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_book_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_book_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_book_tidy_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R06",

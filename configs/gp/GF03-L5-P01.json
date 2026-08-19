@@ -57,7 +57,8 @@
                        "natural_outcome_label":  "水果区生态响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R02",
@@ -96,7 +97,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R02",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_kitchen_tidy_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R03",
@@ -135,7 +137,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R03",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R04",
@@ -210,7 +213,8 @@
                        "natural_outcome_label":  "大小区域完成安排",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R06",

@@ -57,7 +57,8 @@
                        "natural_outcome_label":  "红区点亮",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_red_lit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R02",
@@ -94,7 +95,8 @@
                        "distractor_guidance":  "红色是上一规则线索，必须忽略",
                        "natural_outcome_label":  "圆区启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R03",
@@ -131,7 +133,8 @@
                        "distractor_guidance":  "蓝色不得触发上一颜色规则",
                        "natural_outcome_label":  "方区启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_square_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R04",
@@ -169,7 +172,8 @@
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R05",
@@ -207,7 +211,8 @@
                        "natural_outcome_label":  "小区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_small_circle_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_small_circle_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R06",
@@ -244,7 +249,9 @@
                        "distractor_guidance":  "圆形不得触发旧形状规则",
                        "natural_outcome_label":  "蓝区点亮",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_blue_lit_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_blue_zone_grid_v001.png"
                    }
                ]
 }

@@ -93,7 +93,8 @@
                        "distractor_guidance":  "其他属性不得预测答案",
                        "natural_outcome_label":  "同色区域点亮",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_samecolor_lit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R03",

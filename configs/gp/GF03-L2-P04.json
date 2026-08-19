@@ -132,7 +132,8 @@
                        "distractor_guidance":  "非当前属性不得决定答案",
                        "natural_outcome_label":  "形状分区响应",
                        "natural_outcome_id":  "OUT-GF03-L2-P04-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_square_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R04",

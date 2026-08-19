@@ -57,7 +57,8 @@
                        "natural_outcome_label":  "水果区生态响应",
                        "natural_outcome_id":  "OUT-GF03-L3-P01-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R02",
@@ -96,7 +97,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P01-R02",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_kitchen_tidy_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R03",
@@ -209,7 +211,8 @@
                        "natural_outcome_label":  "水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L3-P01-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R06",

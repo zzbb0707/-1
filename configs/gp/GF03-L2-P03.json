@@ -58,7 +58,8 @@
                        "natural_outcome_id":  "OUT-GF03-L2-P03-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R02",
@@ -95,7 +96,9 @@
                        "distractor_guidance":  "新实例但保持功能边界",
                        "natural_outcome_label":  "对应工作区启动",
                        "natural_outcome_id":  "OUT-GF03-L2-P03-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_cleaning_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R03",
@@ -211,7 +214,8 @@
                        "distractor_guidance":  "其他开放功能区作为干扰",
                        "natural_outcome_label":  "清洁区启动",
                        "natural_outcome_id":  "OUT-GF03-L2-P03-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_cleaning_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R06",
@@ -249,7 +253,8 @@
                        "distractor_guidance":  "仅呈现三类；不得加入第五类含义",
                        "natural_outcome_label":  "工作台恢复",
                        "natural_outcome_id":  "OUT-GF03-L2-P03-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    }
                ]
 }

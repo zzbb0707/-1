@@ -59,7 +59,9 @@
                        "natural_outcome_label":  "水生区水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_aquatic_start_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R02",
@@ -98,7 +100,8 @@
                        "distractor_guidance":  "其余三个生境区为干扰",
                        "natural_outcome_label":  "飞行区生态启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_flying_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R03",
@@ -138,7 +141,8 @@
                        "natural_outcome_label":  "陆地区生态启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_rabbit_v001.jpg"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_rabbit_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_land_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R04",
@@ -177,7 +181,8 @@
                        "distractor_guidance":  "其余三个生境区为干扰",
                        "natural_outcome_label":  "植物区生长",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_garden_growing_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R05",
@@ -217,7 +222,9 @@
                        "natural_outcome_label":  "水生区水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_aquatic_start_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R06",
@@ -257,7 +264,8 @@
                        "natural_outcome_label":  "四区生态同时启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R06",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_butterfly_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_butterfly_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_fourzone_start_grid_v001.png"
                    }
                ]
 }

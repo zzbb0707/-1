@@ -56,7 +56,8 @@
                        "distractor_guidance":  "圆/方/三角变化用于排除形状规则",
                        "natural_outcome_label":  "红色范例区点亮",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_red_lit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R02",
@@ -93,7 +94,8 @@
                        "distractor_guidance":  "星形为新形状，避免图形匹配",
                        "natural_outcome_label":  "蓝色范例区点亮",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_blue_lit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R03",
@@ -131,7 +133,8 @@
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R04",
@@ -169,7 +172,8 @@
                        "natural_outcome_label":  "工具区启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R05",
@@ -207,7 +211,8 @@
                        "natural_outcome_label":  "水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R06",

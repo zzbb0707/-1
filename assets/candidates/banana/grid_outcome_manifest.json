@@ -1,0 +1,43 @@
+﻿{
+    "schema_version":  "game004-grid-outcome-batch",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "grid_3x3_9items",
+    "submitted_at":  "2026-08-20T00:16:07.1507685+08:00",
+    "grids":  [
+                  {
+                      "grid_id":  "GRID-OUT-1",
+                      "prediction_id":  "51599d3519d54f40bbd3f8d25b4f6d0d",
+                      "labels":  [
+                                     "red_lit",
+                                     "yellow_lit",
+                                     "blue_lit",
+                                     "garden_growing",
+                                     "space_stable",
+                                     "space_arranged",
+                                     "flying_start",
+                                     "aquatic_start",
+                                     "workzone_start"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "grid_id":  "GRID-OUT-2",
+                      "prediction_id":  "2191b7063d9e4162bc2203d7ce394cef",
+                      "labels":  [
+                                     "garden_lit",
+                                     "medium_tidy",
+                                     "big_tidy",
+                                     "samecolor_lit",
+                                     "fourzone_start",
+                                     "tools_activate",
+                                     "kitchen_tidy",
+                                     "bedroom_tidy",
+                                     "book_tidy"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  }
+              ]
+}

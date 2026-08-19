@@ -56,7 +56,8 @@
                        "distractor_guidance":  "颜色不得与区域位置形成答案线索",
                        "natural_outcome_label":  "圆区启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R02",
@@ -93,7 +94,8 @@
                        "distractor_guidance":  "改变颜色但保持同一正确形状区",
                        "natural_outcome_label":  "圆区启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R03",
@@ -131,7 +133,8 @@
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R04",
@@ -169,7 +172,8 @@
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R05",
@@ -208,7 +212,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R05",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R06",
@@ -247,7 +252,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R06",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_tools_activate_grid_v001.png"
                    }
                ]
 }
