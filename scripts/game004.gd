@@ -120,7 +120,22 @@ func _build_pack_regions(data: Dictionary) -> void:
         var normalized: Rect2 = slots[i]
         var rect := Rect2(STAGE.position + normalized.position * STAGE.size, normalized.size * STAGE.size)
         var name := str(labels[i])
-        regions[name] = {"rect": rect, "kind": "unknown", "color": Color("#4f7f78"), "texture": null}
+        var texture: Texture2D = null
+        if i == 0:
+            var region_asset_path := str(data.get("correct_region_asset_path", ""))
+            if region_asset_path != "" and ResourceLoader.exists(region_asset_path): texture = load(region_asset_path)
+        regions[name] = {"rect": rect, "kind": "semantic", "color": _semantic_region_color(name), "texture": texture}
+
+func _semantic_region_color(label: String) -> Color:
+    if label.contains("红"): return Color("#bd5a56")
+    if label.contains("蓝"): return Color("#3f83ad")
+    if label.contains("黄"): return Color("#b99135")
+    if label.contains("绿") or label.contains("植物") or label.contains("花园"): return Color("#5b956e")
+    if label.contains("水") or label.contains("鱼"): return Color("#4d9bb1")
+    if label.contains("工具") or label.contains("维修"): return Color("#6d8b79")
+    if label.contains("圆"): return Color("#7198ad")
+    if label.contains("方"): return Color("#8274aa")
+    return Color("#4f7f78")
 
 func _load_object_texture() -> void:
     if rounds.is_empty() or round_index >= rounds.size(): return
@@ -311,6 +326,9 @@ func _draw_region(name: String, data: Dictionary) -> void:
     var fill: Color = data.color
     fill.a = 0.16 if bool(launch_context.get("low_sensory", false)) else 0.24
     draw_style_box(_box(fill, 22, Color(0.95, 1.0, 0.92, 0.85)), rect)
+    if str(data.get("kind", "")) == "semantic":
+        draw_circle(rect.get_center(), min(rect.size.x, rect.size.y) * 0.19, data.color.lightened(0.18))
+        draw_arc(rect.get_center(), min(rect.size.x, rect.size.y) * 0.28, 0, TAU, 24, Color(1, 1, 1, 0.24), 3)
     var texture: Texture2D = data.get("texture")
     if texture and not bool(launch_context.get("low_sensory", false)):
         var image_rect := rect.grow(-12)

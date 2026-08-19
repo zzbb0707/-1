@@ -1,0 +1,44 @@
+﻿{
+    "schema_version":  "game004-region-state-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "status":  "processed_candidate",
+    "rights_status":  "unknown",
+    "items":  [
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R01",
+                      "file":  "red_circle_zone_idle_v001.png",
+                      "outcome":  "sprout",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R02",
+                      "file":  "blue_square_zone_idle_v001.png",
+                      "outcome":  "light",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R03",
+                      "file":  "yellow_star_zone_idle_v001.png",
+                      "outcome":  "leaf",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R04",
+                      "file":  "green_triangle_zone_idle_v001.png",
+                      "outcome":  "stone",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R05",
+                      "file":  "white_drop_zone_idle_v001.png",
+                      "outcome":  "water",
+                      "status":  "processed_candidate"
+                  },
+                  {
+                      "region_asset_id":  "REG-GF03-L1-P01-R06",
+                      "file":  "purple_tool_zone_idle_v001.png",
+                      "outcome":  "workbench",
+                      "status":  "processed_candidate"
+                  }
+              ]
+}

@@ -57,7 +57,8 @@
                        "natural_outcome_label":  "发芽",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/red_circle_zone_idle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R02",
@@ -95,7 +96,8 @@
                        "natural_outcome_label":  "灯亮",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R02",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/blue_square_crystal_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/blue_square_crystal_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/blue_square_zone_idle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R03",
@@ -133,7 +135,8 @@
                        "natural_outcome_label":  "叶片展开",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/yellow_star_leaf_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/yellow_star_leaf_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/yellow_star_zone_idle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R04",
@@ -171,7 +174,8 @@
                        "natural_outcome_label":  "岩地稳定",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/green_triangle_stone_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/green_triangle_stone_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/green_triangle_zone_idle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R05",
@@ -209,7 +213,8 @@
                        "natural_outcome_label":  "水流出现",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R05",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/white_drop_zone_idle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R06",
@@ -247,7 +252,8 @@
                        "natural_outcome_label":  "工作台启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R06",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png"
+                       "target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/purple_tool_zone_idle_v001.png"
                    }
                ]
 }
