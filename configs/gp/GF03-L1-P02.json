@@ -56,8 +56,10 @@
                        "natural_outcome_label":  "对应生境启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R01",
                        "target_asset_id":  "AS-GAME004-L1-FISH",
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/fish_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "secondary_target_display_name":  "鸟",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R02",
@@ -94,8 +96,10 @@
                        "natural_outcome_label":  "花园生长；工具台启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R02",
                        "target_asset_id":  "AS-GAME004-L1-BIRD",
-                       "target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
+                       "target_asset_path":  "res://assets/processed/objects_v001/flower_v001.png",
+                       "secondary_target_display_name":  "锤子",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/hammer_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R03",
@@ -132,8 +136,10 @@
                        "natural_outcome_label":  "对应区域启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R03",
                        "target_asset_id":  "AS-GAME004-L1-FLOWER",
-                       "target_asset_path":  "res://assets/processed/objects_v001/flower_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
+                       "target_asset_path":  "res://assets/processed/objects_v001/apple_v001.png",
+                       "secondary_target_display_name":  "小车",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/toy_car_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R04",
@@ -170,8 +176,10 @@
                        "natural_outcome_label":  "对应区域完成整理",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R04",
                        "target_asset_id":  "AS-GAME004-L1-HAMMER",
-                       "target_asset_path":  "res://assets/processed/objects_v001/hammer_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
+                       "target_asset_path":  "res://assets/processed/objects_v001/cup_v001.png",
+                       "secondary_target_display_name":  "鞋",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/shoe_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R05",
@@ -208,8 +216,10 @@
                        "natural_outcome_label":  "土地区生长；水流出现",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R05",
                        "target_asset_id":  "AS-GAME004-L1-APPLE",
-                       "target_asset_path":  "res://assets/processed/objects_v001/apple_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
+                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png",
+                       "secondary_target_display_name":  "水滴",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R06",
@@ -246,8 +256,10 @@
                        "natural_outcome_label":  "光区点亮；岩区稳定",
                        "natural_outcome_id":  "OUT-GF03-L1-P02-R06",
                        "target_asset_id":  "AS-GAME004-L1-TOY_CAR",
-                       "target_asset_path":  "res://assets/processed/objects_v001/toy_car_v001.png",
-                       "implementation_status":  "object_asset_mapped_needs_region_outcome"
+                       "implementation_status":  "object_asset_mapped_needs_region_outcome",
+                       "target_asset_path":  "res://assets/processed/objects_v001/lamp_v001.png",
+                       "secondary_target_display_name":  "石头",
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/large_stone_v001.png"
                    }
                ]
 }

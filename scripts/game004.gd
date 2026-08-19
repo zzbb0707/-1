@@ -23,11 +23,13 @@ var rounds: Array = []
 var regions: Dictionary = {}
 var background: Texture2D
 var current_object_texture: Texture2D
+var secondary_object_texture: Texture2D
 var object_rect := DEFAULT_OBJECT_RECT
 var config_path := DEFAULT_CONFIG
 var game_pack_id := ""
 var slice_id := "L1"
 var round_index := 0
+var subtarget_index := 0
 var current_round_started_ms := 0
 var session_started_ms := 0
 var first_response_ms := -1
@@ -108,6 +110,7 @@ func _load_game_config() -> void:
     var image_path := str(game_config.get("background", ""))
     if ResourceLoader.exists(image_path): background = load(image_path)
     current_object_texture = null
+    secondary_object_texture = null
     feedback_texture = null
     if regions.is_empty() and not rounds.is_empty():
         _build_pack_regions(rounds[0])
@@ -142,6 +145,7 @@ func _semantic_region_color(label: String) -> Color:
 func _load_object_texture() -> void:
     if rounds.is_empty() or round_index >= rounds.size(): return
     var data: Dictionary = rounds[round_index]
+    secondary_object_texture = null
     var object_name := str(data.get("target_display_name", data.get("object", "")))
     var asset_path := str(data.get("target_asset_path", ""))
     if asset_path != "":
@@ -155,6 +159,8 @@ func _load_object_texture() -> void:
     elif object_name.contains("向阳") or object_name.contains("花"):
         asset_path = ASSET_ROOT + "GAME004_asset_object_sun_seed_v001.png"
     if asset_path != "" and ResourceLoader.exists(asset_path): current_object_texture = load(asset_path)
+    var secondary_path := str(data.get("secondary_target_asset_path", ""))
+    if secondary_path != "" and ResourceLoader.exists(secondary_path): secondary_object_texture = load(secondary_path)
 
 func _load_launch_context() -> void:
     launch_context = bridge.load_context(launch_context)
@@ -162,6 +168,7 @@ func _load_launch_context() -> void:
 
 func _start_round(index: int) -> void:
     round_index = index
+    subtarget_index = 0
     selected_object = false
     selected_region = ""
     drag_object = false
@@ -294,7 +301,9 @@ func _draw() -> void:
     var data: Dictionary = rounds[round_index]
     var object_pos := drag_position if drag_object else object_rect.get_center()
     if selected_region != "": object_pos = regions[selected_region].rect.get_center()
-    _draw_object(object_pos, str(data.get("target_display_name", data.get("object", "对象"))), Color(str(data.get("object_color", "#8ed0b2"))))
+    _draw_object(object_pos, str(data.get("target_display_name", data.get("object", "对象"))), Color(str(data.get("object_color", "#8ed0b2"))), current_object_texture)
+    # Multi-target frozen opportunities are presented sequentially inside one opportunity,
+    # so the child still acts on one clear target at a time.
     _draw_rule(data)
     draw_rect(Rect2(190, 1050, 620, 58), Color(0.05, 0.12, 0.18, 0.88), true)
     draw_string(ThemeDB.fallback_font, Vector2(215, 1088), message, HORIZONTAL_ALIGNMENT_CENTER, 570, 25, message_tone)
@@ -342,10 +351,10 @@ func _draw_region(name: String, data: Dictionary) -> void:
         draw_texture_rect(texture, image_rect, false, Color(1, 1, 1, 0.76))
     draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, rect.size.y - 16), name, HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 22, Color("#ffffff"))
 
-func _draw_object(pos: Vector2, label: String, color: Color) -> void:
-    if current_object_texture:
+func _draw_object(pos: Vector2, label: String, color: Color, texture: Texture2D = null) -> void:
+    if texture:
         var target := Rect2(pos - Vector2(62, 62), Vector2(124, 124))
-        draw_texture_rect(current_object_texture, target, false)
+        draw_texture_rect(texture, target, false)
     else:
         draw_circle(pos, 61, Color(0.03, 0.08, 0.12, 0.6)); draw_circle(pos, 53, color); draw_circle(pos - Vector2(16, 16), 14, Color(1, 1, 1, 0.55))
     draw_string(ThemeDB.fallback_font, pos + Vector2(-115, 88), label, HORIZONTAL_ALIGNMENT_CENTER, 230, 27, Color("#ffffff"))
