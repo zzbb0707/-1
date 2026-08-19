@@ -1,12 +1,12 @@
 extends SceneTree
 
 const EXPECTED := {
-    "GF03-L1-P01-R01": "res://assets/processed/objects_v001/red_circle_seed_v001.png",
-    "GF03-L1-P01-R02": "res://assets/processed/objects_v001/blue_square_crystal_v001.png",
-    "GF03-L1-P01-R03": "res://assets/processed/objects_v001/yellow_star_leaf_v001.png",
-    "GF03-L1-P01-R04": "res://assets/processed/objects_v001/green_triangle_stone_v001.png",
-    "GF03-L1-P01-R05": "res://assets/processed/objects_v001/white_round_drop_v001.png",
-    "GF03-L1-P01-R06": "res://assets/processed/objects_v001/purple_square_tool_v001.png"
+    "GF03-L1-P01-R01": "res://assets/candidates/banana/approved_candidate/object_redcircleseed_v001.png",
+    "GF03-L1-P01-R02": "res://assets/candidates/banana/approved_candidate/object_bluesquarecrystal_v001.jpg",
+    "GF03-L1-P01-R03": "res://assets/candidates/banana/approved_candidate/object_yellowstarleaf_v001.jpg",
+    "GF03-L1-P01-R04": "res://assets/candidates/banana/approved_candidate/object_greentriangle_v001.jpg",
+    "GF03-L1-P01-R05": "res://assets/candidates/banana/approved_candidate/object_whiterounddrop_v003.jpg",
+    "GF03-L1-P01-R06": "res://assets/candidates/banana/approved_candidate/object_purpletoolblock_v001.jpg"
 }
 
 func _initialize() -> void:

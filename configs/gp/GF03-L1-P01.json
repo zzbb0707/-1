@@ -56,7 +56,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "发芽",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R01",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redcircleseed_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_seedsprout_v001.jpg"
@@ -96,7 +96,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "灯亮",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R02",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bluesquarecrystal_v001.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_skyperch_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_lamp_glow_v001.jpg"
@@ -136,7 +136,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "叶片展开",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R03",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_yellowstarleaf_v001.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_flowergarden_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_leafunfold_v001.png"
@@ -176,7 +176,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "岩地稳定",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R04",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_greentriangle_v001.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_rockzone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_rockstable_v001.jpg"
@@ -216,7 +216,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "水流出现",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R05",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_whiterounddrop_v003.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_waterstream_v001.jpg"
@@ -256,7 +256,7 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "工作台启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R06",
-                       "implementation_status":  "semantic_defined_needs_art",
+                       "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_purpletoolblock_v001.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_toolzone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg"

@@ -13,8 +13,9 @@ func _initialize() -> void:
             if config is Dictionary:
                 for round_data in config.get("rounds", []):
                     total += 1
-                    if round_data.get("implementation_status") != "semantic_defined_needs_art":
-                        failures.append(str(round_data.get("opportunity_id", filename)) + " invalid semantic status")
+                    var status := str(round_data.get("implementation_status", ""))
+                    if status != "semantic_defined_needs_art" and status != "asset_bound_approved_candidate":
+                        failures.append(str(round_data.get("opportunity_id", filename)) + " invalid semantic status: " + status)
                     if str(round_data.get("target_display_name", "")).is_empty(): failures.append("missing target")
                     if str(round_data.get("correct_region_label", "")).is_empty(): failures.append("missing region")
                     if str(round_data.get("rule_id", "")).is_empty(): failures.append("missing rule")
