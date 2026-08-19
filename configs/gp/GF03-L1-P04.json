@@ -93,11 +93,11 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R02",
                        "target_asset_id":  "AS-GAME004-L1-LARGE_STONE",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_fish_v001.jpg",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bird_v001.png",
                        "secondary_target_display_name":  "鸟",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/lamp_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:水生与飞行生境"
                                     ],
@@ -139,7 +139,7 @@
                        "secondary_target_display_name":  "方形对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/leaf_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:圆形/方形"
                                     ],
@@ -181,7 +181,7 @@
                        "secondary_target_display_name":  "工具",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_toolzone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_growingresponse_v001.jpg",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:植物与工具功能"
                                     ],

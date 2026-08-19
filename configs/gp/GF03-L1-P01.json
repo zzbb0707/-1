@@ -58,7 +58,7 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R01",
                        "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redcircleseed_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_seedsprout_v001.jpg"
                    },
                    {
@@ -98,7 +98,7 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R02",
                        "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bluesquarecrystal_v001.jpg",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_skyperch_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_mediumzone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_lamp_glow_v001.jpg"
                    },
                    {

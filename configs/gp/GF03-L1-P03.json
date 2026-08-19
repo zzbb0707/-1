@@ -51,11 +51,11 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R01",
                        "target_asset_id":  "AS-GAME004-L1-CUP",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redround_v001.jpg",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bluesquare_v001.jpg",
                        "secondary_target_display_name":  "蓝方",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/sprout_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:圆形/方形"
                                     ],
@@ -93,11 +93,11 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P03-R02",
                        "target_asset_id":  "AS-GAME004-L1-SHOE",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_yellow_square",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_greenround_v001.jpg",
                        "secondary_target_display_name":  "绿圆",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/lamp_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:方形/圆形"
                                     ],
@@ -139,7 +139,7 @@
                        "secondary_target_display_name":  "小方",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/small_stone_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/leaf_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:圆形/方形"
                                     ],
@@ -181,7 +181,7 @@
                        "secondary_target_display_name":  "透明圆",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/stone_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:方形/圆形"
                                     ],
@@ -223,7 +223,7 @@
                        "secondary_target_display_name":  "方种子标",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/water_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:圆形/方形"
                                     ],
@@ -265,7 +265,7 @@
                        "secondary_target_display_name":  "方形对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/workbench_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workbench_v001.jpg",
                        "examples":  [
                                         "semantic-feature:圆形/方形；位置无关"
                                     ],
