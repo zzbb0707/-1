@@ -123,7 +123,7 @@ func _build_pack_regions(data: Dictionary) -> void:
 
 func _load_object_texture() -> void:
     if rounds.is_empty() or round_index >= rounds.size(): return
-    var object_name := str(rounds[round_index].get("object", ""))
+    var object_name := str(rounds[round_index].get("target_display_name", rounds[round_index].get("object", "")))
     var asset_path := ""
     if object_name.contains("水") or object_name.contains("浮叶"):
         asset_path = ASSET_ROOT + "GAME004_asset_object_water_seed_v001.png"

@@ -1,0 +1,23 @@
+{
+  "asset_id": "GAME004-L1-OBJECTS-CONTACT-SHEET-CANDIDATE-V001",
+  "baseline_version": "GAME004-BASELINE-V1",
+  "source": "atlas:qwen-image-3.0-pro/text-to-image",
+  "prediction_id": "ee6dbef22db44481bd0986f1288ad05c",
+  "status": "candidate_requires_review",
+  "rights_status": "unknown",
+  "file": "GAME004_L1_objects_contact_sheet_candidate_v001.png",
+  "coverage": [
+    "red circular seed", "blue square crystal", "yellow star leaf", "green triangular stone", "white round water drop", "purple square tool",
+    "fish", "bird", "flower", "hammer", "apple", "toy car", "cup", "shoe", "large stone", "small stone", "round icon", "square icon"
+  ],
+  "review": {
+    "silhouette_readability": "pass",
+    "no_text_watermark_pseudo_ui": "pass",
+    "style": "conditional_pass",
+    "notes": [
+      "Object palette intentionally retains strong rule colors for L1/L2 discrimination; this is compatible with the approved neutral habitat shell direction.",
+      "Candidate uses a dark contact-sheet background and cannot be used directly as runtime assets.",
+      "Objects must be separately generated or extracted, given semantic IDs, then reviewed for alpha edge, target/distractor contrast, and low-sensory variants before processed or approved status."
+    ]
+  }
+}
