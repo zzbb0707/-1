@@ -23,9 +23,20 @@ App 在启动游戏前写入 `user://launch_context.json`，或在宿主层映�
 也可使用启动参数：
 
 ```text
---slice=L1|L3|L4
+--game-pack=GF03-L1-P01   （正式20包入口）
+--slice=L1|L3|L4           （旧切片兼容入口）
 --low-sensory
 ```
+
+## 跨日状态（V1.1 新增）
+
+运行器完成或退出时会写入：
+
+```text
+user://game004_daily_progress.json
+```
+
+格式：按 game_pack_id 记录 last_status / last_completed_count / round_total / completed_at / baseline_version。App 可据此决定跨日继续或重开，需保留 `baseline_version` 校验，禁止跨版本合并进度。
 
 ## 输出
 
