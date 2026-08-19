@@ -178,7 +178,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_transparentumbrella_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_regiontidy_v001.jpg"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_regiontidy_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_wearables_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R05",
