@@ -1,0 +1,11 @@
+{
+  "红色范例区": "region_red_example_grid_v001.png",
+  "蓝色范例区": "region_blue_example_grid_v001.png",
+  "同色区域": "region_samecolor_match_grid_v001.png",
+  "同图区域": "region_matching_image_grid_v001.png",
+  "衣物区": "region_clothing_grid_v001.png",
+  "穿戴区": "region_wearables_grid_v001.png",
+  "植物区": "region_plant_grid_v001.png",
+  "飞行区": "region_flying_grid_v001.png",
+  "交通区": "region_traffic_grid_v001.png"
+}

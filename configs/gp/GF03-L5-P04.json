@@ -56,7 +56,8 @@
                        "distractor_guidance":  "非同图项作为干扰",
                        "natural_outcome_label":  "正确配对区域响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_matching_image_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R02",
@@ -94,7 +95,8 @@
                        "natural_outcome_label":  "同色区域点亮",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R02",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_samecolor_lit_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_samecolor_lit_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_samecolor_match_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R03",
