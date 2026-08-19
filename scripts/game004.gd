@@ -3,6 +3,7 @@ extends Node2D
 const VIEW_SIZE := Vector2(1000, 1250)
 const AppBridgeScript = preload("res://scripts/app_bridge.gd")
 const DEFAULT_CONFIG := "res://configs/game004_l1_slice.json"
+const ASSET_ROOT := "res://assets/processed/v001/"
 const STAGE := Rect2(170, 175, 660, 950)
 const DEFAULT_OBJECT_RECT := Rect2(365, 810, 270, 170)
 
@@ -91,13 +92,13 @@ func _load_object_texture() -> void:
     var object_name := str(rounds[round_index].get("object", ""))
     var asset_path := ""
     if object_name.contains("水") or object_name.contains("浮叶"):
-        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_water_seed_v001.png"
+        asset_path = ASSET_ROOT + "GAME004_asset_object_water_seed_v001.png"
     elif object_name.contains("苔") or object_name.contains("林"):
-        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_moss_bud_v001.png"
+        asset_path = ASSET_ROOT + "GAME004_asset_object_moss_bud_v001.png"
     elif object_name.contains("铲") or object_name.contains("工具"):
-        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_tool_v001.png"
+        asset_path = ASSET_ROOT + "GAME004_asset_object_tool_v001.png"
     elif object_name.contains("向阳") or object_name.contains("花"):
-        asset_path = "res://assets/candidates/image2/assets_v001/GAME004_asset_object_sun_seed_v001.png"
+        asset_path = ASSET_ROOT + "GAME004_asset_object_sun_seed_v001.png"
     if asset_path != "" and ResourceLoader.exists(asset_path): current_object_texture = load(asset_path)
 
 func _load_launch_context() -> void:
