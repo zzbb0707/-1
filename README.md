@@ -1,6 +1,8 @@
 # 云小星 GAME-004 星图生态舱
 
-Godot `4.7.1` 原型工程。当前版本是 **L1 / 三回合可玩原型**，用于验证 GAME-004 的核心交互与 App 接口边界，不是 120 个正式内容包的最终生产版本。
+> 后续制作唯一入口：`PROJECT_BASELINE.md`。冻结内容事实：`baseline/game004_content_baseline.json`。变更规则：`BASELINE_CHANGE_CONTROL.md`。
+
+Godot `4.7.1` 工程。当前实现属于 `prototype_legacy`：仅有临时L1/L3/L4代表切片，不是正式20个固定游戏日包的完整实现。GAME-004正式范围为1个具体游戏、20个GP日包、每包6回合、共120个互动机会；这不等于120个游戏，也不等于新版系统的120个最低可分配内容包。
 
 ## 运行
 

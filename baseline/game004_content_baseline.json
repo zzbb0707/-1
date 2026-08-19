@@ -1,0 +1,833 @@
+﻿{
+    "schema_version":  "game004-content-baseline-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "source_file":  "D:\\deepseek\\yunxiaoxing-game004\\baseline\\authoritative_sources\\GAME004_20_PACKS_SOURCE_V1.md",
+    "source_sha256":  "B22F6552220C0EC9932576903C531C074184E0A32CF7B10ADEAFD7057F78DF22",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "pack_count":  20,
+    "opportunity_count":  120,
+    "packs":  [
+                  {
+                      "game_pack_id":  "GF03-L1-P01",
+                      "title":  "找到完全一样的家",
+                      "l_level":  "L1",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R01",
+                                                "order":  1,
+                                                "frozen_content":  "红圆种子配同图红圆区，发芽。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R02",
+                                                "order":  2,
+                                                "frozen_content":  "蓝方晶体配同图蓝方区，灯亮。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R03",
+                                                "order":  3,
+                                                "frozen_content":  "黄星叶配同图黄星区，叶片展开。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R04",
+                                                "order":  4,
+                                                "frozen_content":  "绿三角石配同图绿三角区，岩地稳定。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R05",
+                                                "order":  5,
+                                                "frozen_content":  "白圆水滴配同图水滴区，水流出现。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P01-R06",
+                                                "order":  6,
+                                                "frozen_content":  "紫方工具配同图工具区，工作台启动。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L1-P02",
+                      "title":  "两种高差异区域",
+                      "l_level":  "L1",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R01",
+                                                "order":  1,
+                                                "frozen_content":  "鱼→水区，鸟→天空区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R02",
+                                                "order":  2,
+                                                "frozen_content":  "花→花园，锤子→工具台。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R03",
+                                                "order":  3,
+                                                "frozen_content":  "苹果→食物区，小车→交通区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R04",
+                                                "order":  4,
+                                                "frozen_content":  "杯子→餐具区，鞋→穿戴区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R05",
+                                                "order":  5,
+                                                "frozen_content":  "种子→土地区，水滴→水区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P02-R06",
+                                                "order":  6,
+                                                "frozen_content":  "灯泡→光区，石头→岩区；记录高差异稳定。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L1-P03",
+                      "title":  "同形状回到一起",
+                      "l_level":  "L1",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R01",
+                                                "order":  1,
+                                                "frozen_content":  "红圆→圆区，蓝方→方区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R02",
+                                                "order":  2,
+                                                "frozen_content":  "黄方→方区，绿圆→圆区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R03",
+                                                "order":  3,
+                                                "frozen_content":  "大圆→圆区，小方→方区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R04",
+                                                "order":  4,
+                                                "frozen_content":  "花纹方→方区，透明圆→圆区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R05",
+                                                "order":  5,
+                                                "frozen_content":  "圆工具标→圆区，方种子标→方区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P03-R06",
+                                                "order":  6,
+                                                "frozen_content":  "左右区域交换后圆/方各一次，记录位置依赖。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L1-P04",
+                      "title":  "基础配对复核",
+                      "l_level":  "L1",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R01",
+                                                "order":  1,
+                                                "frozen_content":  "完全相同图配对。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R02",
+                                                "order":  2,
+                                                "frozen_content":  "鱼/鸟高差异分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R03",
+                                                "order":  3,
+                                                "frozen_content":  "圆/方形状分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R04",
+                                                "order":  4,
+                                                "frozen_content":  "花/工具功能高差异分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R05",
+                                                "order":  5,
+                                                "frozen_content":  "区域左右交换后配对。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L1-P04-R06",
+                                                "order":  6,
+                                                "frozen_content":  "新外观同形状配对；生成L1复核摘要。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L2-P01",
+                      "title":  "按颜色点亮花园",
+                      "l_level":  "L2",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R01",
+                                                "order":  1,
+                                                "frozen_content":  "红花→红光区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R02",
+                                                "order":  2,
+                                                "frozen_content":  "蓝叶→蓝光区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R03",
+                                                "order":  3,
+                                                "frozen_content":  "红色不同形状→红区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R04",
+                                                "order":  4,
+                                                "frozen_content":  "蓝色不同大小→蓝区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R05",
+                                                "order":  5,
+                                                "frozen_content":  "加入黄色第三区，黄种子→黄区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P01-R06",
+                                                "order":  6,
+                                                "frozen_content":  "三色位置交换后分类，花园分区点亮。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L2-P02",
+                      "title":  "按大小安排空间",
+                      "l_level":  "L2",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R01",
+                                                "order":  1,
+                                                "frozen_content":  "大圆石→大区，小圆石→小区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R02",
+                                                "order":  2,
+                                                "frozen_content":  "大方箱→大区，小方箱→小区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R03",
+                                                "order":  3,
+                                                "frozen_content":  "颜色变化但按大小分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R04",
+                                                "order":  4,
+                                                "frozen_content":  "材质变化但按大小分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R05",
+                                                "order":  5,
+                                                "frozen_content":  "加入中等区，中号种子→中区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P02-R06",
+                                                "order":  6,
+                                                "frozen_content":  "大中小各一件，区域位置交换后完成。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L2-P03",
+                      "title":  "按功能放回工具",
+                      "l_level":  "L2",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R01",
+                                                "order":  1,
+                                                "frozen_content":  "锤子→敲击工具区，刷子→清洁区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R02",
+                                                "order":  2,
+                                                "frozen_content":  "木槌→敲击区，抹布→清洁区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R03",
+                                                "order":  3,
+                                                "frozen_content":  "扳手→维修区，勺子→餐具区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R04",
+                                                "order":  4,
+                                                "frozen_content":  "螺丝刀→维修区，杯子→餐具区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R05",
+                                                "order":  5,
+                                                "frozen_content":  "新外观刷子→清洁区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P03-R06",
+                                                "order":  6,
+                                                "frozen_content":  "四类中当前开放三类，连续分类三件，工作台恢复。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L2-P04",
+                      "title":  "单规则分类校准",
+                      "l_level":  "L2",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R01",
+                                                "order":  1,
+                                                "frozen_content":  "明确按颜色分红/蓝。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R02",
+                                                "order":  2,
+                                                "frozen_content":  "明确按大小分大/小。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R03",
+                                                "order":  3,
+                                                "frozen_content":  "明确按形状分圆/方。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R04",
+                                                "order":  4,
+                                                "frozen_content":  "明确按功能分工具/餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R05",
+                                                "order":  5,
+                                                "frozen_content":  "每回合规则卡只显示当前规则，分类新实例。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L2-P04-R06",
+                                                "order":  6,
+                                                "frozen_content":  "系统重复当前规则后再分类，比较规则类型提示依赖。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "title":  "换个样子还是同类",
+                      "l_level":  "L3",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R01",
+                                                "order":  1,
+                                                "frozen_content":  "不同画风苹果→水果区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R02",
+                                                "order":  2,
+                                                "frozen_content":  "不同角度杯子→餐具区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R03",
+                                                "order":  3,
+                                                "frozen_content":  "木制小车→交通区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R04",
+                                                "order":  4,
+                                                "frozen_content":  "透明雨伞→穿戴/用品区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R05",
+                                                "order":  5,
+                                                "frozen_content":  "真实质感鱼图→水生区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P01-R06",
+                                                "order":  6,
+                                                "frozen_content":  "六种新实例中连续分类，记录概念而非单图记忆。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "title":  "规则换了看这里",
+                      "l_level":  "L3",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R01",
+                                                "order":  1,
+                                                "frozen_content":  "前两件按颜色，红圆→红区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R02",
+                                                "order":  2,
+                                                "frozen_content":  "清晰换规则为形状，红圆→圆区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R03",
+                                                "order":  3,
+                                                "frozen_content":  "蓝方按形状→方区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R04",
+                                                "order":  4,
+                                                "frozen_content":  "清晰换规则为大小，大方→大区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R05",
+                                                "order":  5,
+                                                "frozen_content":  "小圆按大小→小区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P02-R06",
+                                                "order":  6,
+                                                "frozen_content":  "再换回颜色，蓝圆→蓝区；记录切换后首项。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "title":  "先大类再小类",
+                      "l_level":  "L3",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R01",
+                                                "order":  1,
+                                                "frozen_content":  "苹果先→食物，再→水果。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R02",
+                                                "order":  2,
+                                                "frozen_content":  "面包先→食物，再→主食。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R03",
+                                                "order":  3,
+                                                "frozen_content":  "杯子先→用品，再→餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R04",
+                                                "order":  4,
+                                                "frozen_content":  "锤子先→用品，再→工具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R05",
+                                                "order":  5,
+                                                "frozen_content":  "鱼先→动物，再→水生。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P03-R06",
+                                                "order":  6,
+                                                "frozen_content":  "鸟先→动物，再→飞行；生态层级展开。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "title":  "新实例分类复核",
+                      "l_level":  "L3",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R01",
+                                                "order":  1,
+                                                "frozen_content":  "新画风水果按功能类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R02",
+                                                "order":  2,
+                                                "frozen_content":  "新角度工具按功能类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R03",
+                                                "order":  3,
+                                                "frozen_content":  "颜色变化对象按形状。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R04",
+                                                "order":  4,
+                                                "frozen_content":  "形状变化对象按大小。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R05",
+                                                "order":  5,
+                                                "frozen_content":  "明确信号后从颜色切到功能。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L3-P04-R06",
+                                                "order":  6,
+                                                "frozen_content":  "完成一次大类→小类两步分类，记录迁移与切换。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L4-P01",
+                      "title":  "忽略无关颜色",
+                      "l_level":  "L4",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R01",
+                                                "order":  1,
+                                                "frozen_content":  "规则按形状，红圆→圆区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R02",
+                                                "order":  2,
+                                                "frozen_content":  "蓝圆仍→圆区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R03",
+                                                "order":  3,
+                                                "frozen_content":  "规则按大小，大红方→大区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R04",
+                                                "order":  4,
+                                                "frozen_content":  "大蓝圆仍→大区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R05",
+                                                "order":  5,
+                                                "frozen_content":  "规则按功能，彩色锤→工具区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P01-R06",
+                                                "order":  6,
+                                                "frozen_content":  "同色食物与工具同时出现，按功能分别归区。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L4-P02",
+                      "title":  "从范例发现规则",
+                      "l_level":  "L4",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R01",
+                                                "order":  1,
+                                                "frozen_content":  "范例红圆/红方在一区，推断按颜色，红三角→该区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R02",
+                                                "order":  2,
+                                                "frozen_content":  "范例蓝圆/蓝方在二区，蓝星→该区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R03",
+                                                "order":  3,
+                                                "frozen_content":  "新盘范例大圆/大方同区，大三角→大区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R04",
+                                                "order":  4,
+                                                "frozen_content":  "范例锤/扳手同区，螺丝刀→工具区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R05",
+                                                "order":  5,
+                                                "frozen_content":  "范例鱼/鲸同区，海龟→水生区。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P02-R06",
+                                                "order":  6,
+                                                "frozen_content":  "两个范例组同时呈现，分类新对象并说明只记录选择不要求口语解释。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L4-P03",
+                      "title":  "四个生态区域",
+                      "l_level":  "L4",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R01",
+                                                "order":  1,
+                                                "frozen_content":  "水生/飞行/陆地/植物四区，鱼→水生。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R02",
+                                                "order":  2,
+                                                "frozen_content":  "鸟→飞行。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R03",
+                                                "order":  3,
+                                                "frozen_content":  "兔→陆地。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R04",
+                                                "order":  4,
+                                                "frozen_content":  "花→植物。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R05",
+                                                "order":  5,
+                                                "frozen_content":  "新实例海龟→水生，记录近边界实例提示。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P03-R06",
+                                                "order":  6,
+                                                "frozen_content":  "蝴蝶按当前明确规则→飞行区；四区生态同时启动。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L4-P04",
+                      "title":  "综合规则事件",
+                      "l_level":  "L4",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R01",
+                                                "order":  1,
+                                                "frozen_content":  "从范例推断按颜色并分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R02",
+                                                "order":  2,
+                                                "frozen_content":  "清晰换成按功能并分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R03",
+                                                "order":  3,
+                                                "frozen_content":  "无关颜色干扰下按形状。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R04",
+                                                "order":  4,
+                                                "frozen_content":  "四区中按生境分类新实例。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R05",
+                                                "order":  5,
+                                                "frozen_content":  "完成大类→小类两步。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L4-P04-R06",
+                                                "order":  6,
+                                                "frozen_content":  "规则卡、范例和区域位置变化后完成复核，生成规则专属摘要。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L5-P01",
+                      "title":  "真实照片分类",
+                      "l_level":  "L5",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R01",
+                                                "order":  1,
+                                                "frozen_content":  "授权苹果照片→水果。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R02",
+                                                "order":  2,
+                                                "frozen_content":  "授权杯子照片→餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R03",
+                                                "order":  3,
+                                                "frozen_content":  "不同背景锤子照片→工具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R04",
+                                                "order":  4,
+                                                "frozen_content":  "不同角度鞋照片→穿戴。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R05",
+                                                "order":  5,
+                                                "frozen_content":  "家庭真实大/小盒照片按大小。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P01-R06",
+                                                "order":  6,
+                                                "frozen_content":  "三张真实场景物品照片按当前功能规则分类；仍只算屏幕照片证据。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L5-P02",
+                      "title":  "家庭物品整理桥",
+                      "l_level":  "L5",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R01",
+                                                "order":  1,
+                                                "frozen_content":  "屏幕杯子→餐具区，候选MP整理真实杯子。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R02",
+                                                "order":  2,
+                                                "frozen_content":  "屏幕积木→玩具区，候选MP收积木。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R03",
+                                                "order":  3,
+                                                "frozen_content":  "屏幕袜子→衣物区，候选MP分衣物。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R04",
+                                                "order":  4,
+                                                "frozen_content":  "屏幕勺子→餐具区，候选MP摆餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R05",
+                                                "order":  5,
+                                                "frozen_content":  "屏幕书→阅读区，候选MP收书。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P02-R06",
+                                                "order":  6,
+                                                "frozen_content":  "系统按家庭材料只发一项LIFE或OBS，不自动记生活完成。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L5-P03",
+                      "title":  "换场景保持概念",
+                      "l_level":  "L5",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R01",
+                                                "order":  1,
+                                                "frozen_content":  "厨房照片中杯子→餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R02",
+                                                "order":  2,
+                                                "frozen_content":  "餐桌照片中杯子仍→餐具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R03",
+                                                "order":  3,
+                                                "frozen_content":  "工具台照片中刷子→清洁工具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R04",
+                                                "order":  4,
+                                                "frozen_content":  "浴室照片中刷子按当前明确规则→清洁工具。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R05",
+                                                "order":  5,
+                                                "frozen_content":  "超市照片中苹果→水果。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P03-R06",
+                                                "order":  6,
+                                                "frozen_content":  "野餐照片中苹果仍→水果，记录跨背景稳定。"
+                                            }
+                                        ]
+                  },
+                  {
+                      "game_pack_id":  "GF03-L5-P04",
+                      "title":  "生态舱到生活复核",
+                      "l_level":  "L5",
+                      "game_id":  "GAME-004",
+                      "game_family_id":  "GF-03",
+                      "primary_training_unit_id":  "TU-011",
+                      "fixed_opportunity_count":  6,
+                      "opportunities":  [
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R01",
+                                                "order":  1,
+                                                "frozen_content":  "完全相同配对。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R02",
+                                                "order":  2,
+                                                "frozen_content":  "单属性颜色分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R03",
+                                                "order":  3,
+                                                "frozen_content":  "功能分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R04",
+                                                "order":  4,
+                                                "frozen_content":  "新实例概念分类。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R05",
+                                                "order":  5,
+                                                "frozen_content":  "清晰规则切换。"
+                                            },
+                                            {
+                                                "opportunity_id":  "GF03-L5-P04-R06",
+                                                "order":  6,
+                                                "frozen_content":  "真实照片分类后只生成一个家庭整理包或OBS；屏幕与生活报告分开。"
+                                            }
+                                        ]
+                  }
+              ]
+}

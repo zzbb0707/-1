@@ -1,5 +1,9 @@
 # GAME-004｜交付状态 V1
 
+## 当前状态修正
+
+本项目已改为以 `PROJECT_BASELINE.md` 为唯一施工入口。当前仓库仍是 `prototype_legacy`，只完成临时L1/L3/L4代表切片；正式20个GP日包和120个回合尚未实现。此前任何“GAME-004已完成”的表述均撤回。
+
 ## 已完成
 
 - Godot 4.7.1 可运行工程。
@@ -8,7 +12,7 @@
 - AppBridge事件与game_result基础契约。
 - 对象/区域站位自动不重叠测试。
 - Image 2整屏视觉母版v001/v002。
-- Image 2正式资产候选10项及manifest。
+- Image 2正式资产候选10项及manifest（仅为临时slice候选，不覆盖20包完整资产需求）。
 - 一键验证脚本：`tools/verify_vertical_slice.ps1`。
 - 视觉验收门禁：`docs/GAME-004_Visual_Verification_Gate_V1.md`。
 - 正确落位反馈：区域反馈环、生态启动提示；低感官模式关闭额外粒子。
