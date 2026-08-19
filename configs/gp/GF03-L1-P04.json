@@ -55,7 +55,7 @@
                        "secondary_target_display_name":  "当前目标图",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/blue_square_crystal_v001.png",
                        "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/red_circle_zone_idle_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/sprout_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:视觉图像完全一致"
                                     ],
@@ -93,10 +93,10 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R02",
                        "target_asset_id":  "AS-GAME004-L1-LARGE_STONE",
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
-                       "target_asset_path":  "res://assets/processed/objects_v001/fish_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_fish_v001.jpg",
                        "secondary_target_display_name":  "鸟",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/blue_square_zone_idle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/lamp_result_v001.png",
                        "examples":  [
                                         "semantic-feature:水生与飞行生境"
@@ -138,7 +138,7 @@
                        "target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
                        "secondary_target_display_name":  "方形对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/yellow_star_zone_idle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/leaf_result_v001.png",
                        "examples":  [
                                         "semantic-feature:圆形/方形"
@@ -177,11 +177,11 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R04",
                        "target_asset_id":  "AS-GAME004-L1-SQUARE_ICON",
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
-                       "target_asset_path":  "res://assets/processed/objects_v001/flower_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_flower_v001.jpg",
                        "secondary_target_display_name":  "工具",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/green_triangle_zone_idle_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/stone_result_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_toolzone_v001.jpg",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_growingresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:植物与工具功能"
                                     ],
@@ -223,7 +223,7 @@
                        "secondary_target_display_name":  "当前配对对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/white_drop_zone_idle_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/water_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:配对关系；位置无关"
                                     ],
@@ -265,7 +265,7 @@
                        "secondary_target_display_name":  "新外观形状对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/purple_tool_zone_idle_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/workbench_result_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:形状恒常性"
                                     ],
