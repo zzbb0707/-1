@@ -45,6 +45,7 @@ var message := "观察环境，把对象放到合适的区域"
 var message_tone := Color("#dbeafe")
 var feedback_until_ms := 0
 var feedback_region := ""
+var feedback_label := ""
 var debug_open := true
 var session_status := "started"
 
@@ -217,7 +218,8 @@ func _attempt_region(region_name: String, input_method: String) -> void:
     _emit("attempt", {"opportunity_id": opportunity_id, "slice_id": slice_id, "object": data.get("object", "对象"), "selected_region": region_name, "rule_id": data.get("rule_id", "habitat"), "input_method": input_method, "correct": is_correct})
     if is_correct:
         completed_count += 1; selected_region = region_name; feedback_region = region_name
-        message = str(data.get("success_message", "这里适合它，生态开始运转了")); message_tone = Color("#b9f6c4")
+        feedback_label = str(data.get("natural_outcome_label", data.get("success_message", "生态开始运转了")))
+        message = feedback_label; message_tone = Color("#b9f6c4")
         feedback_until_ms = Time.get_ticks_msec() + 900
         _emit("success", {"opportunity_id": opportunity_id, "slice_id": slice_id, "prompt_level": 0, "first_attempt": attempt_count == completed_count})
         queue_redraw(); await get_tree().create_timer(0.95).timeout
@@ -257,8 +259,10 @@ func _emit(event_type: String, payload: Dictionary) -> void:
 
 func _draw() -> void:
     draw_rect(Rect2(Vector2.ZERO, VIEW_SIZE), Color("#10243a"))
-    draw_string(ThemeDB.fallback_font, Vector2(55, 82), "星图生态舱｜%s代表关" % slice_id, HORIZONTAL_ALIGNMENT_LEFT, -1, 38, Color("#f5fbff"))
-    draw_string(ThemeDB.fallback_font, Vector2(55, 125), "按 1 / 3 / 4 切换难度纵切" , HORIZONTAL_ALIGNMENT_LEFT, -1, 21, Color("#a9c5dd"))
+    var title := "星图生态舱｜%s" % (game_pack_id if not game_pack_id.is_empty() else "%s代表关" % slice_id)
+    draw_string(ThemeDB.fallback_font, Vector2(55, 82), title, HORIZONTAL_ALIGNMENT_LEFT, -1, 32, Color("#f5fbff"))
+    var subtitle := str(game_config.get("title", "按 1 / 3 / 4 切换难度纵切"))
+    draw_string(ThemeDB.fallback_font, Vector2(55, 125), subtitle, HORIZONTAL_ALIGNMENT_LEFT, -1, 21, Color("#a9c5dd"))
     draw_string(ThemeDB.fallback_font, Vector2(55, 155), "回合 %d / %d" % [mini(round_index + 1, rounds.size()), rounds.size()], HORIZONTAL_ALIGNMENT_LEFT, -1, 20, Color("#c7dded"))
     _draw_button(Rect2(720, 40, 110, 58), "提示", Color("#286a86")); _draw_button(Rect2(850, 40, 100, 58), "退出", Color("#66566f"))
     if background: draw_texture_rect(background, STAGE, false)
@@ -270,7 +274,7 @@ func _draw() -> void:
     var data: Dictionary = rounds[round_index]
     var object_pos := drag_position if drag_object else object_rect.get_center()
     if selected_region != "": object_pos = regions[selected_region].rect.get_center()
-    _draw_object(object_pos, str(data.get("object", "对象")), Color(str(data.get("object_color", "#8ed0b2"))))
+    _draw_object(object_pos, str(data.get("target_display_name", data.get("object", "对象"))), Color(str(data.get("object_color", "#8ed0b2"))))
     _draw_rule(data)
     draw_rect(Rect2(190, 1050, 620, 58), Color(0.05, 0.12, 0.18, 0.88), true)
     draw_string(ThemeDB.fallback_font, Vector2(215, 1088), message, HORIZONTAL_ALIGNMENT_CENTER, 570, 25, message_tone)
@@ -286,6 +290,7 @@ func _draw_feedback(region_name: String) -> void:
     var tone := Color("#b8f4d3")
     draw_arc(rect.get_center(), min(rect.size.x, rect.size.y) * 0.36, 0, TAU, 32, tone, 6)
     draw_circle(rect.get_center(), 12, tone)
+    draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, rect.size.y * 0.5), feedback_label, HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 20, tone)
     if not bool(launch_context.get("low_sensory", false)):
         draw_circle(rect.get_center() + Vector2(0, -30), 7, Color("#fff1a8"))
         draw_circle(rect.get_center() + Vector2(25, -10), 5, Color("#fff1a8"))
@@ -296,6 +301,8 @@ func _draw_rule(data: Dictionary) -> void:
     draw_style_box(_box(Color(0.92, 0.88, 0.76, 0.92), 16, Color("#6f978e")), Rect2(285, 205, 430, 54))
     draw_string(ThemeDB.fallback_font, Vector2(305, 241), label, HORIZONTAL_ALIGNMENT_CENTER, 390, 24, Color("#24433f"))
     var examples: Array = data.get("examples", [])
+    if examples.is_empty() and data.has("target_display_name"):
+        examples = ["目标：" + str(data.get("target_display_name", "")), "特征：" + str(data.get("semantic_feature", ""))]
     if not examples.is_empty():
         draw_string(ThemeDB.fallback_font, Vector2(310, 282), "范例：" + "　".join(examples), HORIZONTAL_ALIGNMENT_CENTER, 380, 19, Color("#f7f2dc"))
 
