@@ -1,55 +1,55 @@
 ﻿{
-    "schema_version":  "game004-banana-l2l5-batch6",
+    "schema_version":  "game004-banana-l2l5-batch7",
     "baseline_version":  "GAME004-BASELINE-V1",
     "model":  "google/nano-banana-pro/text-to-image",
     "mode":  "single_object_per_image",
-    "submitted_at":  "2026-08-19T23:39:34.3237069+08:00",
+    "submitted_at":  "2026-08-19T23:44:17.6509002+08:00",
     "items":  [
                   {
-                      "label":  "region_land_zone",
-                      "prediction_id":  "d06ac0482b7f478fa1f132a5e6e50cf9",
+                      "label":  "new_cup2",
+                      "prediction_id":  "d4fd24f538e041aa99e63a8864da535e",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "region_flying_zone",
-                      "prediction_id":  "9d4840078898454b98fa8d236cbad0a2",
+                      "label":  "new_plate",
+                      "prediction_id":  "35dfdd610f5e4f3c8f840c2936e57081",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "region_plant_zone",
-                      "prediction_id":  "716704bb32c2497cb6e189784784009a",
+                      "label":  "new_towel",
+                      "prediction_id":  "9a2d1a8c8aa5475db90bf2601be02aac",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "region_toys_zone",
-                      "prediction_id":  "dee1958a70b343c09c0832600d9de2d9",
+                      "label":  "new_toothbrush",
+                      "prediction_id":  "d2736c785755459388efb15b848ad60e",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "region_cleaning_zone",
-                      "prediction_id":  "55dab023196b47ca91eecca2e59756c7",
+                      "label":  "outcome_medium_arranged",
+                      "prediction_id":  "e6c4da6573d240d0827812247a3a5c2e",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "outcome_flying_start",
-                      "prediction_id":  "29601ae754cc49419226193e9639d3a6",
+                      "label":  "outcome_big_arranged",
+                      "prediction_id":  "b1f42bbd755848b880524f05200d2b73",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "outcome_same_color_lit",
-                      "prediction_id":  "d6022d94af4e421d98d8d209cc5f4fc1",
+                      "label":  "outcome_workzone_start",
+                      "prediction_id":  "2aad94cceb3948d3912061083bf54006",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   },
                   {
-                      "label":  "outcome_four_zone_start",
-                      "prediction_id":  "9deb2cfe5f0e4f9db68c95e6124d08d8",
+                      "label":  "outcome_region_tidy",
+                      "prediction_id":  "39cbb76937d047d782e14b03a3f95f0c",
                       "status":  "approved_candidate",
                       "review":  "Atlas Qwen PASS"
                   }
