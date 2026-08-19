@@ -1,0 +1,193 @@
+﻿{
+    "schema_version":  "game004-gp-config-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "allocation_rule_version":  "ALLOC-CORE-V1",
+    "tag_schema_version":  "TAG-SCHEMA-V1",
+    "lifecycle_status":  "draft",
+    "game_pack_id":  "GF03-L4-P03",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "title":  "四个生态区域",
+    "l_level":  "L4",
+    "fixed_opportunity_count":  6,
+    "difficulty_profile":  {
+                               "prompt_strength":  "P1",
+                               "low_sensory":  true,
+                               "rule_mode":  "example_inference",
+                               "region_count":  4
+                           },
+    "asset_manifest_id":  "",
+    "rights_status":  "unknown",
+    "low_sensory_variant_id":  "LOW-SENSORY-GF03-L4-P03",
+    "rounds":  [
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R01",
+                       "order":  1,
+                       "frozen_content":  "水生/飞行/陆地/植物四区，鱼→水生。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R02",
+                       "order":  2,
+                       "frozen_content":  "鸟→飞行。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R03",
+                       "order":  3,
+                       "frozen_content":  "兔→陆地。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R04",
+                       "order":  4,
+                       "frozen_content":  "花→植物。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R05",
+                       "order":  5,
+                       "frozen_content":  "新实例海龟→水生，记录近边界实例提示。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P03-R06",
+                       "order":  6,
+                       "frozen_content":  "蝴蝶按当前明确规则→飞行区；四区生态同时启动。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   }
+               ]
+}

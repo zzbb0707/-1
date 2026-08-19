@@ -3,7 +3,9 @@ extends Node2D
 const VIEW_SIZE := Vector2(1000, 1250)
 const AppBridgeScript = preload("res://scripts/app_bridge.gd")
 const DEFAULT_CONFIG := "res://configs/game004_l1_slice.json"
+const GP_CONFIG_ROOT := "res://configs/gp/"
 const ASSET_ROOT := "res://assets/processed/v001/"
+const BASELINE_VERSION := "GAME004-BASELINE-V1"
 const STAGE := Rect2(170, 175, 660, 950)
 const DEFAULT_OBJECT_RECT := Rect2(365, 810, 270, 170)
 
@@ -23,6 +25,7 @@ var background: Texture2D
 var current_object_texture: Texture2D
 var object_rect := DEFAULT_OBJECT_RECT
 var config_path := DEFAULT_CONFIG
+var game_pack_id := ""
 var slice_id := "L1"
 var round_index := 0
 var current_round_started_ms := 0
@@ -56,7 +59,15 @@ func _ready() -> void:
 
 func _resolve_config_path() -> void:
     for arg in OS.get_cmdline_user_args():
-        if arg.begins_with("--slice="):
+        if arg.begins_with("--game-pack="):
+            var requested_pack := arg.trim_prefix("--game-pack=").to_upper()
+            var candidate := GP_CONFIG_ROOT + requested_pack + ".json"
+            if ResourceLoader.exists(candidate):
+                config_path = candidate
+                game_pack_id = requested_pack
+            else:
+                push_error("Unknown GAME-004 pack: " + requested_pack)
+        elif arg.begins_with("--slice="):
             var requested := arg.trim_prefix("--slice=").to_upper()
             if requested in ["L1", "L3", "L4"]:
                 config_path = "res://configs/game004_%s_slice.json" % requested.to_lower()
@@ -73,9 +84,10 @@ func _load_game_config() -> void:
         push_error("GAME-004 invalid config: " + config_path)
         return
     game_config = parsed
-    slice_id = str(game_config.get("slice_id", "L1"))
-    launch_context.game_config_id = str(game_config.get("game_config_id", launch_context.game_config_id))
-    message = str(game_config.get("child_prompt", message))
+    game_pack_id = str(game_config.get("game_pack_id", game_pack_id))
+    slice_id = str(game_config.get("slice_id", game_config.get("l_level", "L1")))
+    launch_context.game_config_id = str(game_config.get("game_pack_id", game_config.get("game_config_id", launch_context.game_config_id)))
+    message = str(game_config.get("child_prompt", "观察规则，把对象放到合适区域"))
     rounds = game_config.get("rounds", [])
     var object_position: Array = game_config.get("object_position", [0.5, 0.68])
     object_rect = Rect2(STAGE.position + Vector2(float(object_position[0]) * STAGE.size.x - 135.0, float(object_position[1]) * STAGE.size.y - 85.0), Vector2(270, 170))

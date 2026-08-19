@@ -1,0 +1,193 @@
+﻿{
+    "schema_version":  "game004-gp-config-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "allocation_rule_version":  "ALLOC-CORE-V1",
+    "tag_schema_version":  "TAG-SCHEMA-V1",
+    "lifecycle_status":  "draft",
+    "game_pack_id":  "GF03-L5-P03",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "title":  "换场景保持概念",
+    "l_level":  "L5",
+    "fixed_opportunity_count":  6,
+    "difficulty_profile":  {
+                               "prompt_strength":  "P1",
+                               "low_sensory":  true,
+                               "rule_mode":  "authorized_photo_or_bridge",
+                               "region_count":  3
+                           },
+    "asset_manifest_id":  "",
+    "rights_status":  "unknown",
+    "low_sensory_variant_id":  "LOW-SENSORY-GF03-L5-P03",
+    "rounds":  [
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R01",
+                       "order":  1,
+                       "frozen_content":  "厨房照片中杯子→餐具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R02",
+                       "order":  2,
+                       "frozen_content":  "餐桌照片中杯子仍→餐具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R03",
+                       "order":  3,
+                       "frozen_content":  "工具台照片中刷子→清洁工具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R04",
+                       "order":  4,
+                       "frozen_content":  "浴室照片中刷子按当前明确规则→清洁工具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R05",
+                       "order":  5,
+                       "frozen_content":  "超市照片中苹果→水果。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P03-R06",
+                       "order":  6,
+                       "frozen_content":  "野餐照片中苹果仍→水果，记录跨背景稳定。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   }
+               ]
+}

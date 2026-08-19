@@ -1,0 +1,193 @@
+﻿{
+    "schema_version":  "game004-gp-config-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "allocation_rule_version":  "ALLOC-CORE-V1",
+    "tag_schema_version":  "TAG-SCHEMA-V1",
+    "lifecycle_status":  "draft",
+    "game_pack_id":  "GF03-L5-P02",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "title":  "家庭物品整理桥",
+    "l_level":  "L5",
+    "fixed_opportunity_count":  6,
+    "difficulty_profile":  {
+                               "prompt_strength":  "P1",
+                               "low_sensory":  true,
+                               "rule_mode":  "authorized_photo_or_bridge",
+                               "region_count":  3
+                           },
+    "asset_manifest_id":  "",
+    "rights_status":  "unknown",
+    "low_sensory_variant_id":  "LOW-SENSORY-GF03-L5-P02",
+    "rounds":  [
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R01",
+                       "order":  1,
+                       "frozen_content":  "屏幕杯子→餐具区，候选MP整理真实杯子。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R02",
+                       "order":  2,
+                       "frozen_content":  "屏幕积木→玩具区，候选MP收积木。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R03",
+                       "order":  3,
+                       "frozen_content":  "屏幕袜子→衣物区，候选MP分衣物。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R04",
+                       "order":  4,
+                       "frozen_content":  "屏幕勺子→餐具区，候选MP摆餐具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R05",
+                       "order":  5,
+                       "frozen_content":  "屏幕书→阅读区，候选MP收书。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L5-P02-R06",
+                       "order":  6,
+                       "frozen_content":  "系统按家庭材料只发一项LIFE或OBS，不自动记生活完成。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   }
+               ]
+}

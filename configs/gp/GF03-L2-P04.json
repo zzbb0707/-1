@@ -1,0 +1,193 @@
+﻿{
+    "schema_version":  "game004-gp-config-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "allocation_rule_version":  "ALLOC-CORE-V1",
+    "tag_schema_version":  "TAG-SCHEMA-V1",
+    "lifecycle_status":  "draft",
+    "game_pack_id":  "GF03-L2-P04",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "title":  "单规则分类校准",
+    "l_level":  "L2",
+    "fixed_opportunity_count":  6,
+    "difficulty_profile":  {
+                               "prompt_strength":  "P2",
+                               "low_sensory":  true,
+                               "rule_mode":  "explicit_attribute",
+                               "region_count":  3
+                           },
+    "asset_manifest_id":  "",
+    "rights_status":  "unknown",
+    "low_sensory_variant_id":  "LOW-SENSORY-GF03-L2-P04",
+    "rounds":  [
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R01",
+                       "order":  1,
+                       "frozen_content":  "明确按颜色分红/蓝。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R02",
+                       "order":  2,
+                       "frozen_content":  "明确按大小分大/小。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R03",
+                       "order":  3,
+                       "frozen_content":  "明确按形状分圆/方。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R04",
+                       "order":  4,
+                       "frozen_content":  "明确按功能分工具/餐具。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R05",
+                       "order":  5,
+                       "frozen_content":  "每回合规则卡只显示当前规则，分类新实例。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L2-P04-R06",
+                       "order":  6,
+                       "frozen_content":  "系统重复当前规则后再分类，比较规则类型提示依赖。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   }
+               ]
+}

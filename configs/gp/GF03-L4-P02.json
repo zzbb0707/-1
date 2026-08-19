@@ -1,0 +1,193 @@
+﻿{
+    "schema_version":  "game004-gp-config-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "allocation_rule_version":  "ALLOC-CORE-V1",
+    "tag_schema_version":  "TAG-SCHEMA-V1",
+    "lifecycle_status":  "draft",
+    "game_pack_id":  "GF03-L4-P02",
+    "game_id":  "GAME-004",
+    "game_family_id":  "GF-03",
+    "primary_training_unit_id":  "TU-011",
+    "title":  "从范例发现规则",
+    "l_level":  "L4",
+    "fixed_opportunity_count":  6,
+    "difficulty_profile":  {
+                               "prompt_strength":  "P1",
+                               "low_sensory":  true,
+                               "rule_mode":  "example_inference",
+                               "region_count":  4
+                           },
+    "asset_manifest_id":  "",
+    "rights_status":  "unknown",
+    "low_sensory_variant_id":  "LOW-SENSORY-GF03-L4-P02",
+    "rounds":  [
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R01",
+                       "order":  1,
+                       "frozen_content":  "范例红圆/红方在一区，推断按颜色，红三角→该区。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R02",
+                       "order":  2,
+                       "frozen_content":  "范例蓝圆/蓝方在二区，蓝星→该区。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R03",
+                       "order":  3,
+                       "frozen_content":  "新盘范例大圆/大方同区，大三角→大区。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R04",
+                       "order":  4,
+                       "frozen_content":  "范例锤/扳手同区，螺丝刀→工具区。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R05",
+                       "order":  5,
+                       "frozen_content":  "范例鱼/鲸同区，海龟→水生区。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   },
+                   {
+                       "opportunity_id":  "GF03-L4-P02-R06",
+                       "order":  6,
+                       "frozen_content":  "两个范例组同时呈现，分类新对象并说明只记录选择不要求口语解释。",
+                       "implementation_status":  "content_semantics_pending",
+                       "target_asset_id":  "",
+                       "distractor_asset_ids":  [
+
+                                                ],
+                       "correct_region_id":  "",
+                       "rule_id":  "",
+                       "rule_label":  "",
+                       "examples":  [
+
+                                    ],
+                       "natural_outcome_id":  "",
+                       "data_fields":  [
+                                           "first_selection",
+                                           "final_selection",
+                                           "independent",
+                                           "highest_prompt",
+                                           "reaction_time_ms",
+                                           "error_type",
+                                           "retry_count",
+                                           "invalid_drag_count",
+                                           "stress_signal"
+                                       ]
+                   }
+               ]
+}
