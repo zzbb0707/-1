@@ -1,7 +1,9 @@
 class_name AppBridge
 extends RefCounted
 
-const SCHEMA_VERSION := "game-bridge-v0"
+const SCHEMA_VERSION := "game-bridge-v1"
+const REQUIRED_CONTEXT_FIELDS := ["task_id", "game_config_id", "task_session_id", "content_version", "ruleset_version"]
+const REQUIRED_EVENT_TYPES := ["game_start", "opportunity_presented", "first_response", "attempt", "success", "error", "hint_shown", "game_quit", "game_result", "game_complete", "safe_exit"]
 
 var context: Dictionary = {}
 var events: Array[Dictionary] = []
@@ -18,6 +20,8 @@ func load_context(default_context: Dictionary) -> Dictionary:
     return context
 
 func emit_event(event_type: String, payload: Dictionary) -> Dictionary:
+    if not REQUIRED_EVENT_TYPES.has(event_type):
+        push_warning("Unknown GAME-004 bridge event: " + event_type)
     var event := {
         "event_id": "%s-%d" % [event_type, Time.get_ticks_usec()],
         "event_type": event_type,
@@ -28,6 +32,7 @@ func emit_event(event_type: String, payload: Dictionary) -> Dictionary:
         "game_session_id": game_session_id,
         "content_version": context.get("content_version", "GAME-004-V1"),
         "ruleset_version": context.get("ruleset_version", "ALLOC-CORE-V1"),
+        "schema_version": SCHEMA_VERSION,
         "payload": payload
     }
     events.append(event)
@@ -40,6 +45,7 @@ func emit_event(event_type: String, payload: Dictionary) -> Dictionary:
 
 func build_result(session_status: String, summary: Dictionary) -> Dictionary:
     var result := summary.duplicate(true)
+    result["schema_version"] = SCHEMA_VERSION
     result["event_type"] = "game_result"
     result["session_status"] = session_status
     result["task_id"] = context.get("task_id", "GAME-004")

@@ -81,7 +81,14 @@ func _load_game_config() -> void:
     for raw_region in game_config.get("regions", []):
         var normalized: Array = raw_region.get("rect", [0.1, 0.4, 0.3, 0.3])
         var rect := Rect2(STAGE.position + Vector2(float(normalized[0]) * STAGE.size.x, float(normalized[1]) * STAGE.size.y), Vector2(float(normalized[2]) * STAGE.size.x, float(normalized[3]) * STAGE.size.y))
-        regions[str(raw_region.name)] = {"rect": rect, "kind": raw_region.get("kind", "unknown"), "color": Color(str(raw_region.get("color", "#4f7f78")))}
+        var kind := str(raw_region.get("kind", "unknown"))
+        var region_asset := ""
+        if kind == "water": region_asset = ASSET_ROOT + "GAME004_asset_region_water_v001.png"
+        elif kind == "forest": region_asset = ASSET_ROOT + "GAME004_asset_region_forest_v001.png"
+        elif kind == "sun": region_asset = ASSET_ROOT + "GAME004_asset_region_sun_v001.png"
+        elif kind == "tool": region_asset = ASSET_ROOT + "GAME004_asset_region_tool_v001.png"
+        var region_texture: Texture2D = load(region_asset) if region_asset != "" and ResourceLoader.exists(region_asset) else null
+        regions[str(raw_region.name)] = {"rect": rect, "kind": kind, "color": Color(str(raw_region.get("color", "#4f7f78"))), "texture": region_texture}
     var image_path := str(game_config.get("background", ""))
     if ResourceLoader.exists(image_path): background = load(image_path)
     current_object_texture = null
@@ -264,6 +271,10 @@ func _draw_region(name: String, data: Dictionary) -> void:
     var fill: Color = data.color
     fill.a = 0.16 if bool(launch_context.get("low_sensory", false)) else 0.24
     draw_style_box(_box(fill, 22, Color(0.95, 1.0, 0.92, 0.85)), rect)
+    var texture: Texture2D = data.get("texture")
+    if texture and not bool(launch_context.get("low_sensory", false)):
+        var image_rect := rect.grow(-12)
+        draw_texture_rect(texture, image_rect, false, Color(1, 1, 1, 0.76))
     draw_string(ThemeDB.fallback_font, rect.position + Vector2(0, rect.size.y - 16), name, HORIZONTAL_ALIGNMENT_CENTER, rect.size.x, 22, Color("#ffffff"))
 
 func _draw_object(pos: Vector2, label: String, color: Color) -> void:

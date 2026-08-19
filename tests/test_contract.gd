@@ -46,10 +46,10 @@ func _test_bridge(failures: Array[String]) -> void:
     var context: Dictionary = bridge.load_context({"task_id": "GAME-004", "game_config_id": "TEST-CONFIG", "task_session_id": "TEST-SESSION"})
     if context.get("task_id") != "GAME-004":
         failures.append("bridge context merge failed")
-    var event: Dictionary = bridge.emit_event("contract_test", {"value": 1})
-    for key in ["event_id", "event_type", "occurred_at", "task_id", "game_config_id", "task_session_id", "game_session_id", "payload"]:
+    var event: Dictionary = bridge.emit_event("game_start", {"value": 1})
+    for key in ["event_id", "event_type", "occurred_at", "task_id", "game_config_id", "task_session_id", "game_session_id", "schema_version", "payload"]:
         if not event.has(key):
             failures.append("bridge event missing key: " + key)
     var result: Dictionary = bridge.build_result("completed", {"attempt_count": 3})
-    if result.get("session_status") != "completed" or result.get("attempt_count") != 3:
+    if result.get("session_status") != "completed" or result.get("attempt_count") != 3 or result.get("schema_version") != "game-bridge-v1":
         failures.append("bridge result mapping failed")
