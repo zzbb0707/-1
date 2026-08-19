@@ -1,0 +1,243 @@
+﻿{
+    "schema_version":  "game004-asset-manifest-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "source":  "GAME004_L1_objects_contact_sheet_candidate_v001.png",
+    "status":  "processed_candidate",
+    "rights_status":  "unknown",
+    "items":  [
+                  {
+                      "asset_id":  "AS-GAME004-L1-RED-CIRCLE-SEED",
+                      "file":  "red_circle_seed_v001.png",
+                      "source_box":  [
+                                         24,
+                                         130,
+                                         170,
+                                         305
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-BLUE-SQUARE-CRYSTAL",
+                      "file":  "blue_square_crystal_v001.png",
+                      "source_box":  [
+                                         182,
+                                         125,
+                                         360,
+                                         310
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-YELLOW-STAR-LEAF",
+                      "file":  "yellow_star_leaf_v001.png",
+                      "source_box":  [
+                                         350,
+                                         120,
+                                         535,
+                                         310
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-GREEN-TRIANGLE-STONE",
+                      "file":  "green_triangle_stone_v001.png",
+                      "source_box":  [
+                                         530,
+                                         135,
+                                         690,
+                                         310
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-WHITE-ROUND-DROP",
+                      "file":  "white_round_drop_v001.png",
+                      "source_box":  [
+                                         690,
+                                         150,
+                                         845,
+                                         310
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-PURPLE-SQUARE-TOOL",
+                      "file":  "purple_square_tool_v001.png",
+                      "source_box":  [
+                                         845,
+                                         135,
+                                         1018,
+                                         320
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-FISH",
+                      "file":  "fish_v001.png",
+                      "source_box":  [
+                                         8,
+                                         395,
+                                         185,
+                                         590
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-BIRD",
+                      "file":  "bird_v001.png",
+                      "source_box":  [
+                                         195,
+                                         395,
+                                         370,
+                                         590
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-FLOWER",
+                      "file":  "flower_v001.png",
+                      "source_box":  [
+                                         370,
+                                         395,
+                                         540,
+                                         590
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-HAMMER",
+                      "file":  "hammer_v001.png",
+                      "source_box":  [
+                                         530,
+                                         380,
+                                         730,
+                                         610
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-APPLE",
+                      "file":  "apple_v001.png",
+                      "source_box":  [
+                                         680,
+                                         395,
+                                         840,
+                                         590
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-TOY-CAR",
+                      "file":  "toy_car_v001.png",
+                      "source_box":  [
+                                         835,
+                                         390,
+                                         1020,
+                                         610
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-CUP",
+                      "file":  "cup_v001.png",
+                      "source_box":  [
+                                         12,
+                                         675,
+                                         195,
+                                         860
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-SHOE",
+                      "file":  "shoe_v001.png",
+                      "source_box":  [
+                                         185,
+                                         675,
+                                         370,
+                                         860
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-LARGE-STONE",
+                      "file":  "large_stone_v001.png",
+                      "source_box":  [
+                                         350,
+                                         650,
+                                         550,
+                                         870
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-SMALL-STONE",
+                      "file":  "small_stone_v001.png",
+                      "source_box":  [
+                                         545,
+                                         720,
+                                         670,
+                                         860
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-ROUND-ICON",
+                      "file":  "round_icon_v001.png",
+                      "source_box":  [
+                                         680,
+                                         675,
+                                         840,
+                                         860
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  },
+                  {
+                      "asset_id":  "AS-GAME004-L1-SQUARE-ICON",
+                      "file":  "square_icon_v001.png",
+                      "source_box":  [
+                                         850,
+                                         675,
+                                         1018,
+                                         875
+                                     ],
+                      "status":  "processed_candidate",
+                      "rights_status":  "unknown",
+                      "alpha_cleanup":  "near-black-to-transparent"
+                  }
+              ]
+}

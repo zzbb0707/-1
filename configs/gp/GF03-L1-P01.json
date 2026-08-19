@@ -25,7 +25,7 @@
                        "opportunity_id":  "GF03-L1-P01-R01",
                        "order":  1,
                        "frozen_content":  "红圆种子配同图红圆区，发芽。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-RED_CIRCLE_SEED",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -56,13 +56,14 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "发芽",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R02",
                        "order":  2,
                        "frozen_content":  "蓝方晶体配同图蓝方区，灯亮。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-BLUE_SQUARE_CRYSTAL",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -93,13 +94,14 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "灯亮",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/blue_square_crystal_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R03",
                        "order":  3,
                        "frozen_content":  "黄星叶配同图黄星区，叶片展开。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-YELLOW_STAR_LEAF",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -130,13 +132,14 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "叶片展开",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/yellow_star_leaf_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R04",
                        "order":  4,
                        "frozen_content":  "绿三角石配同图绿三角区，岩地稳定。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-GREEN_TRIANGLE_STONE",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -167,13 +170,14 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "岩地稳定",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/green_triangle_stone_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R05",
                        "order":  5,
                        "frozen_content":  "白圆水滴配同图水滴区，水流出现。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-WHITE_ROUND_DROP",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -204,13 +208,14 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "水流出现",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R06",
                        "order":  6,
                        "frozen_content":  "紫方工具配同图工具区，工作台启动。",
-                       "target_asset_id":  "",
+                       "target_asset_id":  "AS-GAME004-L1-PURPLE_SQUARE_TOOL",
                        "distractor_asset_ids":  [
 
                                                 ],
@@ -241,7 +246,8 @@
                        "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
                        "natural_outcome_label":  "工作台启动",
                        "natural_outcome_id":  "OUT-GF03-L1-P01-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/processed/objects_v001/purple_square_tool_v001.png"
                    }
                ]
 }
