@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L3-P04-R01",
                        "order":  1,
                        "frozen_content":  "新画风水果按功能类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "新画风水果",
+                       "correct_region_label":  "水果区",
+                       "correct_region_id":  "REG-GF03-L3-P04-R01",
+                       "rule_id":  "RULE-FUNCTION-NEW-STYLE",
+                       "rule_label":  "新画风实例按功能类分类",
+                       "region_set":  [
+                                          "水果区",
+                                          "非水果功能区"
+                                      ],
+                       "semantic_feature":  "水果功能类；画风无关",
+                       "distractor_guidance":  "非水果功能类作为干扰",
+                       "natural_outcome_label":  "水果区生态响应",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R02",
                        "order":  2,
                        "frozen_content":  "新角度工具按功能类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "新角度工具",
+                       "correct_region_label":  "工具区",
+                       "correct_region_id":  "REG-GF03-L3-P04-R02",
+                       "rule_id":  "RULE-FUNCTION-NEW-ANGLE",
+                       "rule_label":  "新角度实例按功能类分类",
+                       "region_set":  [
+                                          "工具区",
+                                          "非工具功能区"
+                                      ],
+                       "semantic_feature":  "工具功能类；角度无关",
+                       "distractor_guidance":  "非工具功能类作为干扰",
+                       "natural_outcome_label":  "工具区启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R03",
                        "order":  3,
                        "frozen_content":  "颜色变化对象按形状。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "颜色变化对象",
+                       "correct_region_label":  "对应形状区域",
+                       "correct_region_id":  "REG-GF03-L3-P04-R03",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "形状；颜色无关",
+                       "distractor_guidance":  "颜色变化作为无关干扰",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R04",
                        "order":  4,
                        "frozen_content":  "形状变化对象按大小。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "形状变化对象",
+                       "correct_region_label":  "对应大小区域",
+                       "correct_region_id":  "REG-GF03-L3-P04-R04",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大小；形状无关",
+                       "distractor_guidance":  "形状变化作为无关干扰",
+                       "natural_outcome_label":  "对应大小区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R05",
                        "order":  5,
                        "frozen_content":  "明确信号后从颜色切到功能。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前功能目标",
+                       "correct_region_label":  "对应功能区域",
+                       "correct_region_id":  "REG-GF03-L3-P04-R05",
+                       "rule_id":  "RULE-SWITCH-COLOR-TO-FUNCTION",
+                       "rule_label":  "从颜色切换到功能规则",
+                       "region_set":  [
+                                          "当前正确功能区",
+                                          "当前备选功能区"
+                                      ],
+                       "semantic_feature":  "功能；颜色无关",
+                       "distractor_guidance":  "颜色是旧规则线索，必须忽略",
+                       "natural_outcome_label":  "对应功能区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R06",
                        "order":  6,
                        "frozen_content":  "完成一次大类→小类两步分类，记录迁移与切换。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,22 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前层级目标",
+                       "correct_region_label":  "大类→小类",
+                       "correct_region_id":  "REG-GF03-L3-P04-R06",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "大类到小类两步分类",
+                       "region_set":  [
+                                          "当前大类",
+                                          "大类干扰",
+                                          "当前小类"
+                                      ],
+                       "semantic_feature":  "两级类别",
+                       "distractor_guidance":  "大类和小类阶段分别设置同层级干扰",
+                       "natural_outcome_label":  "类别层级依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P04-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L2-P03-R01",
                        "order":  1,
                        "frozen_content":  "锤子→敲击工具区，刷子→清洁区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "锤子；刷子",
+                       "correct_region_label":  "敲击工具区；清洁区",
+                       "correct_region_id":  "REG-GF03-L2-P03-R01",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "敲击工具区",
+                                          "清洁区"
+                                      ],
+                       "semantic_feature":  "敲击/清洁",
+                       "distractor_guidance":  "两类工具互为功能干扰",
+                       "natural_outcome_label":  "对应工作区启动",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R02",
                        "order":  2,
                        "frozen_content":  "木槌→敲击区，抹布→清洁区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "木槌；抹布",
+                       "correct_region_label":  "敲击区；清洁区",
+                       "correct_region_id":  "REG-GF03-L2-P03-R02",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "敲击区",
+                                          "清洁区"
+                                      ],
+                       "semantic_feature":  "敲击/清洁",
+                       "distractor_guidance":  "新实例但保持功能边界",
+                       "natural_outcome_label":  "对应工作区启动",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R03",
                        "order":  3,
                        "frozen_content":  "扳手→维修区，勺子→餐具区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "扳手；勺子",
+                       "correct_region_label":  "维修区；餐具区",
+                       "correct_region_id":  "REG-GF03-L2-P03-R03",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "维修区",
+                                          "餐具区"
+                                      ],
+                       "semantic_feature":  "维修/餐具",
+                       "distractor_guidance":  "两类用品互为功能干扰",
+                       "natural_outcome_label":  "对应区域完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R04",
                        "order":  4,
                        "frozen_content":  "螺丝刀→维修区，杯子→餐具区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "螺丝刀；杯子",
+                       "correct_region_label":  "维修区；餐具区",
+                       "correct_region_id":  "REG-GF03-L2-P03-R04",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "维修区",
+                                          "餐具区"
+                                      ],
+                       "semantic_feature":  "维修/餐具",
+                       "distractor_guidance":  "新实例但保持功能边界",
+                       "natural_outcome_label":  "对应区域完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R05",
                        "order":  5,
                        "frozen_content":  "新外观刷子→清洁区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "新外观刷子",
+                       "correct_region_label":  "清洁区",
+                       "correct_region_id":  "REG-GF03-L2-P03-R05",
+                       "rule_id":  "RULE-FUNCTION-NEW-INSTANCE",
+                       "rule_label":  "新外观功能分类",
+                       "region_set":  [
+                                          "敲击区",
+                                          "清洁区",
+                                          "维修区"
+                                      ],
+                       "semantic_feature":  "清洁功能；外观无关",
+                       "distractor_guidance":  "其他开放功能区作为干扰",
+                       "natural_outcome_label":  "清洁区启动",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P03-R06",
                        "order":  6,
                        "frozen_content":  "四类中当前开放三类，连续分类三件，工作台恢复。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +228,22 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "连续三件当前功能对象",
+                       "correct_region_label":  "各自功能区域",
+                       "correct_region_id":  "REG-GF03-L2-P03-R06",
+                       "rule_id":  "RULE-FUNCTION-THREE-OF-FOUR",
+                       "rule_label":  "四类中开放三类的连续功能分类",
+                       "region_set":  [
+                                          "敲击区",
+                                          "清洁区",
+                                          "维修区"
+                                      ],
+                       "semantic_feature":  "当前开放的三类功能",
+                       "distractor_guidance":  "仅呈现三类；不得加入第五类含义",
+                       "natural_outcome_label":  "工作台恢复",
+                       "natural_outcome_id":  "OUT-GF03-L2-P03-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

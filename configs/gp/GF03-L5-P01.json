@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L5-P01-R01",
                        "order":  1,
                        "frozen_content":  "授权苹果照片→水果。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "授权苹果照片",
+                       "correct_region_label":  "水果区",
+                       "correct_region_id":  "REG-GF03-L5-P01-R01",
+                       "rule_id":  "RULE-PHOTO-FUNCTION",
+                       "rule_label":  "授权真实照片概念分类",
+                       "region_set":  [
+                                          "水果区",
+                                          "非水果区"
+                                      ],
+                       "semantic_feature":  "水果；照片呈现",
+                       "distractor_guidance":  "使用已授权非水果照片作干扰",
+                       "natural_outcome_label":  "水果区生态响应",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R02",
                        "order":  2,
                        "frozen_content":  "授权杯子照片→餐具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "授权杯子照片",
+                       "correct_region_label":  "餐具区",
+                       "correct_region_id":  "REG-GF03-L5-P01-R02",
+                       "rule_id":  "RULE-PHOTO-FUNCTION",
+                       "rule_label":  "授权真实照片概念分类",
+                       "region_set":  [
+                                          "餐具区",
+                                          "非餐具区"
+                                      ],
+                       "semantic_feature":  "餐具；照片呈现",
+                       "distractor_guidance":  "使用已授权非餐具照片作干扰",
+                       "natural_outcome_label":  "餐具区完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R03",
                        "order":  3,
                        "frozen_content":  "不同背景锤子照片→工具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "不同背景锤子照片",
+                       "correct_region_label":  "工具区",
+                       "correct_region_id":  "REG-GF03-L5-P01-R03",
+                       "rule_id":  "RULE-PHOTO-FUNCTION",
+                       "rule_label":  "跨背景真实照片功能分类",
+                       "region_set":  [
+                                          "工具区",
+                                          "非工具区"
+                                      ],
+                       "semantic_feature":  "工具；背景无关",
+                       "distractor_guidance":  "背景不得预测类别",
+                       "natural_outcome_label":  "工具区启动",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R04",
                        "order":  4,
                        "frozen_content":  "不同角度鞋照片→穿戴。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "不同角度鞋照片",
+                       "correct_region_label":  "穿戴区",
+                       "correct_region_id":  "REG-GF03-L5-P01-R04",
+                       "rule_id":  "RULE-PHOTO-FUNCTION",
+                       "rule_label":  "跨角度真实照片功能分类",
+                       "region_set":  [
+                                          "穿戴区",
+                                          "非穿戴区"
+                                      ],
+                       "semantic_feature":  "穿戴；角度无关",
+                       "distractor_guidance":  "角度变化不得改变类别",
+                       "natural_outcome_label":  "穿戴区完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R05",
                        "order":  5,
                        "frozen_content":  "家庭真实大/小盒照片按大小。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "家庭真实大盒照片；家庭真实小盒照片",
+                       "correct_region_label":  "大区；小区",
+                       "correct_region_id":  "REG-GF03-L5-P01-R05",
+                       "rule_id":  "RULE-PHOTO-SIZE",
+                       "rule_label":  "真实照片按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大/小；照片呈现",
+                       "distractor_guidance":  "背景、颜色和材质不得替代大小规则",
+                       "natural_outcome_label":  "大小区域完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R06",
                        "order":  6,
                        "frozen_content":  "三张真实场景物品照片按当前功能规则分类；仍只算屏幕照片证据。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "三张真实场景物品照片",
+                       "correct_region_label":  "各自当前功能区域",
+                       "correct_region_id":  "REG-GF03-L5-P01-R06",
+                       "rule_id":  "RULE-PHOTO-FUNCTION-MULTI",
+                       "rule_label":  "真实场景照片按当前功能规则分类",
+                       "region_set":  [
+                                          "当前正确功能区",
+                                          "功能干扰区"
+                                      ],
+                       "semantic_feature":  "功能；真实场景照片",
+                       "distractor_guidance":  "背景和摄影条件为无关特征；仅计屏幕证据",
+                       "natural_outcome_label":  "对应功能区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L5-P01-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

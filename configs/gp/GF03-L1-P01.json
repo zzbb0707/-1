@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L1-P01-R01",
                        "order":  1,
                        "frozen_content":  "红圆种子配同图红圆区，发芽。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红圆种子",
+                       "correct_region_label":  "同图红圆区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R01",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图红圆区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "红色、圆形、种子图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "发芽",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R02",
                        "order":  2,
                        "frozen_content":  "蓝方晶体配同图蓝方区，灯亮。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝方晶体",
+                       "correct_region_label":  "同图蓝方区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R02",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图蓝方区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "蓝色、方形、晶体图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "灯亮",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R03",
                        "order":  3,
                        "frozen_content":  "黄星叶配同图黄星区，叶片展开。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "黄星叶",
+                       "correct_region_label":  "同图黄星区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R03",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图黄星区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "黄色、星形、叶图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "叶片展开",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R04",
                        "order":  4,
                        "frozen_content":  "绿三角石配同图绿三角区，岩地稳定。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "绿三角石",
+                       "correct_region_label":  "同图绿三角区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R04",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图绿三角区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "绿色、三角形、石图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "岩地稳定",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R05",
                        "order":  5,
                        "frozen_content":  "白圆水滴配同图水滴区，水流出现。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "白圆水滴",
+                       "correct_region_label":  "同图水滴区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R05",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图水滴区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "白色、圆形、水滴图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "水流出现",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R06",
                        "order":  6,
                        "frozen_content":  "紫方工具配同图工具区，工作台启动。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "紫方工具",
+                       "correct_region_label":  "同图工具区",
+                       "correct_region_id":  "REG-GF03-L1-P01-R06",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图工具区",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "紫色、方形、工具图完全一致",
+                       "distractor_guidance":  "非同图对象或区域；保持高视觉差异",
+                       "natural_outcome_label":  "工作台启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P01-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

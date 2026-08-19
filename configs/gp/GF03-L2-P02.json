@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L2-P02-R01",
                        "order":  1,
                        "frozen_content":  "大圆石→大区，小圆石→小区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大圆石；小圆石",
+                       "correct_region_label":  "大区；小区",
+                       "correct_region_id":  "REG-GF03-L2-P02-R01",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大/小",
+                       "distractor_guidance":  "形状相同，大小为唯一规则",
+                       "natural_outcome_label":  "空间按大小稳定",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P02-R02",
                        "order":  2,
                        "frozen_content":  "大方箱→大区，小方箱→小区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大方箱；小方箱",
+                       "correct_region_label":  "大区；小区",
+                       "correct_region_id":  "REG-GF03-L2-P02-R02",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大/小",
+                       "distractor_guidance":  "形状变化但不改变大小规则",
+                       "natural_outcome_label":  "空间按大小稳定",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P02-R03",
                        "order":  3,
                        "frozen_content":  "颜色变化但按大小分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "颜色变化对象",
+                       "correct_region_label":  "对应大小区域",
+                       "correct_region_id":  "REG-GF03-L2-P02-R03",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大小；颜色无关",
+                       "distractor_guidance":  "颜色作为无关特征干扰",
+                       "natural_outcome_label":  "空间按大小稳定",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P02-R04",
                        "order":  4,
                        "frozen_content":  "材质变化但按大小分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "材质变化对象",
+                       "correct_region_label":  "对应大小区域",
+                       "correct_region_id":  "REG-GF03-L2-P02-R04",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大小；材质无关",
+                       "distractor_guidance":  "材质作为无关特征干扰",
+                       "natural_outcome_label":  "空间按大小稳定",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P02-R05",
                        "order":  5,
                        "frozen_content":  "加入中等区，中号种子→中区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "中号种子",
+                       "correct_region_label":  "中区",
+                       "correct_region_id":  "REG-GF03-L2-P02-R05",
+                       "rule_id":  "RULE-SIZE-THREE",
+                       "rule_label":  "大中小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "中区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "中等大小",
+                       "distractor_guidance":  "大、小区域为同规则干扰",
+                       "natural_outcome_label":  "中区完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P02-R06",
                        "order":  6,
                        "frozen_content":  "大中小各一件，区域位置交换后完成。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +228,22 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大件；中件；小件",
+                       "correct_region_label":  "大区；中区；小区",
+                       "correct_region_id":  "REG-GF03-L2-P02-R06",
+                       "rule_id":  "RULE-SIZE-POSITION-SWAP",
+                       "rule_label":  "位置交换后的大中小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "中区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大/中/小；位置无关",
+                       "distractor_guidance":  "交换三区位置，禁止位置记忆",
+                       "natural_outcome_label":  "空间按大小完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L2-P02-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

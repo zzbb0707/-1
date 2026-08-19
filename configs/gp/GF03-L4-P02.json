@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L4-P02-R01",
                        "order":  1,
                        "frozen_content":  "范例红圆/红方在一区，推断按颜色，红三角→该区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红三角",
+                       "correct_region_label":  "红色范例区",
+                       "correct_region_id":  "REG-GF03-L4-P02-R01",
+                       "rule_id":  "RULE-INFER-COLOR",
+                       "rule_label":  "从范例推断颜色规则",
+                       "region_set":  [
+                                          "红色范例区",
+                                          "非红色范例区"
+                                      ],
+                       "semantic_feature":  "红色；形状无关",
+                       "distractor_guidance":  "圆/方/三角变化用于排除形状规则",
+                       "natural_outcome_label":  "红色范例区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R02",
                        "order":  2,
                        "frozen_content":  "范例蓝圆/蓝方在二区，蓝星→该区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝星",
+                       "correct_region_label":  "蓝色范例区",
+                       "correct_region_id":  "REG-GF03-L4-P02-R02",
+                       "rule_id":  "RULE-INFER-COLOR",
+                       "rule_label":  "从范例推断颜色规则",
+                       "region_set":  [
+                                          "红色范例区",
+                                          "蓝色范例区"
+                                      ],
+                       "semantic_feature":  "蓝色；形状无关",
+                       "distractor_guidance":  "星形为新形状，避免图形匹配",
+                       "natural_outcome_label":  "蓝色范例区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R03",
                        "order":  3,
                        "frozen_content":  "新盘范例大圆/大方同区，大三角→大区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大三角",
+                       "correct_region_label":  "大区",
+                       "correct_region_id":  "REG-GF03-L4-P02-R03",
+                       "rule_id":  "RULE-INFER-SIZE",
+                       "rule_label":  "从范例推断大小规则",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大；形状无关",
+                       "distractor_guidance":  "圆/方/三角变化用于排除形状规则",
+                       "natural_outcome_label":  "大区完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R04",
                        "order":  4,
                        "frozen_content":  "范例锤/扳手同区，螺丝刀→工具区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "螺丝刀",
+                       "correct_region_label":  "工具区",
+                       "correct_region_id":  "REG-GF03-L4-P02-R04",
+                       "rule_id":  "RULE-INFER-FUNCTION",
+                       "rule_label":  "从范例推断功能规则",
+                       "region_set":  [
+                                          "工具区",
+                                          "非工具区"
+                                      ],
+                       "semantic_feature":  "工具功能",
+                       "distractor_guidance":  "外形差异明显的工具实例",
+                       "natural_outcome_label":  "工具区启动",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R05",
                        "order":  5,
                        "frozen_content":  "范例鱼/鲸同区，海龟→水生区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "海龟",
+                       "correct_region_label":  "水生区",
+                       "correct_region_id":  "REG-GF03-L4-P02-R05",
+                       "rule_id":  "RULE-INFER-HABITAT",
+                       "rule_label":  "从范例推断水生类别",
+                       "region_set":  [
+                                          "水生区",
+                                          "非水生区"
+                                      ],
+                       "semantic_feature":  "水生生境",
+                       "distractor_guidance":  "近边界海龟与非水生实例形成概念干扰",
+                       "natural_outcome_label":  "水流恢复",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R06",
                        "order":  6,
                        "frozen_content":  "两个范例组同时呈现，分类新对象并说明只记录选择不要求口语解释。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "新对象",
+                       "correct_region_label":  "匹配的范例组区域",
+                       "correct_region_id":  "REG-GF03-L4-P02-R06",
+                       "rule_id":  "RULE-INFER-TWO-GROUPS",
+                       "rule_label":  "从两个范例组推断并分类",
+                       "region_set":  [
+                                          "范例组一区",
+                                          "范例组二区"
+                                      ],
+                       "semantic_feature":  "范例所示当前概念",
+                       "distractor_guidance":  "两组必须在当前规则上可区分；不要求口语解释",
+                       "natural_outcome_label":  "匹配区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L4-P02-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

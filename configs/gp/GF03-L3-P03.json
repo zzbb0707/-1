@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L3-P03-R01",
                        "order":  1,
                        "frozen_content":  "苹果先→食物，再→水果。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "苹果",
+                       "correct_region_label":  "食物→水果",
+                       "correct_region_id":  "REG-GF03-L3-P03-R01",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "食物",
+                                          "用品",
+                                          "水果"
+                                      ],
+                       "semantic_feature":  "食物\u003e水果",
+                       "distractor_guidance":  "用品为大类干扰；食物内非水果为小类干扰",
+                       "natural_outcome_label":  "食物层与水果层依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R02",
                        "order":  2,
                        "frozen_content":  "面包先→食物，再→主食。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +80,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "面包",
+                       "correct_region_label":  "食物→主食",
+                       "correct_region_id":  "REG-GF03-L3-P03-R02",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "食物",
+                                          "用品",
+                                          "主食"
+                                      ],
+                       "semantic_feature":  "食物\u003e主食",
+                       "distractor_guidance":  "用品为大类干扰；食物内非主食为小类干扰",
+                       "natural_outcome_label":  "食物层与主食层依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R03",
                        "order":  3,
                        "frozen_content":  "杯子先→用品，再→餐具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +118,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "杯子",
+                       "correct_region_label":  "用品→餐具",
+                       "correct_region_id":  "REG-GF03-L3-P03-R03",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "用品",
+                                          "食物",
+                                          "餐具"
+                                      ],
+                       "semantic_feature":  "用品\u003e餐具",
+                       "distractor_guidance":  "食物为大类干扰；用品内非餐具为小类干扰",
+                       "natural_outcome_label":  "用品层与餐具层依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R04",
                        "order":  4,
                        "frozen_content":  "锤子先→用品，再→工具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +156,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "锤子",
+                       "correct_region_label":  "用品→工具",
+                       "correct_region_id":  "REG-GF03-L3-P03-R04",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "用品",
+                                          "食物",
+                                          "工具"
+                                      ],
+                       "semantic_feature":  "用品\u003e工具",
+                       "distractor_guidance":  "食物为大类干扰；用品内非工具为小类干扰",
+                       "natural_outcome_label":  "用品层与工具层依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R05",
                        "order":  5,
                        "frozen_content":  "鱼先→动物，再→水生。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +194,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "鱼",
+                       "correct_region_label":  "动物→水生",
+                       "correct_region_id":  "REG-GF03-L3-P03-R05",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "动物",
+                                          "植物",
+                                          "水生"
+                                      ],
+                       "semantic_feature":  "动物\u003e水生",
+                       "distractor_guidance":  "植物为大类干扰；动物内非水生为小类干扰",
+                       "natural_outcome_label":  "动物层与水生层依次展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R06",
                        "order":  6,
                        "frozen_content":  "鸟先→动物，再→飞行；生态层级展开。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +232,22 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "鸟",
+                       "correct_region_label":  "动物→飞行",
+                       "correct_region_id":  "REG-GF03-L3-P03-R06",
+                       "rule_id":  "RULE-HIERARCHY",
+                       "rule_label":  "先大类再小类",
+                       "region_set":  [
+                                          "动物",
+                                          "植物",
+                                          "飞行"
+                                      ],
+                       "semantic_feature":  "动物\u003e飞行",
+                       "distractor_guidance":  "植物为大类干扰；动物内非飞行为小类干扰",
+                       "natural_outcome_label":  "生态层级展开",
+                       "natural_outcome_id":  "OUT-GF03-L3-P03-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

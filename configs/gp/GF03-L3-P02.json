@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L3-P02-R01",
                        "order":  1,
                        "frozen_content":  "前两件按颜色，红圆→红区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红圆",
+                       "correct_region_label":  "红区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R01",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区"
+                                      ],
+                       "semantic_feature":  "红色；形状无关",
+                       "distractor_guidance":  "方/圆不得覆盖颜色规则",
+                       "natural_outcome_label":  "红区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R02",
                        "order":  2,
                        "frozen_content":  "清晰换规则为形状，红圆→圆区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红圆",
+                       "correct_region_label":  "圆区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R02",
+                       "rule_id":  "RULE-SWITCH-TO-SHAPE",
+                       "rule_label":  "清晰切换为形状规则",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形；颜色无关",
+                       "distractor_guidance":  "红色是上一规则线索，必须忽略",
+                       "natural_outcome_label":  "圆区启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R03",
                        "order":  3,
                        "frozen_content":  "蓝方按形状→方区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝方",
+                       "correct_region_label":  "方区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R03",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "方形；颜色无关",
+                       "distractor_guidance":  "蓝色不得触发上一颜色规则",
+                       "natural_outcome_label":  "方区启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R04",
                        "order":  4,
                        "frozen_content":  "清晰换规则为大小，大方→大区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大方",
+                       "correct_region_label":  "大区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R04",
+                       "rule_id":  "RULE-SWITCH-TO-SIZE",
+                       "rule_label":  "清晰切换为大小规则",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大；形状无关",
+                       "distractor_guidance":  "方形是上一规则线索，必须忽略",
+                       "natural_outcome_label":  "大区完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R05",
                        "order":  5,
                        "frozen_content":  "小圆按大小→小区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "小圆",
+                       "correct_region_label":  "小区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R05",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "小；形状无关",
+                       "distractor_guidance":  "圆形不得触发旧形状规则",
+                       "natural_outcome_label":  "小区完成安排",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R06",
                        "order":  6,
                        "frozen_content":  "再换回颜色，蓝圆→蓝区；记录切换后首项。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝圆",
+                       "correct_region_label":  "蓝区",
+                       "correct_region_id":  "REG-GF03-L3-P02-R06",
+                       "rule_id":  "RULE-SWITCH-TO-COLOR",
+                       "rule_label":  "切换回颜色规则",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区"
+                                      ],
+                       "semantic_feature":  "蓝色；形状无关",
+                       "distractor_guidance":  "圆形不得触发旧形状规则",
+                       "natural_outcome_label":  "蓝区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L3-P02-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

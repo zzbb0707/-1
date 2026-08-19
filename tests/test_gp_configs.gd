@@ -25,7 +25,7 @@ func _initialize() -> void:
                 if rounds.size() != 6: failures.append(filename + " must have 6 rounds")
                 total += rounds.size()
                 for round_data in rounds:
-                    for key in ["opportunity_id", "frozen_content", "implementation_status", "data_fields"]:
+                    for key in ["opportunity_id", "frozen_content", "implementation_status", "data_fields", "target_display_name", "correct_region_label", "correct_region_id", "rule_id", "rule_label", "region_set", "semantic_feature", "distractor_guidance", "natural_outcome_label", "natural_outcome_id"]:
                         if not round_data.has(key): failures.append(filename + " round missing " + key)
         filename = dir.get_next()
     dir.list_dir_end()

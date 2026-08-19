@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L1-P03-R01",
                        "order":  1,
                        "frozen_content":  "红圆→圆区，蓝方→方区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红圆；蓝方",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R01",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形/方形",
+                       "distractor_guidance":  "颜色仅伴随目标，不作为规则",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R02",
                        "order":  2,
                        "frozen_content":  "黄方→方区，绿圆→圆区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "黄方；绿圆",
+                       "correct_region_label":  "方区；圆区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R02",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "方形/圆形",
+                       "distractor_guidance":  "忽略黄色与绿色差异",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R03",
                        "order":  3,
                        "frozen_content":  "大圆→圆区，小方→方区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大圆；小方",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R03",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形/方形",
+                       "distractor_guidance":  "忽略大小差异",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R04",
                        "order":  4,
                        "frozen_content":  "花纹方→方区，透明圆→圆区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "花纹方；透明圆",
+                       "correct_region_label":  "方区；圆区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R04",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "方形/圆形",
+                       "distractor_guidance":  "忽略花纹与透明材质",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R05",
                        "order":  5,
                        "frozen_content":  "圆工具标→圆区，方种子标→方区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "圆工具标；方种子标",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R05",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形/方形",
+                       "distractor_guidance":  "忽略工具与种子图标语义",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P03-R06",
                        "order":  6,
                        "frozen_content":  "左右区域交换后圆/方各一次，记录位置依赖。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "圆形对象；方形对象",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L1-P03-R06",
+                       "rule_id":  "RULE-SHAPE-POSITION-SWAP",
+                       "rule_label":  "区域交换后的形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形/方形；位置无关",
+                       "distractor_guidance":  "左右位置交换；不得以固定位置作答",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P03-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

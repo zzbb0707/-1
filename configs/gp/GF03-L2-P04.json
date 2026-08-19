@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L2-P04-R01",
                        "order":  1,
                        "frozen_content":  "明确按颜色分红/蓝。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红色对象；蓝色对象",
+                       "correct_region_label":  "红区；蓝区",
+                       "correct_region_id":  "REG-GF03-L2-P04-R01",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区"
+                                      ],
+                       "semantic_feature":  "红/蓝",
+                       "distractor_guidance":  "非当前属性不得决定答案",
+                       "natural_outcome_label":  "颜色分区响应",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R02",
                        "order":  2,
                        "frozen_content":  "明确按大小分大/小。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "大对象；小对象",
+                       "correct_region_label":  "大区；小区",
+                       "correct_region_id":  "REG-GF03-L2-P04-R02",
+                       "rule_id":  "RULE-SIZE",
+                       "rule_label":  "按大小分类",
+                       "region_set":  [
+                                          "大区",
+                                          "小区"
+                                      ],
+                       "semantic_feature":  "大/小",
+                       "distractor_guidance":  "非当前属性不得决定答案",
+                       "natural_outcome_label":  "大小分区响应",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R03",
                        "order":  3,
                        "frozen_content":  "明确按形状分圆/方。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "圆形对象；方形对象",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L2-P04-R03",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆/方",
+                       "distractor_guidance":  "非当前属性不得决定答案",
+                       "natural_outcome_label":  "形状分区响应",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R04",
                        "order":  4,
                        "frozen_content":  "明确按功能分工具/餐具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "工具；餐具",
+                       "correct_region_label":  "工具区；餐具区",
+                       "correct_region_id":  "REG-GF03-L2-P04-R04",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "工具区",
+                                          "餐具区"
+                                      ],
+                       "semantic_feature":  "工具/餐具功能",
+                       "distractor_guidance":  "非当前属性不得决定答案",
+                       "natural_outcome_label":  "对应功能区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R05",
                        "order":  5,
                        "frozen_content":  "每回合规则卡只显示当前规则，分类新实例。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前规则的新实例",
+                       "correct_region_label":  "当前规则对应区域",
+                       "correct_region_id":  "REG-GF03-L2-P04-R05",
+                       "rule_id":  "RULE-EXPLICIT-CURRENT",
+                       "rule_label":  "按规则卡当前单一规则分类",
+                       "region_set":  [
+                                          "当前正确区域",
+                                          "当前备选区域"
+                                      ],
+                       "semantic_feature":  "规则卡指定属性",
+                       "distractor_guidance":  "只呈现当前规则；其他属性为无关特征",
+                       "natural_outcome_label":  "当前正确区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R06",
                        "order":  6,
                        "frozen_content":  "系统重复当前规则后再分类，比较规则类型提示依赖。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前规则目标实例",
+                       "correct_region_label":  "当前规则对应区域",
+                       "correct_region_id":  "REG-GF03-L2-P04-R06",
+                       "rule_id":  "RULE-EXPLICIT-REPEATED",
+                       "rule_label":  "重复当前规则后的分类",
+                       "region_set":  [
+                                          "当前正确区域",
+                                          "当前备选区域"
+                                      ],
+                       "semantic_feature":  "当前规则指定属性",
+                       "distractor_guidance":  "重复规则而不改变任务意义",
+                       "natural_outcome_label":  "当前正确区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L2-P04-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

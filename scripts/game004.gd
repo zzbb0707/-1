@@ -106,7 +106,20 @@ func _load_game_config() -> void:
     var image_path := str(game_config.get("background", ""))
     if ResourceLoader.exists(image_path): background = load(image_path)
     current_object_texture = null
+    if regions.is_empty() and not rounds.is_empty():
+        _build_pack_regions(rounds[0])
     _load_object_texture()
+
+func _build_pack_regions(data: Dictionary) -> void:
+    var labels: Array = data.get("region_set", [])
+    if labels.is_empty(): labels = [str(data.get("correct_region_label", "区域A")), "其他区域"]
+    var count := mini(labels.size(), 4)
+    var slots := [Rect2(0.08, 0.48, 0.38, 0.25), Rect2(0.54, 0.48, 0.38, 0.25), Rect2(0.08, 0.76, 0.38, 0.18), Rect2(0.54, 0.76, 0.38, 0.18)]
+    for i in count:
+        var normalized: Rect2 = slots[i]
+        var rect := Rect2(STAGE.position + normalized.position * STAGE.size, normalized.size * STAGE.size)
+        var name := str(labels[i])
+        regions[name] = {"rect": rect, "kind": "unknown", "color": Color("#4f7f78"), "texture": null}
 
 func _load_object_texture() -> void:
     if rounds.is_empty() or round_index >= rounds.size(): return
@@ -133,10 +146,13 @@ func _start_round(index: int) -> void:
     drag_object = false
     first_response_ms = -1
     current_round_started_ms = Time.get_ticks_msec()
-    _load_object_texture()
-    message = str(game_config.get("child_prompt", "观察环境，把对象放到合适的区域"))
-    message_tone = Color("#dbeafe")
     var data: Dictionary = rounds[round_index]
+    if not game_pack_id.is_empty():
+        regions.clear()
+        _build_pack_regions(data)
+    _load_object_texture()
+    message = str(game_config.get("child_prompt", "观察规则，把对象放到合适区域"))
+    message_tone = Color("#dbeafe")
     _emit("opportunity_presented", {"opportunity_id": data.get("opportunity_id", "GAME004-R%02d" % (round_index + 1)), "slice_id": slice_id, "object": data.get("object", "对象"), "regions": regions.keys(), "rule_id": data.get("rule_id", game_config.get("rule_id", "habitat")), "examples": data.get("examples", [])})
     queue_redraw()
 
@@ -193,7 +209,7 @@ func _pointer_up(position: Vector2) -> void:
 func _attempt_region(region_name: String, input_method: String) -> void:
     var data: Dictionary = rounds[round_index]
     attempt_count += 1
-    var is_correct := region_name == str(data.get("correct_region", ""))
+    var is_correct := region_name == str(data.get("correct_region_label", data.get("correct_region", "")))
     var opportunity_id := str(data.get("opportunity_id", "GAME004-R%02d" % (round_index + 1)))
     _emit("attempt", {"opportunity_id": opportunity_id, "slice_id": slice_id, "object": data.get("object", "对象"), "selected_region": region_name, "rule_id": data.get("rule_id", "habitat"), "input_method": input_method, "correct": is_correct})
     if is_correct:

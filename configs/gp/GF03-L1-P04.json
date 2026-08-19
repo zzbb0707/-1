@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L1-P04-R01",
                        "order":  1,
                        "frozen_content":  "完全相同图配对。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前目标图",
+                       "correct_region_label":  "同图区域",
+                       "correct_region_id":  "REG-GF03-L1-P04-R01",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图区域",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "视觉图像完全一致",
+                       "distractor_guidance":  "使用非同图高差异项",
+                       "natural_outcome_label":  "正确配对区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R02",
                        "order":  2,
                        "frozen_content":  "鱼/鸟高差异分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "鱼；鸟",
+                       "correct_region_label":  "水区；天空区",
+                       "correct_region_id":  "REG-GF03-L1-P04-R02",
+                       "rule_id":  "RULE-HIGH-CONTRAST-CATEGORY",
+                       "rule_label":  "鱼/鸟高差异分类",
+                       "region_set":  [
+                                          "水区",
+                                          "天空区"
+                                      ],
+                       "semantic_feature":  "水生与飞行生境",
+                       "distractor_guidance":  "鱼与鸟互为高差异干扰",
+                       "natural_outcome_label":  "对应生境启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R03",
                        "order":  3,
                        "frozen_content":  "圆/方形状分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "圆形对象；方形对象",
+                       "correct_region_label":  "圆区；方区",
+                       "correct_region_id":  "REG-GF03-L1-P04-R03",
+                       "rule_id":  "RULE-SHAPE",
+                       "rule_label":  "按形状分类",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "圆形/方形",
+                       "distractor_guidance":  "非目标形状作为干扰",
+                       "natural_outcome_label":  "对应形状区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R04",
                        "order":  4,
                        "frozen_content":  "花/工具功能高差异分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "花；工具",
+                       "correct_region_label":  "花园；工具区",
+                       "correct_region_id":  "REG-GF03-L1-P04-R04",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能类别分类",
+                       "region_set":  [
+                                          "花园",
+                                          "工具区"
+                                      ],
+                       "semantic_feature":  "植物与工具功能",
+                       "distractor_guidance":  "花与工具互为高差异干扰",
+                       "natural_outcome_label":  "花园生长；工具区启动",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R05",
                        "order":  5,
                        "frozen_content":  "区域左右交换后配对。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前配对对象",
+                       "correct_region_label":  "正确配对区域",
+                       "correct_region_id":  "REG-GF03-L1-P04-R05",
+                       "rule_id":  "RULE-POSITION-INDEPENDENT-MATCH",
+                       "rule_label":  "区域交换后的配对",
+                       "region_set":  [
+                                          "正确配对区域",
+                                          "非正确区域"
+                                      ],
+                       "semantic_feature":  "配对关系；位置无关",
+                       "distractor_guidance":  "交换左右位置，禁止固定位置线索",
+                       "natural_outcome_label":  "正确区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P04-R06",
                        "order":  6,
                        "frozen_content":  "新外观同形状配对；生成L1复核摘要。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "新外观形状对象",
+                       "correct_region_label":  "同形状区域",
+                       "correct_region_id":  "REG-GF03-L1-P04-R06",
+                       "rule_id":  "RULE-SHAPE-NEW-INSTANCE",
+                       "rule_label":  "新外观同形状配对",
+                       "region_set":  [
+                                          "圆区",
+                                          "方区"
+                                      ],
+                       "semantic_feature":  "形状恒常性",
+                       "distractor_guidance":  "外观变化为无关特征",
+                       "natural_outcome_label":  "对应形状区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L1-P04-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

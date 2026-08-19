@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L5-P02-R01",
                        "order":  1,
                        "frozen_content":  "屏幕杯子→餐具区，候选MP整理真实杯子。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "屏幕杯子",
+                       "correct_region_label":  "餐具区",
+                       "correct_region_id":  "REG-GF03-L5-P02-R01",
+                       "rule_id":  "RULE-SCREEN-TO-LIFE-BRIDGE",
+                       "rule_label":  "屏幕分类到候选生活练习桥",
+                       "region_set":  [
+                                          "餐具区",
+                                          "非餐具区"
+                                      ],
+                       "semantic_feature":  "餐具功能；屏幕任务",
+                       "distractor_guidance":  "非餐具区作干扰；MP不计入屏幕正确答案",
+                       "natural_outcome_label":  "餐具区完成整理；候选MP整理真实杯子",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R02",
                        "order":  2,
                        "frozen_content":  "屏幕积木→玩具区，候选MP收积木。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "屏幕积木",
+                       "correct_region_label":  "玩具区",
+                       "correct_region_id":  "REG-GF03-L5-P02-R02",
+                       "rule_id":  "RULE-SCREEN-TO-LIFE-BRIDGE",
+                       "rule_label":  "屏幕分类到候选生活练习桥",
+                       "region_set":  [
+                                          "玩具区",
+                                          "非玩具区"
+                                      ],
+                       "semantic_feature":  "玩具功能；屏幕任务",
+                       "distractor_guidance":  "非玩具区作干扰；MP独立记录",
+                       "natural_outcome_label":  "玩具区完成整理；候选MP收积木",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R03",
                        "order":  3,
                        "frozen_content":  "屏幕袜子→衣物区，候选MP分衣物。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "屏幕袜子",
+                       "correct_region_label":  "衣物区",
+                       "correct_region_id":  "REG-GF03-L5-P02-R03",
+                       "rule_id":  "RULE-SCREEN-TO-LIFE-BRIDGE",
+                       "rule_label":  "屏幕分类到候选生活练习桥",
+                       "region_set":  [
+                                          "衣物区",
+                                          "非衣物区"
+                                      ],
+                       "semantic_feature":  "衣物；屏幕任务",
+                       "distractor_guidance":  "非衣物区作干扰；MP独立记录",
+                       "natural_outcome_label":  "衣物区完成整理；候选MP分衣物",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R04",
                        "order":  4,
                        "frozen_content":  "屏幕勺子→餐具区，候选MP摆餐具。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "屏幕勺子",
+                       "correct_region_label":  "餐具区",
+                       "correct_region_id":  "REG-GF03-L5-P02-R04",
+                       "rule_id":  "RULE-SCREEN-TO-LIFE-BRIDGE",
+                       "rule_label":  "屏幕分类到候选生活练习桥",
+                       "region_set":  [
+                                          "餐具区",
+                                          "非餐具区"
+                                      ],
+                       "semantic_feature":  "餐具功能；屏幕任务",
+                       "distractor_guidance":  "非餐具区作干扰；MP独立记录",
+                       "natural_outcome_label":  "餐具区完成整理；候选MP摆餐具",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R05",
                        "order":  5,
                        "frozen_content":  "屏幕书→阅读区，候选MP收书。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "屏幕书",
+                       "correct_region_label":  "阅读区",
+                       "correct_region_id":  "REG-GF03-L5-P02-R05",
+                       "rule_id":  "RULE-SCREEN-TO-LIFE-BRIDGE",
+                       "rule_label":  "屏幕分类到候选生活练习桥",
+                       "region_set":  [
+                                          "阅读区",
+                                          "非阅读区"
+                                      ],
+                       "semantic_feature":  "阅读用品；屏幕任务",
+                       "distractor_guidance":  "非阅读区作干扰；MP独立记录",
+                       "natural_outcome_label":  "阅读区完成整理；候选MP收书",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R06",
                        "order":  6,
                        "frozen_content":  "系统按家庭材料只发一项LIFE或OBS，不自动记生活完成。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "家庭材料对应的一项任务",
+                       "correct_region_label":  "LIFE或OBS",
+                       "correct_region_id":  "REG-GF03-L5-P02-R06",
+                       "rule_id":  "RULE-LIFE-OR-OBS-ISSUE",
+                       "rule_label":  "按家庭材料签发一项LIFE或OBS",
+                       "region_set":  [
+                                          "LIFE",
+                                          "OBS"
+                                      ],
+                       "semantic_feature":  "桥接任务类型",
+                       "distractor_guidance":  "只能二选一；不得自动记录生活完成",
+                       "natural_outcome_label":  "签发一项LIFE或OBS，不自动记生活完成",
+                       "natural_outcome_id":  "OUT-GF03-L5-P02-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

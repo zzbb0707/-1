@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L5-P04-R01",
                        "order":  1,
                        "frozen_content":  "完全相同配对。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前目标图",
+                       "correct_region_label":  "同图区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R01",
+                       "rule_id":  "RULE-EXACT-MATCH",
+                       "rule_label":  "完全相同图配对",
+                       "region_set":  [
+                                          "同图区域",
+                                          "非同图区域"
+                                      ],
+                       "semantic_feature":  "视觉图像完全一致",
+                       "distractor_guidance":  "非同图项作为干扰",
+                       "natural_outcome_label":  "正确配对区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R02",
                        "order":  2,
                        "frozen_content":  "单属性颜色分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前颜色目标",
+                       "correct_region_label":  "同色区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R02",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "单属性颜色分类",
+                       "region_set":  [
+                                          "颜色区域一",
+                                          "颜色区域二"
+                                      ],
+                       "semantic_feature":  "颜色；其他属性无关",
+                       "distractor_guidance":  "其他属性不得预测答案",
+                       "natural_outcome_label":  "同色区域点亮",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R03",
                        "order":  3,
                        "frozen_content":  "功能分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前功能目标",
+                       "correct_region_label":  "对应功能区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R03",
+                       "rule_id":  "RULE-FUNCTION",
+                       "rule_label":  "按功能分类",
+                       "region_set":  [
+                                          "当前正确功能区",
+                                          "当前备选功能区"
+                                      ],
+                       "semantic_feature":  "功能类别",
+                       "distractor_guidance":  "外观属性不得替代功能",
+                       "natural_outcome_label":  "对应功能区域启动",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R04",
                        "order":  4,
                        "frozen_content":  "新实例概念分类。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "当前新实例",
+                       "correct_region_label":  "对应概念区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R04",
+                       "rule_id":  "RULE-CONCEPT-NEW-INSTANCES",
+                       "rule_label":  "新实例概念分类",
+                       "region_set":  [
+                                          "当前正确概念区",
+                                          "当前备选概念区"
+                                      ],
+                       "semantic_feature":  "概念恒常性",
+                       "distractor_guidance":  "改变外观但不改变类别意义",
+                       "natural_outcome_label":  "对应概念区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R05",
                        "order":  5,
                        "frozen_content":  "清晰规则切换。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "切换后当前目标",
+                       "correct_region_label":  "切换后规则对应区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R05",
+                       "rule_id":  "RULE-EXPLICIT-SWITCH",
+                       "rule_label":  "清晰规则切换后的分类",
+                       "region_set":  [
+                                          "切换后正确区域",
+                                          "切换后备选区域"
+                                      ],
+                       "semantic_feature":  "切换后当前规则",
+                       "distractor_guidance":  "旧规则特征作为受控干扰",
+                       "natural_outcome_label":  "切换后正确区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R06",
                        "order":  6,
                        "frozen_content":  "真实照片分类后只生成一个家庭整理包或OBS；屏幕与生活报告分开。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,23 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "真实照片目标",
+                       "correct_region_label":  "当前屏幕分类正确区域",
+                       "correct_region_id":  "REG-GF03-L5-P04-R06",
+                       "rule_id":  "RULE-PHOTO-TO-LIFE-SEPARATE",
+                       "rule_label":  "真实照片分类与生活报告分离",
+                       "region_set":  [
+                                          "当前屏幕正确区域",
+                                          "当前屏幕备选区域",
+                                          "家庭整理包",
+                                          "OBS"
+                                      ],
+                       "semantic_feature":  "真实照片屏幕分类；屏幕/生活证据分离",
+                       "distractor_guidance":  "家庭整理包与OBS只能生成一个；不得混记屏幕和生活结果",
+                       "natural_outcome_label":  "屏幕正确区域响应；随后仅生成一个家庭整理包或OBS",
+                       "natural_outcome_id":  "OUT-GF03-L5-P04-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

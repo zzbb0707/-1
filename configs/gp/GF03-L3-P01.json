@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L3-P01-R01",
                        "order":  1,
                        "frozen_content":  "不同画风苹果→水果区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "不同画风苹果",
+                       "correct_region_label":  "水果区",
+                       "correct_region_id":  "REG-GF03-L3-P01-R01",
+                       "rule_id":  "RULE-CONCEPT-NEW-STYLE",
+                       "rule_label":  "新画风实例概念分类",
+                       "region_set":  [
+                                          "水果区",
+                                          "非水果区"
+                                      ],
+                       "semantic_feature":  "水果；画风无关",
+                       "distractor_guidance":  "非水果类别与画风变化作干扰",
+                       "natural_outcome_label":  "水果区生态响应",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R02",
                        "order":  2,
                        "frozen_content":  "不同角度杯子→餐具区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "不同角度杯子",
+                       "correct_region_label":  "餐具区",
+                       "correct_region_id":  "REG-GF03-L3-P01-R02",
+                       "rule_id":  "RULE-CONCEPT-NEW-ANGLE",
+                       "rule_label":  "新角度实例概念分类",
+                       "region_set":  [
+                                          "餐具区",
+                                          "非餐具区"
+                                      ],
+                       "semantic_feature":  "餐具；角度无关",
+                       "distractor_guidance":  "非餐具类别与角度变化作干扰",
+                       "natural_outcome_label":  "餐具区完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R03",
                        "order":  3,
                        "frozen_content":  "木制小车→交通区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "木制小车",
+                       "correct_region_label":  "交通区",
+                       "correct_region_id":  "REG-GF03-L3-P01-R03",
+                       "rule_id":  "RULE-CONCEPT-NEW-MATERIAL",
+                       "rule_label":  "新材质实例概念分类",
+                       "region_set":  [
+                                          "交通区",
+                                          "非交通区"
+                                      ],
+                       "semantic_feature":  "交通工具；材质无关",
+                       "distractor_guidance":  "非交通类别与木制材质作干扰",
+                       "natural_outcome_label":  "交通区启动",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R04",
                        "order":  4,
                        "frozen_content":  "透明雨伞→穿戴/用品区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "透明雨伞",
+                       "correct_region_label":  "穿戴/用品区",
+                       "correct_region_id":  "REG-GF03-L3-P01-R04",
+                       "rule_id":  "RULE-CONCEPT-NEW-MATERIAL",
+                       "rule_label":  "新材质实例概念分类",
+                       "region_set":  [
+                                          "穿戴/用品区",
+                                          "非穿戴/用品区"
+                                      ],
+                       "semantic_feature":  "穿戴/用品；透明材质无关",
+                       "distractor_guidance":  "非穿戴/用品类别作干扰",
+                       "natural_outcome_label":  "穿戴/用品区完成整理",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R05",
                        "order":  5,
                        "frozen_content":  "真实质感鱼图→水生区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "真实质感鱼图",
+                       "correct_region_label":  "水生区",
+                       "correct_region_id":  "REG-GF03-L3-P01-R05",
+                       "rule_id":  "RULE-CONCEPT-NEW-STYLE",
+                       "rule_label":  "新质感实例概念分类",
+                       "region_set":  [
+                                          "水生区",
+                                          "非水生区"
+                                      ],
+                       "semantic_feature":  "水生；质感无关",
+                       "distractor_guidance":  "非水生类别与真实质感作干扰",
+                       "natural_outcome_label":  "水流恢复",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P01-R06",
                        "order":  6,
                        "frozen_content":  "六种新实例中连续分类，记录概念而非单图记忆。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +227,21 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "六种新实例",
+                       "correct_region_label":  "各自概念区域",
+                       "correct_region_id":  "REG-GF03-L3-P01-R06",
+                       "rule_id":  "RULE-CONCEPT-NEW-INSTANCES",
+                       "rule_label":  "连续新实例概念分类",
+                       "region_set":  [
+                                          "当前正确概念区",
+                                          "当前备选概念区"
+                                      ],
+                       "semantic_feature":  "概念恒常性",
+                       "distractor_guidance":  "改变画风、角度或材质，禁止复用单图线索",
+                       "natural_outcome_label":  "各正确概念区域响应",
+                       "natural_outcome_id":  "OUT-GF03-L3-P01-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }

@@ -25,18 +25,13 @@
                        "opportunity_id":  "GF03-L2-P01-R01",
                        "order":  1,
                        "frozen_content":  "红花→红光区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -47,24 +42,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红花",
+                       "correct_region_label":  "红光区",
+                       "correct_region_id":  "REG-GF03-L2-P01-R01",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红光区",
+                                          "蓝光区"
+                                      ],
+                       "semantic_feature":  "红色",
+                       "distractor_guidance":  "蓝色区域为干扰；忽略对象类别",
+                       "natural_outcome_label":  "红光区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R01",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R02",
                        "order":  2,
                        "frozen_content":  "蓝叶→蓝光区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -75,24 +79,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝叶",
+                       "correct_region_label":  "蓝光区",
+                       "correct_region_id":  "REG-GF03-L2-P01-R02",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红光区",
+                                          "蓝光区"
+                                      ],
+                       "semantic_feature":  "蓝色",
+                       "distractor_guidance":  "红色区域为干扰；忽略对象类别",
+                       "natural_outcome_label":  "蓝光区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R02",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R03",
                        "order":  3,
                        "frozen_content":  "红色不同形状→红区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -103,24 +116,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "红色不同形状对象",
+                       "correct_region_label":  "红区",
+                       "correct_region_id":  "REG-GF03-L2-P01-R03",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区"
+                                      ],
+                       "semantic_feature":  "红色；形状无关",
+                       "distractor_guidance":  "用不同形状检验忽略形状",
+                       "natural_outcome_label":  "红区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R03",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R04",
                        "order":  4,
                        "frozen_content":  "蓝色不同大小→蓝区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -131,24 +153,33 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "蓝色不同大小对象",
+                       "correct_region_label":  "蓝区",
+                       "correct_region_id":  "REG-GF03-L2-P01-R04",
+                       "rule_id":  "RULE-COLOR",
+                       "rule_label":  "按颜色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区"
+                                      ],
+                       "semantic_feature":  "蓝色；大小无关",
+                       "distractor_guidance":  "用不同大小检验忽略大小",
+                       "natural_outcome_label":  "蓝区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R04",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R05",
                        "order":  5,
                        "frozen_content":  "加入黄色第三区，黄种子→黄区。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -159,24 +190,34 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "黄种子",
+                       "correct_region_label":  "黄区",
+                       "correct_region_id":  "REG-GF03-L2-P01-R05",
+                       "rule_id":  "RULE-COLOR-THREE",
+                       "rule_label":  "三色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区",
+                                          "黄区"
+                                      ],
+                       "semantic_feature":  "黄色",
+                       "distractor_guidance":  "红、蓝区域为同规则干扰",
+                       "natural_outcome_label":  "黄区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R05",
+                       "implementation_status":  "semantic_defined_needs_art"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R06",
                        "order":  6,
                        "frozen_content":  "三色位置交换后分类，花园分区点亮。",
-                       "implementation_status":  "content_semantics_pending",
                        "target_asset_id":  "",
                        "distractor_asset_ids":  [
 
                                                 ],
-                       "correct_region_id":  "",
-                       "rule_id":  "",
-                       "rule_label":  "",
                        "examples":  [
 
                                     ],
-                       "natural_outcome_id":  "",
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -187,7 +228,22 @@
                                            "retry_count",
                                            "invalid_drag_count",
                                            "stress_signal"
-                                       ]
+                                       ],
+                       "target_display_name":  "三色对象",
+                       "correct_region_label":  "各自同色区域",
+                       "correct_region_id":  "REG-GF03-L2-P01-R06",
+                       "rule_id":  "RULE-COLOR-POSITION-SWAP",
+                       "rule_label":  "位置交换后的三色分类",
+                       "region_set":  [
+                                          "红区",
+                                          "蓝区",
+                                          "黄区"
+                                      ],
+                       "semantic_feature":  "红/蓝/黄；位置无关",
+                       "distractor_guidance":  "交换三区位置，禁止位置记忆",
+                       "natural_outcome_label":  "花园分区点亮",
+                       "natural_outcome_id":  "OUT-GF03-L2-P01-R06",
+                       "implementation_status":  "semantic_defined_needs_art"
                    }
                ]
 }
