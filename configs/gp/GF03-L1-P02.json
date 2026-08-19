@@ -25,12 +25,6 @@
                        "opportunity_id":  "GF03-L1-P02-R01",
                        "order":  1,
                        "frozen_content":  "鱼→水区，鸟→天空区。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -59,18 +53,20 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/fish_v001.png",
                        "secondary_target_display_name":  "鸟",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/bird_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/red_circle_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/sprout_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:水生与飞行生境"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R02",
                        "order":  2,
                        "frozen_content":  "花→花园，锤子→工具台。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -99,18 +95,20 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/flower_v001.png",
                        "secondary_target_display_name":  "锤子",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/hammer_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/hammer_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/blue_square_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/lamp_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:植物与工具功能"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R03",
                        "order":  3,
                        "frozen_content":  "苹果→食物区，小车→交通区。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -139,18 +137,20 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/apple_v001.png",
                        "secondary_target_display_name":  "小车",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/toy_car_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/toy_car_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/yellow_star_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/leaf_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:食物与交通工具"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R04",
                        "order":  4,
                        "frozen_content":  "杯子→餐具区，鞋→穿戴区。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -179,18 +179,20 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/cup_v001.png",
                        "secondary_target_display_name":  "鞋",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/shoe_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/shoe_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/green_triangle_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/stone_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:餐具与穿戴用品"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R05",
                        "order":  5,
                        "frozen_content":  "种子→土地区，水滴→水区。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -219,18 +221,20 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png",
                        "secondary_target_display_name":  "水滴",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/white_round_drop_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/white_drop_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/water_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:土地生长与水"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    },
                    {
                        "opportunity_id":  "GF03-L1-P02-R06",
                        "order":  6,
                        "frozen_content":  "灯泡→光区，石头→岩区；记录高差异稳定。",
-                       "distractor_asset_ids":  [
-
-                                                ],
-                       "examples":  [
-
-                                    ],
                        "data_fields":  [
                                            "first_selection",
                                            "final_selection",
@@ -259,7 +263,15 @@
                        "implementation_status":  "object_asset_mapped_needs_region_outcome",
                        "target_asset_path":  "res://assets/processed/objects_v001/lamp_v001.png",
                        "secondary_target_display_name":  "石头",
-                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/large_stone_v001.png"
+                       "secondary_target_asset_path":  "res://assets/processed/objects_v001/large_stone_v001.png",
+                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/purple_tool_zone_idle_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/processed/outcomes_l1p01_v001/workbench_result_v001.png",
+                       "examples":  [
+                                        "semantic-feature:光源与岩石"
+                                    ],
+                       "distractor_asset_ids":  [
+                                                    "SEMANTIC-DISTRACTOR-PLACEHOLDER"
+                                                ]
                    }
                ]
 }
