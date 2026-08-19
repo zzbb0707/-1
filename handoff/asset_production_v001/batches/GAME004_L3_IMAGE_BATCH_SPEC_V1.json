@@ -1,0 +1,152 @@
+﻿{
+    "schema_version":  "game004-image-batch-spec-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "level":  "L3",
+    "asset_policy":  "candidate_only_until_visual_review",
+    "items":  [
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R01",
+                      "frozen_content":  "不同画风苹果→水果区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 不同画风苹果→水果区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R02",
+                      "frozen_content":  "不同角度杯子→餐具区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 不同角度杯子→餐具区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R03",
+                      "frozen_content":  "木制小车→交通区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 木制小车→交通区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R04",
+                      "frozen_content":  "透明雨伞→穿戴/用品区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 透明雨伞→穿戴/用品区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R05",
+                      "frozen_content":  "真实质感鱼图→水生区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 真实质感鱼图→水生区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P01",
+                      "opportunity_id":  "GF03-L3-P01-R06",
+                      "frozen_content":  "六种新实例中连续分类，记录概念而非单图记忆。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 六种新实例中连续分类，记录概念而非单图记忆。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R01",
+                      "frozen_content":  "前两件按颜色，红圆→红区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 前两件按颜色，红圆→红区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R02",
+                      "frozen_content":  "清晰换规则为形状，红圆→圆区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 清晰换规则为形状，红圆→圆区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R03",
+                      "frozen_content":  "蓝方按形状→方区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 蓝方按形状→方区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R04",
+                      "frozen_content":  "清晰换规则为大小，大方→大区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 清晰换规则为大小，大方→大区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R05",
+                      "frozen_content":  "小圆按大小→小区。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 小圆按大小→小区。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P02",
+                      "opportunity_id":  "GF03-L3-P02-R06",
+                      "frozen_content":  "再换回颜色，蓝圆→蓝区；记录切换后首项。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 再换回颜色，蓝圆→蓝区；记录切换后首项。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R01",
+                      "frozen_content":  "苹果先→食物，再→水果。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 苹果先→食物，再→水果。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R02",
+                      "frozen_content":  "面包先→食物，再→主食。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 面包先→食物，再→主食。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R03",
+                      "frozen_content":  "杯子先→用品，再→餐具。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 杯子先→用品，再→餐具。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R04",
+                      "frozen_content":  "锤子先→用品，再→工具。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 锤子先→用品，再→工具。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R05",
+                      "frozen_content":  "鱼先→动物，再→水生。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 鱼先→动物，再→水生。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P03",
+                      "opportunity_id":  "GF03-L3-P03-R06",
+                      "frozen_content":  "鸟先→动物，再→飞行；生态层级展开。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 鸟先→动物，再→飞行；生态层级展开。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R01",
+                      "frozen_content":  "新画风水果按功能类。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 新画风水果按功能类。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R02",
+                      "frozen_content":  "新角度工具按功能类。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 新角度工具按功能类。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R03",
+                      "frozen_content":  "颜色变化对象按形状。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 颜色变化对象按形状。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R04",
+                      "frozen_content":  "形状变化对象按大小。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 形状变化对象按大小。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R05",
+                      "frozen_content":  "明确信号后从颜色切到功能。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 明确信号后从颜色切到功能。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  },
+                  {
+                      "game_pack_id":  "GF03-L3-P04",
+                      "opportunity_id":  "GF03-L3-P04-R06",
+                      "frozen_content":  "完成一次大类→小类两步分类，记录迁移与切换。",
+                      "prompt":  "GAME-004 approved art direction: warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, portrait mobile training-game composition, clear semantic silhouette, no text, no pseudo-UI, no watermark, no scary or sharp harmful details. Create a clean isolated runtime asset set for this frozen opportunity: 完成一次大类→小类两步分类，记录迁移与切换。 Separate target, distractor, region marker and natural outcome concepts; no text."
+                  }
+              ]
+}
