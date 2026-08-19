@@ -1,0 +1,966 @@
+﻿{
+    "schema_version":  "game004-l2l5-round-asset-map-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "rounds":  [
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R01",
+                       "target":  "红花",
+                       "correct_region":  "红光区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "红光区点亮",
+                       "semantic_feature":  "红色",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_redflower_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R02",
+                       "target":  "蓝叶",
+                       "correct_region":  "蓝光区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "蓝光区点亮",
+                       "semantic_feature":  "蓝色",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_blueleaf_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R03",
+                       "target":  "红色不同形状对象",
+                       "correct_region":  "红区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "红区点亮",
+                       "semantic_feature":  "红色；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R04",
+                       "target":  "蓝色不同大小对象",
+                       "correct_region":  "蓝区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "蓝区点亮",
+                       "semantic_feature":  "蓝色；大小无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R05",
+                       "target":  "黄种子",
+                       "correct_region":  "黄区",
+                       "rule":  "三色分类",
+                       "natural_outcome":  "黄区点亮",
+                       "semantic_feature":  "黄色",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_yellowseed_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P01",
+                       "opportunity_id":  "GF03-L2-P01-R06",
+                       "target":  "三色对象",
+                       "correct_region":  "各自同色区域",
+                       "rule":  "位置交换后的三色分类",
+                       "natural_outcome":  "花园分区点亮",
+                       "semantic_feature":  "红/蓝/黄；位置无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R01",
+                       "target":  "大圆石；小圆石",
+                       "correct_region":  "大区；小区",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "空间按大小稳定",
+                       "semantic_feature":  "大/小",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_smallroundstone_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R02",
+                       "target":  "大方箱；小方箱",
+                       "correct_region":  "大区；小区",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "空间按大小稳定",
+                       "semantic_feature":  "大/小",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_smallsquarebox_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R03",
+                       "target":  "颜色变化对象",
+                       "correct_region":  "对应大小区域",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "空间按大小稳定",
+                       "semantic_feature":  "大小；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R04",
+                       "target":  "材质变化对象",
+                       "correct_region":  "对应大小区域",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "空间按大小稳定",
+                       "semantic_feature":  "大小；材质无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R05",
+                       "target":  "中号种子",
+                       "correct_region":  "中区",
+                       "rule":  "大中小分类",
+                       "natural_outcome":  "中区完成安排",
+                       "semantic_feature":  "中等大小",
+                       "asset_map":  "res://assets/candidates/banana/approved_candidate/object_mediumseed_v001.jpg"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P02",
+                       "opportunity_id":  "GF03-L2-P02-R06",
+                       "target":  "大件；中件；小件",
+                       "correct_region":  "大区；中区；小区",
+                       "rule":  "位置交换后的大中小分类",
+                       "natural_outcome":  "空间按大小完成安排",
+                       "semantic_feature":  "大/中/小；位置无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R01",
+                       "target":  "锤子；刷子",
+                       "correct_region":  "敲击工具区；清洁区",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应工作区启动",
+                       "semantic_feature":  "敲击/清洁",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R02",
+                       "target":  "木槌；抹布",
+                       "correct_region":  "敲击区；清洁区",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应工作区启动",
+                       "semantic_feature":  "敲击/清洁",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R03",
+                       "target":  "扳手；勺子",
+                       "correct_region":  "维修区；餐具区",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应区域完成整理",
+                       "semantic_feature":  "维修/餐具",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R04",
+                       "target":  "螺丝刀；杯子",
+                       "correct_region":  "维修区；餐具区",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应区域完成整理",
+                       "semantic_feature":  "维修/餐具",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R05",
+                       "target":  "新外观刷子",
+                       "correct_region":  "清洁区",
+                       "rule":  "新外观功能分类",
+                       "natural_outcome":  "清洁区启动",
+                       "semantic_feature":  "清洁功能；外观无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P03",
+                       "opportunity_id":  "GF03-L2-P03-R06",
+                       "target":  "连续三件当前功能对象",
+                       "correct_region":  "各自功能区域",
+                       "rule":  "四类中开放三类的连续功能分类",
+                       "natural_outcome":  "工作台恢复",
+                       "semantic_feature":  "当前开放的三类功能",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R01",
+                       "target":  "红色对象；蓝色对象",
+                       "correct_region":  "红区；蓝区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "颜色分区响应",
+                       "semantic_feature":  "红/蓝",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R02",
+                       "target":  "大对象；小对象",
+                       "correct_region":  "大区；小区",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "大小分区响应",
+                       "semantic_feature":  "大/小",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R03",
+                       "target":  "圆形对象；方形对象",
+                       "correct_region":  "圆区；方区",
+                       "rule":  "按形状分类",
+                       "natural_outcome":  "形状分区响应",
+                       "semantic_feature":  "圆/方",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R04",
+                       "target":  "工具；餐具",
+                       "correct_region":  "工具区；餐具区",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应功能区域启动",
+                       "semantic_feature":  "工具/餐具功能",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R05",
+                       "target":  "当前规则的新实例",
+                       "correct_region":  "当前规则对应区域",
+                       "rule":  "按规则卡当前单一规则分类",
+                       "natural_outcome":  "当前正确区域响应",
+                       "semantic_feature":  "规则卡指定属性",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L2-P04",
+                       "opportunity_id":  "GF03-L2-P04-R06",
+                       "target":  "当前规则目标实例",
+                       "correct_region":  "当前规则对应区域",
+                       "rule":  "重复当前规则后的分类",
+                       "natural_outcome":  "当前正确区域响应",
+                       "semantic_feature":  "当前规则指定属性",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R01",
+                       "target":  "不同画风苹果",
+                       "correct_region":  "水果区",
+                       "rule":  "新画风实例概念分类",
+                       "natural_outcome":  "水果区生态响应",
+                       "semantic_feature":  "水果；画风无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R02",
+                       "target":  "不同角度杯子",
+                       "correct_region":  "餐具区",
+                       "rule":  "新角度实例概念分类",
+                       "natural_outcome":  "餐具区完成整理",
+                       "semantic_feature":  "餐具；角度无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R03",
+                       "target":  "木制小车",
+                       "correct_region":  "交通区",
+                       "rule":  "新材质实例概念分类",
+                       "natural_outcome":  "交通区启动",
+                       "semantic_feature":  "交通工具；材质无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R04",
+                       "target":  "透明雨伞",
+                       "correct_region":  "穿戴/用品区",
+                       "rule":  "新材质实例概念分类",
+                       "natural_outcome":  "穿戴/用品区完成整理",
+                       "semantic_feature":  "穿戴/用品；透明材质无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R05",
+                       "target":  "真实质感鱼图",
+                       "correct_region":  "水生区",
+                       "rule":  "新质感实例概念分类",
+                       "natural_outcome":  "水流恢复",
+                       "semantic_feature":  "水生；质感无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P01",
+                       "opportunity_id":  "GF03-L3-P01-R06",
+                       "target":  "六种新实例",
+                       "correct_region":  "各自概念区域",
+                       "rule":  "连续新实例概念分类",
+                       "natural_outcome":  "各正确概念区域响应",
+                       "semantic_feature":  "概念恒常性",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R01",
+                       "target":  "红圆",
+                       "correct_region":  "红区",
+                       "rule":  "按颜色分类",
+                       "natural_outcome":  "红区点亮",
+                       "semantic_feature":  "红色；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R02",
+                       "target":  "红圆",
+                       "correct_region":  "圆区",
+                       "rule":  "清晰切换为形状规则",
+                       "natural_outcome":  "圆区启动",
+                       "semantic_feature":  "圆形；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R03",
+                       "target":  "蓝方",
+                       "correct_region":  "方区",
+                       "rule":  "按形状分类",
+                       "natural_outcome":  "方区启动",
+                       "semantic_feature":  "方形；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R04",
+                       "target":  "大方",
+                       "correct_region":  "大区",
+                       "rule":  "清晰切换为大小规则",
+                       "natural_outcome":  "大区完成安排",
+                       "semantic_feature":  "大；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R05",
+                       "target":  "小圆",
+                       "correct_region":  "小区",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "小区完成安排",
+                       "semantic_feature":  "小；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P02",
+                       "opportunity_id":  "GF03-L3-P02-R06",
+                       "target":  "蓝圆",
+                       "correct_region":  "蓝区",
+                       "rule":  "切换回颜色规则",
+                       "natural_outcome":  "蓝区点亮",
+                       "semantic_feature":  "蓝色；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R01",
+                       "target":  "苹果",
+                       "correct_region":  "食物→水果",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "食物层与水果层依次展开",
+                       "semantic_feature":  "食物\u003e水果",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R02",
+                       "target":  "面包",
+                       "correct_region":  "食物→主食",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "食物层与主食层依次展开",
+                       "semantic_feature":  "食物\u003e主食",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R03",
+                       "target":  "杯子",
+                       "correct_region":  "用品→餐具",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "用品层与餐具层依次展开",
+                       "semantic_feature":  "用品\u003e餐具",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R04",
+                       "target":  "锤子",
+                       "correct_region":  "用品→工具",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "用品层与工具层依次展开",
+                       "semantic_feature":  "用品\u003e工具",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R05",
+                       "target":  "鱼",
+                       "correct_region":  "动物→水生",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "动物层与水生层依次展开",
+                       "semantic_feature":  "动物\u003e水生",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P03",
+                       "opportunity_id":  "GF03-L3-P03-R06",
+                       "target":  "鸟",
+                       "correct_region":  "动物→飞行",
+                       "rule":  "先大类再小类",
+                       "natural_outcome":  "生态层级展开",
+                       "semantic_feature":  "动物\u003e飞行",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R01",
+                       "target":  "新画风水果",
+                       "correct_region":  "水果区",
+                       "rule":  "新画风实例按功能类分类",
+                       "natural_outcome":  "水果区生态响应",
+                       "semantic_feature":  "水果功能类；画风无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R02",
+                       "target":  "新角度工具",
+                       "correct_region":  "工具区",
+                       "rule":  "新角度实例按功能类分类",
+                       "natural_outcome":  "工具区启动",
+                       "semantic_feature":  "工具功能类；角度无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R03",
+                       "target":  "颜色变化对象",
+                       "correct_region":  "对应形状区域",
+                       "rule":  "按形状分类",
+                       "natural_outcome":  "对应形状区域启动",
+                       "semantic_feature":  "形状；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R04",
+                       "target":  "形状变化对象",
+                       "correct_region":  "对应大小区域",
+                       "rule":  "按大小分类",
+                       "natural_outcome":  "对应大小区域响应",
+                       "semantic_feature":  "大小；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R05",
+                       "target":  "当前功能目标",
+                       "correct_region":  "对应功能区域",
+                       "rule":  "从颜色切换到功能规则",
+                       "natural_outcome":  "对应功能区域启动",
+                       "semantic_feature":  "功能；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L3-P04",
+                       "opportunity_id":  "GF03-L3-P04-R06",
+                       "target":  "当前层级目标",
+                       "correct_region":  "大类→小类",
+                       "rule":  "大类到小类两步分类",
+                       "natural_outcome":  "类别层级依次展开",
+                       "semantic_feature":  "两级类别",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R01",
+                       "target":  "红圆",
+                       "correct_region":  "圆区",
+                       "rule":  "忽略颜色按形状分类",
+                       "natural_outcome":  "圆区启动",
+                       "semantic_feature":  "圆形；红色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R02",
+                       "target":  "蓝圆",
+                       "correct_region":  "圆区",
+                       "rule":  "忽略颜色按形状分类",
+                       "natural_outcome":  "圆区启动",
+                       "semantic_feature":  "圆形；蓝色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R03",
+                       "target":  "大红方",
+                       "correct_region":  "大区",
+                       "rule":  "忽略颜色按大小分类",
+                       "natural_outcome":  "大区完成安排",
+                       "semantic_feature":  "大；红色和方形无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R04",
+                       "target":  "大蓝圆",
+                       "correct_region":  "大区",
+                       "rule":  "忽略颜色按大小分类",
+                       "natural_outcome":  "大区完成安排",
+                       "semantic_feature":  "大；蓝色和圆形无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R05",
+                       "target":  "彩色锤",
+                       "correct_region":  "工具区",
+                       "rule":  "忽略颜色按功能分类",
+                       "natural_outcome":  "工具区启动",
+                       "semantic_feature":  "工具功能；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P01",
+                       "opportunity_id":  "GF03-L4-P01-R06",
+                       "target":  "同色食物；同色工具",
+                       "correct_region":  "食物区；工具区",
+                       "rule":  "同色干扰下按功能分类",
+                       "natural_outcome":  "食物区与工具区分别启动",
+                       "semantic_feature":  "食物/工具功能；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R01",
+                       "target":  "红三角",
+                       "correct_region":  "红色范例区",
+                       "rule":  "从范例推断颜色规则",
+                       "natural_outcome":  "红色范例区点亮",
+                       "semantic_feature":  "红色；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R02",
+                       "target":  "蓝星",
+                       "correct_region":  "蓝色范例区",
+                       "rule":  "从范例推断颜色规则",
+                       "natural_outcome":  "蓝色范例区点亮",
+                       "semantic_feature":  "蓝色；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R03",
+                       "target":  "大三角",
+                       "correct_region":  "大区",
+                       "rule":  "从范例推断大小规则",
+                       "natural_outcome":  "大区完成安排",
+                       "semantic_feature":  "大；形状无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R04",
+                       "target":  "螺丝刀",
+                       "correct_region":  "工具区",
+                       "rule":  "从范例推断功能规则",
+                       "natural_outcome":  "工具区启动",
+                       "semantic_feature":  "工具功能",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R05",
+                       "target":  "海龟",
+                       "correct_region":  "水生区",
+                       "rule":  "从范例推断水生类别",
+                       "natural_outcome":  "水流恢复",
+                       "semantic_feature":  "水生生境",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P02",
+                       "opportunity_id":  "GF03-L4-P02-R06",
+                       "target":  "新对象",
+                       "correct_region":  "匹配的范例组区域",
+                       "rule":  "从两个范例组推断并分类",
+                       "natural_outcome":  "匹配区域响应",
+                       "semantic_feature":  "范例所示当前概念",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R01",
+                       "target":  "鱼",
+                       "correct_region":  "水生区",
+                       "rule":  "四生态区域分类",
+                       "natural_outcome":  "水生区水流恢复",
+                       "semantic_feature":  "水生",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R02",
+                       "target":  "鸟",
+                       "correct_region":  "飞行区",
+                       "rule":  "四生态区域分类",
+                       "natural_outcome":  "飞行区生态启动",
+                       "semantic_feature":  "飞行",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R03",
+                       "target":  "兔",
+                       "correct_region":  "陆地区",
+                       "rule":  "四生态区域分类",
+                       "natural_outcome":  "陆地区生态启动",
+                       "semantic_feature":  "陆地",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R04",
+                       "target":  "花",
+                       "correct_region":  "植物区",
+                       "rule":  "四生态区域分类",
+                       "natural_outcome":  "植物区生长",
+                       "semantic_feature":  "植物",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R05",
+                       "target":  "海龟",
+                       "correct_region":  "水生区",
+                       "rule":  "四生态区新实例分类",
+                       "natural_outcome":  "水生区水流恢复",
+                       "semantic_feature":  "水生；近边界实例",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P03",
+                       "opportunity_id":  "GF03-L4-P03-R06",
+                       "target":  "蝴蝶",
+                       "correct_region":  "飞行区",
+                       "rule":  "按当前明确规则进行四生态区分类",
+                       "natural_outcome":  "四区生态同时启动",
+                       "semantic_feature":  "飞行",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R01",
+                       "target":  "当前颜色目标",
+                       "correct_region":  "匹配颜色范例区",
+                       "rule":  "从范例推断颜色规则",
+                       "natural_outcome":  "匹配颜色区域点亮",
+                       "semantic_feature":  "颜色；其他属性无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R02",
+                       "target":  "当前功能目标",
+                       "correct_region":  "对应功能区域",
+                       "rule":  "清晰切换为功能规则",
+                       "natural_outcome":  "对应功能区域启动",
+                       "semantic_feature":  "功能；旧颜色规则无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R03",
+                       "target":  "当前形状目标",
+                       "correct_region":  "对应形状区域",
+                       "rule":  "忽略颜色按形状分类",
+                       "natural_outcome":  "对应形状区域启动",
+                       "semantic_feature":  "形状；颜色无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R04",
+                       "target":  "新生境实例",
+                       "correct_region":  "对应生境区域",
+                       "rule":  "四生态区新实例分类",
+                       "natural_outcome":  "对应生境启动",
+                       "semantic_feature":  "生境类别",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R05",
+                       "target":  "当前层级目标",
+                       "correct_region":  "大类→小类",
+                       "rule":  "大类到小类两步分类",
+                       "natural_outcome":  "类别层级依次展开",
+                       "semantic_feature":  "两级类别",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L4-P04",
+                       "opportunity_id":  "GF03-L4-P04-R06",
+                       "target":  "当前复核目标",
+                       "correct_region":  "当前规则正确区域",
+                       "rule":  "规则卡、范例与位置变化后的复核",
+                       "natural_outcome":  "正确区域响应并生成规则专属摘要",
+                       "semantic_feature":  "当前规则；位置无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R01",
+                       "target":  "授权苹果照片",
+                       "correct_region":  "水果区",
+                       "rule":  "授权真实照片概念分类",
+                       "natural_outcome":  "水果区生态响应",
+                       "semantic_feature":  "水果；照片呈现",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R02",
+                       "target":  "授权杯子照片",
+                       "correct_region":  "餐具区",
+                       "rule":  "授权真实照片概念分类",
+                       "natural_outcome":  "餐具区完成整理",
+                       "semantic_feature":  "餐具；照片呈现",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R03",
+                       "target":  "不同背景锤子照片",
+                       "correct_region":  "工具区",
+                       "rule":  "跨背景真实照片功能分类",
+                       "natural_outcome":  "工具区启动",
+                       "semantic_feature":  "工具；背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R04",
+                       "target":  "不同角度鞋照片",
+                       "correct_region":  "穿戴区",
+                       "rule":  "跨角度真实照片功能分类",
+                       "natural_outcome":  "穿戴区完成整理",
+                       "semantic_feature":  "穿戴；角度无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R05",
+                       "target":  "家庭真实大盒照片；家庭真实小盒照片",
+                       "correct_region":  "大区；小区",
+                       "rule":  "真实照片按大小分类",
+                       "natural_outcome":  "大小区域完成安排",
+                       "semantic_feature":  "大/小；照片呈现",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P01",
+                       "opportunity_id":  "GF03-L5-P01-R06",
+                       "target":  "三张真实场景物品照片",
+                       "correct_region":  "各自当前功能区域",
+                       "rule":  "真实场景照片按当前功能规则分类",
+                       "natural_outcome":  "对应功能区域启动",
+                       "semantic_feature":  "功能；真实场景照片",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R01",
+                       "target":  "屏幕杯子",
+                       "correct_region":  "餐具区",
+                       "rule":  "屏幕分类到候选生活练习桥",
+                       "natural_outcome":  "餐具区完成整理；候选MP整理真实杯子",
+                       "semantic_feature":  "餐具功能；屏幕任务",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R02",
+                       "target":  "屏幕积木",
+                       "correct_region":  "玩具区",
+                       "rule":  "屏幕分类到候选生活练习桥",
+                       "natural_outcome":  "玩具区完成整理；候选MP收积木",
+                       "semantic_feature":  "玩具功能；屏幕任务",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R03",
+                       "target":  "屏幕袜子",
+                       "correct_region":  "衣物区",
+                       "rule":  "屏幕分类到候选生活练习桥",
+                       "natural_outcome":  "衣物区完成整理；候选MP分衣物",
+                       "semantic_feature":  "衣物；屏幕任务",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R04",
+                       "target":  "屏幕勺子",
+                       "correct_region":  "餐具区",
+                       "rule":  "屏幕分类到候选生活练习桥",
+                       "natural_outcome":  "餐具区完成整理；候选MP摆餐具",
+                       "semantic_feature":  "餐具功能；屏幕任务",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R05",
+                       "target":  "屏幕书",
+                       "correct_region":  "阅读区",
+                       "rule":  "屏幕分类到候选生活练习桥",
+                       "natural_outcome":  "阅读区完成整理；候选MP收书",
+                       "semantic_feature":  "阅读用品；屏幕任务",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P02",
+                       "opportunity_id":  "GF03-L5-P02-R06",
+                       "target":  "家庭材料对应的一项任务",
+                       "correct_region":  "LIFE或OBS",
+                       "rule":  "按家庭材料签发一项LIFE或OBS",
+                       "natural_outcome":  "签发一项LIFE或OBS，不自动记生活完成",
+                       "semantic_feature":  "桥接任务类型",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R01",
+                       "target":  "厨房照片中的杯子",
+                       "correct_region":  "餐具区",
+                       "rule":  "跨场景保持概念分类",
+                       "natural_outcome":  "餐具区完成整理",
+                       "semantic_feature":  "餐具；厨房背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R02",
+                       "target":  "餐桌照片中的杯子",
+                       "correct_region":  "餐具区",
+                       "rule":  "跨场景保持概念分类",
+                       "natural_outcome":  "餐具区完成整理",
+                       "semantic_feature":  "餐具；餐桌背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R03",
+                       "target":  "工具台照片中的刷子",
+                       "correct_region":  "清洁工具区",
+                       "rule":  "跨场景保持概念分类",
+                       "natural_outcome":  "清洁工具区启动",
+                       "semantic_feature":  "清洁工具；工具台背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R04",
+                       "target":  "浴室照片中的刷子",
+                       "correct_region":  "清洁工具区",
+                       "rule":  "按明确规则跨场景分类",
+                       "natural_outcome":  "清洁工具区启动",
+                       "semantic_feature":  "清洁工具；浴室背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R05",
+                       "target":  "超市照片中的苹果",
+                       "correct_region":  "水果区",
+                       "rule":  "跨场景保持概念分类",
+                       "natural_outcome":  "水果区生态响应",
+                       "semantic_feature":  "水果；超市背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P03",
+                       "opportunity_id":  "GF03-L5-P03-R06",
+                       "target":  "野餐照片中的苹果",
+                       "correct_region":  "水果区",
+                       "rule":  "跨场景保持概念分类",
+                       "natural_outcome":  "水果区生态响应",
+                       "semantic_feature":  "水果；野餐背景无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R01",
+                       "target":  "当前目标图",
+                       "correct_region":  "同图区域",
+                       "rule":  "完全相同图配对",
+                       "natural_outcome":  "正确配对区域响应",
+                       "semantic_feature":  "视觉图像完全一致",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R02",
+                       "target":  "当前颜色目标",
+                       "correct_region":  "同色区域",
+                       "rule":  "单属性颜色分类",
+                       "natural_outcome":  "同色区域点亮",
+                       "semantic_feature":  "颜色；其他属性无关",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R03",
+                       "target":  "当前功能目标",
+                       "correct_region":  "对应功能区域",
+                       "rule":  "按功能分类",
+                       "natural_outcome":  "对应功能区域启动",
+                       "semantic_feature":  "功能类别",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R04",
+                       "target":  "当前新实例",
+                       "correct_region":  "对应概念区域",
+                       "rule":  "新实例概念分类",
+                       "natural_outcome":  "对应概念区域响应",
+                       "semantic_feature":  "概念恒常性",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R05",
+                       "target":  "切换后当前目标",
+                       "correct_region":  "切换后规则对应区域",
+                       "rule":  "清晰规则切换后的分类",
+                       "natural_outcome":  "切换后正确区域响应",
+                       "semantic_feature":  "切换后当前规则",
+                       "asset_map":  "pending_asset"
+                   },
+                   {
+                       "game_pack_id":  "GF03-L5-P04",
+                       "opportunity_id":  "GF03-L5-P04-R06",
+                       "target":  "真实照片目标",
+                       "correct_region":  "当前屏幕分类正确区域",
+                       "rule":  "真实照片分类与生活报告分离",
+                       "natural_outcome":  "屏幕正确区域响应；随后仅生成一个家庭整理包或OBS",
+                       "semantic_feature":  "真实照片屏幕分类；屏幕/生活证据分离",
+                       "asset_map":  "pending_asset"
+                   }
+               ]
+}

@@ -1,0 +1,58 @@
+﻿{
+    "schema_version":  "game004-banana-batch-v3",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "batch":  3,
+    "submitted_at":  "2026-08-19T22:29:23.5807635+08:00",
+    "items":  [
+                  {
+                      "label":  "object_red_circle_seed",
+                      "prediction_id":  "2070f2ac558549f6b8549d600ae42200",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_blue_square_crystal",
+                      "prediction_id":  "6d5904f8d5a2499d8d64c0938ce36a42",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_yellow_star_leaf",
+                      "prediction_id":  "25056da2f06f4ea68c090735806695ef",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_white_round_drop",
+                      "prediction_id":  "8c6ec99e04d74c629da8d7e4c4e02c2d",
+                      "status":  "needs_revision",
+                      "review":  "Atlas FAIL: white fruit not drop"
+                  },
+                  {
+                      "label":  "outcome_seed_sprout",
+                      "prediction_id":  "22ab782e3c544b8891478637d1efcc0d",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_leaf_unfold",
+                      "prediction_id":  "8a4b6bc162be491597628383e5034178",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_water_stream",
+                      "prediction_id":  "4b2022bcd3d94d5d8c59e4d1739d7baa",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_workbench_activate",
+                      "prediction_id":  "b4f425c97492405e9ce030c37b72c4dd",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  }
+              ]
+}

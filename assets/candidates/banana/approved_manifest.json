@@ -1,0 +1,407 @@
+﻿{
+    "schema_version":  "game004-approved-candidate-manifest-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "review_chain":  "Atlas Gemini/Qwen PASS",
+    "total":  79,
+    "updated_at":  "2026-08-19T23:08:19.1763230+08:00",
+    "rights_status":  "unknown",
+    "approval_note":  "approved_candidate = Atlas机器视觉通过，仍需项目审美抽检与权益审核才能进入approved",
+    "items":  [
+                  {
+                      "asset_file":  "object_apple_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_blueleaf_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_bluesquare_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_bluesquarecrystal_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_bluestar_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_bluestar2_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_cup_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_fish_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_flower_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_greenround_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_greentriangle_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_hammer_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_largeroundstone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_largestone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_leaf_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_mediumseed_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_purpletoolblock_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_redflower_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_redround_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_roundicon_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_roundtoolbadge_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_shoe_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_smallroundred_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_smallroundstone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_smallsquarebox_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_smallstone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_squareseedbadge_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_toycar_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_translucentround_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_whiterounddrop_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_whiterounddrop_v002.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_whiterounddrop_v003.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_yellowseed_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_yellowstarleaf_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_clothestidy_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_flyingresponse_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_growingresponse_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_kitchentidy_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_multizone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_pairresponse_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_readingtidy_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_rockstable_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_roundresponse_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_seedsprout_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_squareresponse_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_toystidy_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_waterstream_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_workbench_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_bigzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_clothingzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_flowergarden_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_foodzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_forestzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_largezone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_mediumzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_mediumzone2_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_rockzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_skyperch_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_smallzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_smallzone2_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_sungarden_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_sunzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_tablewarezone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_toolzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_trafficzone_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_waterlinked_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_waterpool_v001.jpg",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_bird_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_examplecard_v002.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_largesquarebox_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_patternedsquare_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_redcircleseed_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_roundtoolbadge2_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_ruleicon_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_seedpod_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "object_squareicon_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_aquaticresponse_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "outcome_leafunfold_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  },
+                  {
+                      "asset_file":  "region_repairzone_v001.png",
+                      "kind":  "candidate_image",
+                      "status":  "approved_candidate"
+                  }
+              ]
+}

@@ -1,0 +1,2148 @@
+﻿{
+    "schema_version":  "game004-banana-dedup-queue-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "total_unique":  259,
+    "estimated_cost":  36.26,
+    "items":  [
+                  {
+                      "kind":  "region",
+                      "label":  "水区；天空区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027水区；天空区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02",
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "用品→餐具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027用品→餐具\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "灯亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027灯亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "对应生境区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027对应生境区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "颜色分区响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027颜色分区响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "大区；中区；小区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027大区；中区；小区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝星",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝星\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "交通区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027交通区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "阅读区完成整理；候选MP收书",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027阅读区完成整理；候选MP收书\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "食物→水果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027食物→水果\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "螺丝刀",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027螺丝刀\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "中区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027中区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "厨房照片中的杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027厨房照片中的杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "小圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027小圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前层级目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前层级目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "匹配区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027匹配区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "紫方工具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027紫方工具\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应功能区域启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应功能区域启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04",
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04",
+                                    "GF03-L5-P01",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "黄方；绿圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027黄方；绿圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "屏幕勺子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027屏幕勺子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "超市照片中的苹果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027超市照片中的苹果\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "浴室照片中的刷子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027浴室照片中的刷子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "匹配颜色区域点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027匹配颜色区域点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "屏幕积木",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027屏幕积木\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "花园；工具台",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027花园；工具台\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图红圆区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图红圆区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "食物→主食",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027食物→主食\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前规则的新实例",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前规则的新实例\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "水生区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027水生区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L4-P02",
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "当前正确区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027当前正确区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "大小区域完成安排",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027大小区域完成安排\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "植物区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027植物区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "动物→飞行",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027动物→飞行\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "木槌；抹布",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027木槌；抹布\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "同色食物；同色工具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027同色食物；同色工具\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同形状区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同形状区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "形状分区响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027形状分区响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "红光区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027红光区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝方晶体",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝方晶体\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "正确配对区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027正确配对区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "形状变化对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027形状变化对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "花纹方；透明圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027花纹方；透明圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "苹果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027苹果\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图绿三角区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图绿三角区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "蓝光区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027蓝光区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "用品层与工具层依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027用品层与工具层依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "空间按大小稳定",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027空间按大小稳定\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "大小分区响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027大小分区响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "花；锤子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027花；锤子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "水生区水流恢复",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027水生区水流恢复\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "用品→工具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027用品→工具\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "玩具区完成整理；候选MP收积木",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027玩具区完成整理；候选MP收积木\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "红色范例区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027红色范例区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应形状区域启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应形状区域启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03",
+                                    "GF03-L1-P04",
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "对应形状区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027对应形状区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应工作区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应工作区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "圆形对象；方形对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027圆形对象；方形对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03",
+                                    "GF03-L1-P04",
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "维修区；餐具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027维修区；餐具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "花园分区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027花园分区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图蓝方区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图蓝方区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "不同画风苹果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027不同画风苹果\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "大区；小区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027大区；小区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02",
+                                    "GF03-L2-P04",
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "红区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027红区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01",
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "圆工具标；方种子标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027圆工具标；方种子标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "工具台照片中的刷子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027工具台照片中的刷子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "红区；蓝区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027红区；蓝区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "穿戴区完成整理",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027穿戴区完成整理\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "穿戴/用品区完成整理",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027穿戴/用品区完成整理\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "不同角度杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027不同角度杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "花园生长；工具区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027花园生长；工具区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红三角",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红三角\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "方区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027方区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新外观刷子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新外观刷子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "小区完成安排",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027小区完成安排\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应生境启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应生境启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02",
+                                    "GF03-L1-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝色不同大小对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝色不同大小对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "正确配对区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027正确配对区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "屏幕书",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027屏幕书\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "餐具区；穿戴区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027餐具区；穿戴区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "动物→水生",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027动物→水生\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "当前规则对应区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027当前规则对应区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "螺丝刀；杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027螺丝刀；杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "家庭真实大盒照片；家庭真实小盒照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027家庭真实大盒照片；家庭真实小盒照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "清洁区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027清洁区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "餐具区完成整理",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027餐具区完成整理\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L5-P01",
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "圆区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027圆区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "连续三件当前功能对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027连续三件当前功能对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "当前屏幕分类正确区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027当前屏幕分类正确区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "蓝区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027蓝区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01",
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "各自同色区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027各自同色区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "各自概念区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027各自概念区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "各自当前功能区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027各自当前功能区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "蓝色范例区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027蓝色范例区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "鱼",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027鱼\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03",
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "同色区域点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027同色区域点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "签发一项LIFE或OBS，不自动记生活完成",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027签发一项LIFE或OBS，不自动记生活完成\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "LIFE或OBS",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027LIFE或OBS\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "衣物区完成整理；候选MP分衣物",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027衣物区完成整理；候选MP分衣物\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "敲击区；清洁区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027敲击区；清洁区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大对象；小对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大对象；小对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "黄星叶",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027黄星叶\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "工具区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027工具区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P01",
+                                    "GF03-L4-P02",
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "扳手；勺子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027扳手；勺子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "岩地稳定",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027岩地稳定\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "正确区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027正确区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "工具；餐具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027工具；餐具\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大蓝圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大蓝圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "玩具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027玩具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "圆区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027圆区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "水果区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027水果区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L3-P04",
+                                    "GF03-L5-P01",
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "授权杯子照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027授权杯子照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "切换后当前目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027切换后当前目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "清洁区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027清洁区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应形状区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应形状区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "发芽",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027发芽\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "三色对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027三色对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "植物区生长",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027植物区生长\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "陆地区生态启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027陆地区生态启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "食物区与工具区分别启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027食物区与工具区分别启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "穿戴/用品区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027穿戴/用品区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "四区生态同时启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027四区生态同时启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "海龟",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027海龟\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02",
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大件；中件；小件",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大件；中件；小件\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "穿戴区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027穿戴区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "锤子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027锤子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "水果区生态响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027水果区生态响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L3-P04",
+                                    "GF03-L5-P01",
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "真实质感鱼图",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027真实质感鱼图\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "匹配颜色范例区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027匹配颜色范例区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "飞行区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027飞行区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "中区完成安排",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027中区完成安排\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "三张真实场景物品照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027三张真实场景物品照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "对应功能区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027对应功能区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "工具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027工具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P01",
+                                    "GF03-L4-P02",
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "花园；工具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027花园；工具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "光区；岩区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027光区；岩区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "不同背景锤子照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027不同背景锤子照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "大区完成安排",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027大区完成安排\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01",
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大方",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大方\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前新实例",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前新实例\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "鱼；鸟",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027鱼；鸟\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02",
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "颜色变化对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027颜色变化对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02",
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "光区点亮；岩区稳定",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027光区点亮；岩区稳定\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "清洁工具区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027清洁工具区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "对应大小区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027对应大小区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02",
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "彩色锤",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027彩色锤\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新角度工具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新角度工具\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "土地区；水区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027土地区；水区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "工作台恢复",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027工作台恢复\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "红色范例区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027红色范例区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "蓝色范例区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027蓝色范例区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红圆种子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红圆种子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应区域启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应区域启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "木制小车",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027木制小车\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "类别层级依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027类别层级依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红色对象；蓝色对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红色对象；蓝色对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "餐具区完成整理；候选MP摆餐具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027餐具区完成整理；候选MP摆餐具\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "方区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027方区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "苹果；小车",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027苹果；小车\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红花",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红花\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "空间按大小完成安排",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027空间按大小完成安排\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "透明雨伞",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027透明雨伞\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前功能目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前功能目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "敲击工具区；清洁区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027敲击工具区；清洁区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "种子；水滴",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027种子；水滴\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前目标图",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前目标图\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新画风水果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新画风水果\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "黄种子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027黄种子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "家庭材料对应的一项任务",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027家庭材料对应的一项任务\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "面包",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027面包\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "白圆水滴",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027白圆水滴\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝叶",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝叶\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大红方",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大红方\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "叶片展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027叶片展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "屏幕袜子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027屏幕袜子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "各正确概念区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027各正确概念区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前规则目标实例",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前规则目标实例\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大三角",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大三角\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "灯泡；石头",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027灯泡；石头\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "圆区；方区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027圆区；方区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03",
+                                    "GF03-L1-P04",
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "花",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027花\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "黄区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027黄区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "授权苹果照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027授权苹果照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "餐具区完成整理；候选MP整理真实杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027餐具区完成整理；候选MP整理真实杯子\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "餐桌照片中的杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027餐桌照片中的杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "材质变化对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027材质变化对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应大小区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应大小区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新生境实例",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新生境实例\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红圆；蓝方",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红圆；蓝方\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "切换后正确区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027切换后正确区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图黄星区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图黄星区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "正确区域响应并生成规则专属摘要",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027正确区域响应并生成规则专属摘要\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前形状目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前形状目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "土地区生长；水流出现",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027土地区生长；水流出现\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "红光区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027红光区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应区域完成整理",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应区域完成整理\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02",
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "工作台启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027工作台启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图工具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图工具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "交通区启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027交通区启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "切换后规则对应区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027切换后规则对应区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "方区；圆区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027方区；圆区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "大类→小类",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027大类→小类\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P04",
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "屏幕正确区域响应；随后仅生成一个家庭整理包或OBS",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027屏幕正确区域响应；随后仅生成一个家庭整理包或OBS\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "新外观形状对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027新外观形状对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "花园生长；工具台启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027花园生长；工具台启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "衣物区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027衣物区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "清洁工具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027清洁工具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蝴蝶",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蝴蝶\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "六种新实例",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027六种新实例\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前复核目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前复核目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "花；工具",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027花；工具\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "小区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027小区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "食物层与主食层依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027食物层与主食层依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大方箱；小方箱",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大方箱；小方箱\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "食物层与水果层依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027食物层与水果层依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "不同角度鞋照片",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027不同角度鞋照片\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "飞行区生态启动",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027飞行区生态启动\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "水流出现",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027水流出现\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "工具区；餐具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027工具区；餐具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "屏幕杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027屏幕杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "兔",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027兔\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同图水滴区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同图水滴区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "陆地区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027陆地区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "各自功能区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027各自功能区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "野餐照片中的苹果",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027野餐照片中的苹果\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "大区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027大区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01",
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前配对对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前配对对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "水流恢复",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027水流恢复\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "对应概念区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027对应概念区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "阅读区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027阅读区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "杯子；鞋",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027杯子；鞋\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "餐具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027餐具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P01",
+                                    "GF03-L5-P01",
+                                    "GF03-L5-P02",
+                                    "GF03-L5-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "对应概念区域响应",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027对应概念区域响应\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "红区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027红区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01",
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "当前颜色目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027当前颜色目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04",
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "中号种子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027中号种子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "蓝区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027蓝区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01",
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "匹配的范例组区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027匹配的范例组区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "红色不同形状对象",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027红色不同形状对象\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "生态层级展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027生态层级展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大圆石；小圆石",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大圆石；小圆石\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "真实照片目标",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027真实照片目标\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "黄区点亮",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027黄区点亮\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "锤子；刷子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027锤子；刷子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "绿三角石",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027绿三角石\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "鸟",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027鸟\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03",
+                                    "GF03-L4-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "动物层与水生层依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027动物层与水生层依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "当前规则正确区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027当前规则正确区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "杯子",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027杯子\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "outcome",
+                      "label":  "用品层与餐具层依次展开",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Compact natural ecosystem result state icon for \u0027用品层与餐具层依次展开\u0027, same material language as the master set, no fireworks, no particles, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "大圆；小方",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027大圆；小方\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P03"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "蓝光区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027蓝光区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L2-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝圆",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝圆\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02",
+                                    "GF03-L4-P01"
+                                ]
+                  },
+                  {
+                      "kind":  "object",
+                      "label":  "蓝方",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated runtime object asset for \u0027蓝方\u0027, single centered object, front three-quarter view, soft shadow, same material language as the master set (vivid matte colors, rounded toy forms), warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L3-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "同色区域",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027同色区域\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L5-P04"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "食物区；交通区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027食物区；交通区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L1-P02"
+                                ]
+                  },
+                  {
+                      "kind":  "region",
+                      "label":  "食物区；工具区",
+                      "prompt":  "GAME-004 approved art direction, warm ivory and sage-green habitat pod, rounded toy-like 3D animated-film render, soft diffuse lighting, gentle child-friendly forms, clear semantic silhouette, no text, no pseudo-UI, no watermark. Isolated rounded diorama habitat region tile for \u0027食物区；工具区\u0027, front three-quarter view, same material language as the master set, low visual density, warm ivory background, no labels, no borders.",
+                      "packs":  [
+                                    "GF03-L4-P01"
+                                ]
+                  }
+              ]
+}

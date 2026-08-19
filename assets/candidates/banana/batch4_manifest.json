@@ -1,0 +1,58 @@
+﻿{
+    "schema_version":  "game004-banana-batch-v4",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "batch":  4,
+    "submitted_at":  "2026-08-19T22:32:47.4293464+08:00",
+    "items":  [
+                  {
+                      "label":  "object_fish",
+                      "prediction_id":  "c3ea3926fceb438d857de1c90ae35d0e",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_bird",
+                      "prediction_id":  "dd9db89c654342e49bc8773bf2a72330",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_flower",
+                      "prediction_id":  "31435162172348c18e9b0298b92d8821",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_hammer",
+                      "prediction_id":  "9b84850c79d54b998656029b72e083bf",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_apple",
+                      "prediction_id":  "268f59da70b34d9986ea37a73a4334b0",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_toy_car",
+                      "prediction_id":  "b09ac3f5c6064ee98726a9b280ba44be",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_cup",
+                      "prediction_id":  "77f4ce12e4c74e80aacfae1038a2859b",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_shoe",
+                      "prediction_id":  "4e1025c9452249d6a4f0732ef1218d86",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  }
+              ]
+}

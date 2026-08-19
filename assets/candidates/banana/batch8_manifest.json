@@ -1,0 +1,58 @@
+﻿{
+    "schema_version":  "game004-banana-batch-v8",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "batch":  8,
+    "submitted_at":  "2026-08-19T22:52:52.9643151+08:00",
+    "items":  [
+                  {
+                      "label":  "region_big_zone",
+                      "prediction_id":  "5a3ccd30a7004349b2bef022839d2be3",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "region_medium_zone2",
+                      "prediction_id":  "7851a1d8bd0c4366b122467acbe14587",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "region_small_zone2",
+                      "prediction_id":  "323473d1d6ec406f912d58a05538e1e4",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_red_round",
+                      "prediction_id":  "f56a47b4a37c4c4fbc0d6ccb431cf64c",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_blue_square",
+                      "prediction_id":  "e08a7490fc0646349db10f7c7e6ce51d",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_round_response",
+                      "prediction_id":  "e15825148f7c46dea41544cb8d2a7edf",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_square_response",
+                      "prediction_id":  "d17b37da5130489fbd444dbbad1350b6",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_pair_response",
+                      "prediction_id":  "74adf72977b84538b7057e683fa45c3c",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  }
+              ]
+}

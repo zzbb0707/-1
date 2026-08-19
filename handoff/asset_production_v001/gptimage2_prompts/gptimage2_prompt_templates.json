@@ -1,0 +1,21 @@
+﻿{
+    "regions":  {
+                    "L4":  "3 by 2 contact sheet, six habitat region tiles showing 3-4 connected regions with water flow between them: {items}. Same material language, no overlap, no labels.",
+                    "L1":  "3 by 2 contact sheet, six separate isolated rounded diorama habitat region tiles on warm ivory background: {items}. Front three-quarter view, same material language as the habitat shell, low visual density, no overlap, no labels.",
+                    "L3":  "3 by 2 contact sheet, six habitat region tiles showing rule-switching and hierarchical classification layout: {items}. Same material language, no overlap, no labels.",
+                    "L2":  "3 by 2 contact sheet, six habitat region tiles, each shows a clear single-attribute distinction (size/color/function): {items}. Same material language, no overlap, no labels."
+                },
+    "outcomes":  {
+                     "L4":  "3 by 2 contact sheet, six natural outcome states connecting multiple systems after correct placement: {items}. Same material language, no labels.",
+                     "L1":  "3 by 2 contact sheet, six compact natural ecosystem result state icons on warm ivory background: {items}. Tiny sprout, lamp glow, leaf unfolding, stable mossy rock, water stream, workbench indicator. Same material language, no fireworks, no particles, no labels.",
+                     "L3":  "3 by 2 contact sheet, six natural outcome states for rule-switching rounds: {items}. Same material language, no labels.",
+                     "L2":  "3 by 2 contact sheet, six natural outcome states showing controlled attribute change after correct placement: {items}. Same material language, no labels."
+                 },
+    "objects":  {
+                    "L4":  "3 by 2 contact sheet, six separate isolated objects where the rule-relevant feature is clear and one irrelevant feature varies freely (e.g. color vs size, shape vs texture): {items}. Same material language, no overlap, no labels.",
+                    "L1":  "3 by 2 contact sheet, six separate isolated runtime object assets on warm ivory background with generous spacing: {items}. Each object centered in its own equal cell, front three-quarter view, soft shadow, consistent scale, no overlap, no labels, no borders.",
+                    "L3":  "3 by 2 contact sheet, six separate isolated objects showing novel instances and alternative viewpoints/materials of the same habitat family: {items}. Keep identical material language, no overlap, no labels.",
+                    "L5":  "L5 authorized photo container: a warm ivory habitat frame that will hold a real child photo later, placeholder silhouette only, no real face, no text: {items}. Same material language.",
+                    "L2":  "3 by 2 contact sheet, six separate isolated objects, same family and material as reference habitat assets, distinguished only by the frozen attribute ({attribute}): {items}. Soft studio light, warm ivory background, no overlap, no labels."
+                }
+}

@@ -1,0 +1,58 @@
+﻿{
+    "schema_version":  "game004-banana-batch-v9",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "single_object_per_image",
+    "batch":  9,
+    "submitted_at":  "2026-08-19T22:57:21.5797634+08:00",
+    "items":  [
+                  {
+                      "label":  "region_sun_garden",
+                      "prediction_id":  "79fa86f7935b4915adbf95bccf7ed424",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "region_forest_zone",
+                      "prediction_id":  "4d9b5fdc7bf741b2a211d81cb6a3c2de",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_leaf",
+                      "prediction_id":  "b8816a9d77ca4ecd8cb59e7979f59c21",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_seed_pod",
+                      "prediction_id":  "b2a1b07f281848b3b9735f2588610a27",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "region_water_linked",
+                      "prediction_id":  "c1a90e800b71492b8af744429b701a11",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "outcome_multi_zone_response",
+                      "prediction_id":  "392ad7291cd04c208d7bac5eed1b192f",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  },
+                  {
+                      "label":  "object_example_card",
+                      "prediction_id":  "6a5775e50d1b402fa8533395d5bfa4ba",
+                      "status":  "needs_revision",
+                      "review":  "Atlas FAIL: border pseudo-UI"
+                  },
+                  {
+                      "label":  "object_rule_icon",
+                      "prediction_id":  "574ea74495534275affaaab4b039f4db",
+                      "status":  "approved_candidate",
+                      "review":  "Atlas Gemini PASS"
+                  }
+              ]
+}

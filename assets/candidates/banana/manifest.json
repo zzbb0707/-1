@@ -1,0 +1,17 @@
+﻿{
+    "schema_version":  "game004-banana-assets-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "style_model":  "google/nano-banana-pro/text-to-image",
+    "style_lock":  "docs/GAME-004_Art_Style_Lock_V1.md",
+    "master":  [
+                   {
+                       "asset_id":  "GAME004-MASTER-L1-OBJECTS-BANANA-V001",
+                       "file":  "assets/candidates/banana/master/L1_objects_master_banana_v001.jpg",
+                       "prediction_id":  "bcb4d11160ce41f78c5205670a395161",
+                       "review":  "atlas PASS",
+                       "rights_status":  "unknown",
+                       "status":  "style_master"
+                   }
+               ],
+    "policy":  "candidate -\u003e processed -\u003e approved; no auto-approval; L5 rights unknown until authorized"
+}

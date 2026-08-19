@@ -1,0 +1,48 @@
+﻿{
+    "schema_version":  "game004-banana-batch-v1",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "style_model":  "google/nano-banana-pro/text-to-image",
+    "style_master":  "assets/candidates/banana/master/L1_objects_master_banana_v001.jpg",
+    "batches":  [
+                    {
+                        "batch_id":  "L1-P02-OBJECTS-A",
+                        "prediction_id":  "12d904baf88d4e84855340889c213a65",
+                        "items":  [
+                                      "fish",
+                                      "bird",
+                                      "flower",
+                                      "hammer",
+                                      "apple",
+                                      "toy_car"
+                                  ],
+                        "status":  "processing"
+                    },
+                    {
+                        "batch_id":  "L1-P02-OBJECTS-B",
+                        "prediction_id":  "dd8cfdfcca8d4597af646448d0149567",
+                        "items":  [
+                                      "cup",
+                                      "shoe",
+                                      "large_stone",
+                                      "small_stone",
+                                      "round_icon",
+                                      "square_icon"
+                                  ],
+                        "status":  "processing"
+                    },
+                    {
+                        "batch_id":  "L1-P02-REGIONS",
+                        "prediction_id":  "c9c2d7a1f6744d11ac4005274366b4ef",
+                        "items":  [
+                                      "water_zone",
+                                      "sky_zone",
+                                      "flower_garden",
+                                      "tool_zone",
+                                      "rock_zone",
+                                      "sun_zone"
+                                  ],
+                        "status":  "processing"
+                    }
+                ],
+    "policy":  "candidate -\u003e processed -\u003e approved; no auto-approval"
+}
