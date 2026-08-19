@@ -51,13 +51,17 @@ var feedback_label := ""
 var feedback_texture: Texture2D
 var debug_open := true
 var session_status := "started"
+var low_sensory := false
 
 func _ready() -> void:
     _resolve_config_path()
     _load_game_config()
     _load_launch_context()
+    for arg in OS.get_cmdline_user_args():
+        if arg == "--low-sensory": low_sensory = true
+    if launch_context.get("low_sensory", false): low_sensory = true
     session_started_ms = Time.get_ticks_msec()
-    _emit("game_start", {"slice_id": slice_id, "round_count": rounds.size(), "region_count": regions.size(), "launch_mode": launch_context.get("launch_mode", "preview"), "low_sensory": launch_context.get("low_sensory", false)})
+    _emit("game_start", {"slice_id": slice_id, "round_count": rounds.size(), "region_count": regions.size(), "launch_mode": launch_context.get("launch_mode", "preview"), "low_sensory": low_sensory})
     _start_round(0)
     queue_redraw()
 
@@ -337,6 +341,9 @@ func _draw() -> void:
     if background: draw_texture_rect(background, STAGE, false)
     else: draw_rect(STAGE, Color("#17324b"), true)
     draw_rect(STAGE, Color("#d9e8df"), false, 3)
+    if low_sensory:
+        # low-sensory: reduce border weight and add a soft calm overlay
+        draw_rect(STAGE, Color(0.93, 0.97, 0.95, 0.14), true)
     for region_name in regions: _draw_region(region_name, regions[region_name])
     if feedback_region != "" and Time.get_ticks_msec() < feedback_until_ms:
         _draw_feedback(feedback_region)
