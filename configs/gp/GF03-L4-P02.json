@@ -217,7 +217,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R05",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_aquatic_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_waterstream_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R06",
@@ -255,7 +256,8 @@
                        "natural_outcome_label":  "匹配区域响应",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R06",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    }
                ]
 }

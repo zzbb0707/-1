@@ -58,7 +58,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R02",
@@ -136,7 +137,8 @@
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_color_changed_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_color_changed_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R04",
@@ -175,7 +177,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_shape_changed_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_smallzone_v001.jpg"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_smallzone_v001.jpg",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R05",
@@ -212,7 +215,8 @@
                        "distractor_guidance":  "颜色是旧规则线索，必须忽略",
                        "natural_outcome_label":  "对应功能区域启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R06",
@@ -250,7 +254,8 @@
                        "distractor_guidance":  "大类和小类阶段分别设置同层级干扰",
                        "natural_outcome_label":  "类别层级依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_multizone_v001.jpg"
                    }
                ]
 }

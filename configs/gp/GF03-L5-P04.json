@@ -57,7 +57,8 @@
                        "natural_outcome_label":  "正确配对区域响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R01",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_matching_image_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_matching_image_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R02",
@@ -133,7 +134,8 @@
                        "distractor_guidance":  "外观属性不得替代功能",
                        "natural_outcome_label":  "对应功能区域启动",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R04",
@@ -171,7 +173,8 @@
                        "natural_outcome_label":  "对应概念区域响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_star_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R05",
@@ -208,7 +211,8 @@
                        "distractor_guidance":  "旧规则特征作为受控干扰",
                        "natural_outcome_label":  "切换后正确区域响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P04-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P04-R06",

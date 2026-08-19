@@ -218,7 +218,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P03-R05",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P03-R06",
@@ -257,7 +258,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P03-R06",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    }
                ]
 }

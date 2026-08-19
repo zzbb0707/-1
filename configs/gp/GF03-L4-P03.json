@@ -143,7 +143,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R03",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_rabbit_v001.jpg",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_land_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_land_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R04",

@@ -56,7 +56,8 @@
                        "distractor_guidance":  "范例应跨形状以排除形状策略",
                        "natural_outcome_label":  "匹配颜色区域点亮",
                        "natural_outcome_id":  "OUT-GF03-L4-P04-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_samecolor_lit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P04-R02",
@@ -93,7 +94,8 @@
                        "distractor_guidance":  "旧颜色线索作为受控干扰",
                        "natural_outcome_label":  "对应功能区域启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P04-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P04-R03",
@@ -130,7 +132,8 @@
                        "distractor_guidance":  "颜色不得预测区域",
                        "natural_outcome_label":  "对应形状区域启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P04-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P04-R04",
@@ -169,7 +172,8 @@
                        "distractor_guidance":  "其余三个生境区为干扰",
                        "natural_outcome_label":  "对应生境启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P04-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P04-R05",
@@ -207,7 +211,8 @@
                        "distractor_guidance":  "各阶段只使用同层级备选",
                        "natural_outcome_label":  "类别层级依次展开",
                        "natural_outcome_id":  "OUT-GF03-L4-P04-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_multizone_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P04-R06",

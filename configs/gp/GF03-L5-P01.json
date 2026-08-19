@@ -58,7 +58,8 @@
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_fruit_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R02",
@@ -176,7 +177,8 @@
                        "natural_outcome_label":  "穿戴区完成整理",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_clothingzone_v001.jpg"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_clothingzone_v001.jpg",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_regiontidy_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R05",
@@ -252,7 +254,8 @@
                        "distractor_guidance":  "背景和摄影条件为无关特征；仅计屏幕证据",
                        "natural_outcome_label":  "对应功能区域启动",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    }
                ]
 }

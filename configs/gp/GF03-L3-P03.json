@@ -59,7 +59,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_multizone_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R02",
@@ -99,7 +100,8 @@
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R02",
                        "implementation_status":  "semantic_defined_needs_art",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bread_v001.jpg",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_multizone_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R03",
@@ -260,7 +262,8 @@
                        "distractor_guidance":  "植物为大类干扰；动物内非飞行为小类干扰",
                        "natural_outcome_label":  "生态层级展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_fourzone_start_grid_v001.png"
                    }
                ]
 }
