@@ -16,7 +16,9 @@ function Run-Godot([string[]]$Arguments, [string]$Name, [int[]]$AcceptedExitCode
 
 Run-Godot @("--headless", "--path", $ProjectPath, "--editor", "--quit") "project_parse"
 Run-Godot @("--headless", "--path", $ProjectPath, "--script", "res://tests/test_contract.gd") "contract_test" @(0, 1)
+Run-Godot @("--headless", "--path", $ProjectPath, "--script", "res://tests/test_bridge_schema.gd") "bridge_schema_test" @(0, 1)
 Run-Godot @("--headless", "--path", $ProjectPath, "--script", "res://tests/test_slice_configs.gd") "slice_config_test" @(0, 1)
+Run-Godot @("--headless", "--path", $ProjectPath, "--script", "res://tests/test_processed_assets.gd") "processed_asset_test" @(0, 1)
 
 $frames = @()
 foreach ($level in @("L1", "L3", "L4")) {
@@ -40,7 +42,9 @@ $report = [ordered]@{
     checks = [ordered]@{
         project_parse = "pass"
         contract_test = "pass"
+        bridge_schema_test = "pass"
         slice_config_test = "pass"
+        processed_asset_test = "pass"
         render_levels = @("L1", "L3", "L4")
     }
     frames = $frames
