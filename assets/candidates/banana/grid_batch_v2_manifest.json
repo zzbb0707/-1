@@ -1,0 +1,43 @@
+﻿{
+    "schema_version":  "game004-grid-batch-v2",
+    "baseline_version":  "GAME004-BASELINE-V1",
+    "model":  "google/nano-banana-pro/text-to-image",
+    "mode":  "grid_3x3_9items",
+    "submitted_at":  "2026-08-20T00:10:53.2752736+08:00",
+    "grids":  [
+                  {
+                      "grid_id":  "GRID-OBJ-2",
+                      "prediction_id":  "c3024231c0074e8f9267be7dc20763c2",
+                      "labels":  [
+                                     "colorful_hammer",
+                                     "big_square_block",
+                                     "big_red_square",
+                                     "big_blue_circle",
+                                     "big_triangle",
+                                     "red_triangle",
+                                     "blue_circle",
+                                     "screwdriver",
+                                     "wooden_toy_car"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  },
+                  {
+                      "grid_id":  "GRID-OBJ-3",
+                      "prediction_id":  "25294e9b9b8c4927bf7ba2cb13b338e4",
+                      "labels":  [
+                                     "screen_blocks",
+                                     "screen_spoon",
+                                     "screen_book",
+                                     "tri_color",
+                                     "small_circle",
+                                     "new_fruit",
+                                     "new_angle_tool",
+                                     "realistic_fish",
+                                     "medium_seed"
+                                 ],
+                      "status":  "processing",
+                      "review":  ""
+                  }
+              ]
+}
