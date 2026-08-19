@@ -58,7 +58,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R01",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redround_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R02",
