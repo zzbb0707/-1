@@ -1,0 +1,28 @@
+$ErrorActionPreference='Stop'
+$root='D:\deepseek\yunxiaoxing-game004'
+$dir=Join-Path $root 'configs\gp'
+$objMapRaw = Get-Content -Raw (Join-Path $root 'tools\obj_reuse_map.json') -Encoding UTF8 | ConvertFrom-Json
+$objMap=@{}
+foreach($prop in $objMapRaw.PSObject.Properties){ $objMap[$prop.Name] = $prop.Value }
+$bound=0
+$packs=@('GF03-L2-P01','GF03-L2-P02','GF03-L2-P03','GF03-L2-P04','GF03-L3-P01','GF03-L3-P02','GF03-L3-P03','GF03-L3-P04','GF03-L4-P01','GF03-L4-P02','GF03-L4-P03','GF03-L4-P04','GF03-L5-P01','GF03-L5-P02','GF03-L5-P03','GF03-L5-P04')
+foreach($pack in $packs){
+  $p=Join-Path $dir ($pack+'.json')
+  if(!(Test-Path $p)){ continue }
+  $c=Get-Content -Raw $p -Encoding UTF8|ConvertFrom-Json
+  foreach($r in $c.rounds){
+    if($r.PSObject.Properties.Name.Contains('target_asset_path') -and $r.target_asset_path -and $r.target_asset_path -ne ''){ continue }
+    $t=[string]$r.target_display_name
+    if($t.Contains([string][char]0xFF1B) -or $t.Contains(';')){ continue }
+    foreach($kw in $objMap.Keys){
+      if($t.Contains($kw)){
+        if(-not $r.PSObject.Properties.Name.Contains("target_asset_path")){ $r | Add-Member -NotePropertyName target_asset_path -NotePropertyValue "" -Force }
+        $r.target_asset_path="res://assets/candidates/banana/approved_candidate/$($objMap[$kw])"
+        $bound++
+        break
+      }
+    }
+  }
+  $c|ConvertTo-Json -Depth 12|Set-Content $p -Encoding UTF8
+}
+Write-Host "OBJ_REUSE_BACKFILL bound=$bound"

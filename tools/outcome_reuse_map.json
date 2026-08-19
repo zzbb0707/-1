@@ -1,0 +1,10 @@
+{
+  "完成整理": "outcome_regiontidy_v001",
+  "启动": "outcome_workzone_start_grid_v001",
+  "响应": "outcome_roundresponse_v001",
+  "点亮": "outcome_samecolor_lit_grid_v001",
+  "展开": "outcome_multizone_v001",
+  "生态": "outcome_fourzone_start_grid_v001",
+  "水流": "outcome_waterstream_v001",
+  "配对": "outcome_pairresponse_v001"
+}

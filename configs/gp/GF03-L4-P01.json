@@ -95,7 +95,8 @@
                        "natural_outcome_label":  "圆区启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R02",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_round_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_blue_circle_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R03",
@@ -134,7 +135,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R03",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_big_red_square_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R04",
@@ -173,7 +175,8 @@
                        "natural_outcome_id":  "OUT-GF03-L4-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_space_arranged_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_blue_circle_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P01-R05",
