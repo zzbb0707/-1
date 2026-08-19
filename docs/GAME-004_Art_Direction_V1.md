@@ -2,7 +2,9 @@
 
 **baseline_version：GAME004-BASELINE-V1**  
 **适用范围：ALL-GF03**  
-**状态：production direction frozen；单项资产仍需按包审核。**
+**状态：production direction approved by user / 单项资产仍需按包审核。**
+
+> 2026-08-19 用户已确认：延续当前方向板的统一风格。后续资产必须保持暖米白+青绿生态舱、圆润玩具化3D、柔和光照和清晰可触的语义层；不得换成写实、扁平、赛博硬表面或高刺激风格，除非先建立正式变更请求。
 
 ## 1. 视觉目标
 
