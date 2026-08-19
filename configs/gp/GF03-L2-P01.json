@@ -56,7 +56,9 @@
                        "distractor_guidance":  "蓝色区域为干扰；忽略对象类别",
                        "natural_outcome_label":  "红光区点亮",
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redflower2_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R02",
@@ -93,7 +95,8 @@
                        "distractor_guidance":  "红色区域为干扰；忽略对象类别",
                        "natural_outcome_label":  "蓝光区点亮",
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_blueleaf2_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R03",
@@ -130,7 +133,8 @@
                        "distractor_guidance":  "用不同形状检验忽略形状",
                        "natural_outcome_label":  "红区点亮",
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R04",
@@ -205,7 +209,9 @@
                        "distractor_guidance":  "红、蓝区域为同规则干扰",
                        "natural_outcome_label":  "黄区点亮",
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_yellowseed_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_yellow_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R06",
@@ -243,7 +249,8 @@
                        "distractor_guidance":  "交换三区位置，禁止位置记忆",
                        "natural_outcome_label":  "花园分区点亮",
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_tri_color_grid_v001.png"
                    }
                ]
 }

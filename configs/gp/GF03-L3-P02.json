@@ -56,7 +56,8 @@
                        "distractor_guidance":  "方/圆不得覆盖颜色规则",
                        "natural_outcome_label":  "红区点亮",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R02",
@@ -167,7 +168,8 @@
                        "distractor_guidance":  "方形是上一规则线索，必须忽略",
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R05",
@@ -204,7 +206,8 @@
                        "distractor_guidance":  "圆形不得触发旧形状规则",
                        "natural_outcome_label":  "小区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L3-P02-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_small_circle_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P02-R06",

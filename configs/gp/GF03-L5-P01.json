@@ -56,7 +56,8 @@
                        "distractor_guidance":  "使用已授权非水果照片作干扰",
                        "natural_outcome_label":  "水果区生态响应",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R02",
@@ -93,7 +94,9 @@
                        "distractor_guidance":  "使用已授权非餐具照片作干扰",
                        "natural_outcome_label":  "餐具区完成整理",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R03",
@@ -130,7 +133,9 @@
                        "distractor_guidance":  "背景不得预测类别",
                        "natural_outcome_label":  "工具区启动",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R04",
@@ -204,7 +209,8 @@
                        "distractor_guidance":  "背景、颜色和材质不得替代大小规则",
                        "natural_outcome_label":  "大小区域完成安排",
                        "natural_outcome_id":  "OUT-GF03-L5-P01-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P01-R06",

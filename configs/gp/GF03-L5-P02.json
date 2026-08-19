@@ -56,7 +56,9 @@
                        "distractor_guidance":  "非餐具区作干扰；MP不计入屏幕正确答案",
                        "natural_outcome_label":  "餐具区完成整理；候选MP整理真实杯子",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R02",
@@ -93,7 +95,8 @@
                        "distractor_guidance":  "非玩具区作干扰；MP独立记录",
                        "natural_outcome_label":  "玩具区完成整理；候选MP收积木",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_blocks_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R03",
@@ -130,7 +133,8 @@
                        "distractor_guidance":  "非衣物区作干扰；MP独立记录",
                        "natural_outcome_label":  "衣物区完成整理；候选MP分衣物",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_sock_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R04",
@@ -167,7 +171,9 @@
                        "distractor_guidance":  "非餐具区作干扰；MP独立记录",
                        "natural_outcome_label":  "餐具区完成整理；候选MP摆餐具",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_screen_spoon_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R05",
@@ -204,7 +210,9 @@
                        "distractor_guidance":  "非阅读区作干扰；MP独立记录",
                        "natural_outcome_label":  "阅读区完成整理；候选MP收书",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_book_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_book_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R06",

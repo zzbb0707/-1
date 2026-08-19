@@ -57,7 +57,9 @@
                        "distractor_guidance":  "用品为大类干扰；食物内非水果为小类干扰",
                        "natural_outcome_label":  "食物层与水果层依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R02",
@@ -95,7 +97,9 @@
                        "distractor_guidance":  "用品为大类干扰；食物内非主食为小类干扰",
                        "natural_outcome_label":  "食物层与主食层依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bread_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_food_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R03",
@@ -133,7 +137,9 @@
                        "distractor_guidance":  "食物为大类干扰；用品内非餐具为小类干扰",
                        "natural_outcome_label":  "用品层与餐具层依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_cup_grid_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R04",
@@ -171,7 +177,9 @@
                        "distractor_guidance":  "食物为大类干扰；用品内非工具为小类干扰",
                        "natural_outcome_label":  "用品层与工具层依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R05",
@@ -209,7 +217,8 @@
                        "distractor_guidance":  "植物为大类干扰；动物内非水生为小类干扰",
                        "natural_outcome_label":  "动物层与水生层依次展开",
                        "natural_outcome_id":  "OUT-GF03-L3-P03-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P03-R06",

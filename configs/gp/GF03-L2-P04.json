@@ -56,7 +56,8 @@
                        "distractor_guidance":  "非当前属性不得决定答案",
                        "natural_outcome_label":  "颜色分区响应",
                        "natural_outcome_id":  "OUT-GF03-L2-P04-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R02",
@@ -93,7 +94,8 @@
                        "distractor_guidance":  "非当前属性不得决定答案",
                        "natural_outcome_label":  "大小分区响应",
                        "natural_outcome_id":  "OUT-GF03-L2-P04-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R03",
@@ -167,7 +169,9 @@
                        "distractor_guidance":  "非当前属性不得决定答案",
                        "natural_outcome_label":  "对应功能区域启动",
                        "natural_outcome_id":  "OUT-GF03-L2-P04-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_kitchen_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P04-R05",

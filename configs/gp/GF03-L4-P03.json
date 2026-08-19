@@ -58,7 +58,8 @@
                        "distractor_guidance":  "其余三个生境区为干扰",
                        "natural_outcome_label":  "水生区水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_realistic_fish_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R02",
@@ -136,7 +137,8 @@
                        "distractor_guidance":  "其余三个生境区为干扰",
                        "natural_outcome_label":  "陆地区生态启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_rabbit_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R04",
@@ -214,7 +216,8 @@
                        "distractor_guidance":  "陆地区为主要近边界干扰",
                        "natural_outcome_label":  "水生区水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P03-R06",
@@ -253,7 +256,8 @@
                        "distractor_guidance":  "植物区可作为近关联干扰，但规则必须明确",
                        "natural_outcome_label":  "四区生态同时启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P03-R06",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_butterfly_v001.png"
                    }
                ]
 }

@@ -130,7 +130,8 @@
                        "distractor_guidance":  "圆/方/三角变化用于排除形状规则",
                        "natural_outcome_label":  "大区完成安排",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R03",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_big_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R04",
@@ -167,7 +168,8 @@
                        "distractor_guidance":  "外形差异明显的工具实例",
                        "natural_outcome_label":  "工具区启动",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R04",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R05",
@@ -204,7 +206,8 @@
                        "distractor_guidance":  "近边界海龟与非水生实例形成概念干扰",
                        "natural_outcome_label":  "水流恢复",
                        "natural_outcome_id":  "OUT-GF03-L4-P02-R05",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_seaturtle_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L4-P02-R06",

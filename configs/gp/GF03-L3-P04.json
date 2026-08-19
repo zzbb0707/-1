@@ -56,7 +56,8 @@
                        "distractor_guidance":  "非水果功能类作为干扰",
                        "natural_outcome_label":  "水果区生态响应",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R01",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_fruit_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R02",
@@ -93,7 +94,9 @@
                        "distractor_guidance":  "非工具功能类作为干扰",
                        "natural_outcome_label":  "工具区启动",
                        "natural_outcome_id":  "OUT-GF03-L3-P04-R02",
-                       "implementation_status":  "semantic_defined_needs_art"
+                       "implementation_status":  "semantic_defined_needs_art",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_tools_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_new_angle_tool_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L3-P04-R03",
