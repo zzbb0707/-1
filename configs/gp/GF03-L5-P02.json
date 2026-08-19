@@ -136,7 +136,8 @@
                        "natural_outcome_label":  "衣物区完成整理；候选MP分衣物",
                        "natural_outcome_id":  "OUT-GF03-L5-P02-R03",
                        "implementation_status":  "semantic_defined_needs_art",
-                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_sock_v001.jpg"
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_sock_v001.jpg",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_clothingzone_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L5-P02-R04",

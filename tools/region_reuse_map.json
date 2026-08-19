@@ -1,0 +1,9 @@
+{
+  "交通区": "region_trafficzone_v001.jpg",
+  "中区": "region_mediumzone_v001.jpg",
+  "小区": "region_smallzone_v001.jpg",
+  "植物区": "region_plantzone_grid_v001.png",
+  "飞行区": "region_flyingzone_grid_v001.png",
+  "穿戴区": "region_clothingzone_v001.jpg",
+  "衣物区": "region_clothingzone_v001.jpg"
+}
