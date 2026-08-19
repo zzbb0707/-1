@@ -60,6 +60,8 @@ func _resolve_config_path() -> void:
             var requested := arg.trim_prefix("--slice=").to_upper()
             if requested in ["L1", "L3", "L4"]:
                 config_path = "res://configs/game004_%s_slice.json" % requested.to_lower()
+        elif arg == "--low-sensory":
+            launch_context.low_sensory = true
 
 func _load_game_config() -> void:
     var file := FileAccess.open(config_path, FileAccess.READ)
