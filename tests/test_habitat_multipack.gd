@@ -4,7 +4,11 @@ extends SceneTree
 var _pass := 0
 var _fail := 0
 var _started := false
-var _packs := ["GF03-L1-P01", "GF03-L2-P01", "GF03-L3-P01", "GF03-L4-P01", "GF03-L5-P01"]
+var _packs := ["GF03-L1-P01", "GF03-L1-P02", "GF03-L1-P03", "GF03-L1-P04",
+    "GF03-L2-P01", "GF03-L2-P02", "GF03-L2-P03", "GF03-L2-P04",
+    "GF03-L3-P01", "GF03-L3-P02", "GF03-L3-P03", "GF03-L3-P04",
+    "GF03-L4-P01", "GF03-L4-P02", "GF03-L4-P03", "GF03-L4-P04",
+    "GF03-L5-P01", "GF03-L5-P02", "GF03-L5-P03", "GF03-L5-P04"]
 var _idx := 0
 
 func _init() -> void:

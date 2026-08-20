@@ -45,9 +45,10 @@ Godot_v4.7.1-stable_win64.exe --path <proj>
 - 20 包加载回归：**20/20**
 - **测试套件：13/13 PASS**（12 项核心 + habitat 玩法测试 8/8）
 - habitat 玩法测试覆盖：配置加载/对象生成/拖拽判定/回合推进/成功事件/跨日写入
+- **完整通关测试**：L1P01 6回合自动通关 ✅；L1-L5 五难度包全部通关 ✅（验证中：20包全量）
 - 布局均衡（whitespace_issue=false）、透明无贴纸感
 - 交付包：`D:\deepseek\GAME004_星图生态舱_交付包.zip`
-- git：main 分支（最新 dc5c5a0）
+- git：main 分支（最新 5a17564）
 
 ## 5. 明确未验证（需真实环境，unverified）
 
