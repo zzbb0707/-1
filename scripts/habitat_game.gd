@@ -219,6 +219,11 @@ func _match_region_texture(region_name: String) -> Texture2D:
             var p := candidates[kw]
             if ResourceLoader.exists(p):
                 return load(p)
+    # 天空区专用：skyperch 素材（更贴"天空"语义）
+    if region_name.contains("天空"):
+        var sky := "res://assets/candidates/banana/approved_candidate/region_skyperch_v001.jpg"
+        if ResourceLoader.exists(sky):
+            return load(sky)
     # 兜底：banana 区域素材按名匹配
     var fname := "res://assets/candidates/banana/approved_candidate/region_%s_grid_v001.png" % _region_slug(region_name)
     if ResourceLoader.exists(fname):
@@ -227,16 +232,21 @@ func _match_region_texture(region_name: String) -> Texture2D:
 
 func _region_slug(region_name: String) -> String:
     var map := {
-        "圆区": "round_zone", "方区": "square_zone", "水区": "aquatic_zone",
-        "天空区": "flying", "天空": "flying", "飞行区": "flying",
-        "花园": "food_zone", "工具台": "tools_zone",
-        "食物区": "food_zone", "交通区": "traffic", "餐具区": "kitchen_zone",
-        "穿戴区": "clothing", "土地区": "land_zone", "光区": "bluelight_zone",
-        "岩区": "land_zone", "植物区": "plant", "玩具区": "toys_zone",
-        "清洁区": "cleaning_zone", "水果区": "fruit_zone", "蓝光区": "bluelight_zone",
-        "蓝区": "blue_zone", "陆地区": "land_zone", "中区": "medium_zone",
-        "小区": "small_zone", "衣物区": "clothing", "卧室区": "bedroom_zone",
-        "阅读区": "book_zone", "厨房区": "kitchen_zone",
+        "圆区": "round_zone", "方区": "square_zone",
+        "水生": "aquatic_zone", "水": "aquatic_zone",
+        "天空": "flying", "飞行": "flying",
+        "花园": "food_zone", "工具台": "tools_zone", "工具": "tools_zone",
+        "食物": "food_zone", "交通": "traffic", "餐具": "kitchen_zone",
+        "厨房": "kitchen_zone", "穿戴": "clothing", "衣物": "clothing",
+        "土地区": "land_zone", "陆地": "land_zone", "岩": "land_zone",
+        "光区": "bluelight_zone", "蓝光": "bluelight_zone", "蓝区": "blue_zone",
+        "植物": "plant", "玩具": "toys_zone", "清洁": "cleaning_zone",
+        "水果": "fruit_zone", "中区": "medium_zone", "小区": "small_zone",
+        "卧室": "bedroom_zone", "阅读": "book_zone",
+        "红区": "red_zone", "黄区": "yellow_zone", "敲击": "tapping_zone",
+        "维修": "tools_zone", "主食": "food_zone", "用品": "clothing",
+        "范例": "example_zone", "同图": "matching_image", "大区": "big_zone",
+        "正确配对": "matching_image",
     }
     for k in map:
         if region_name.contains(k):
