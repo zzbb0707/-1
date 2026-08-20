@@ -49,7 +49,7 @@ var feedback_until_ms := 0
 var feedback_region := ""
 var feedback_label := ""
 var feedback_texture: Texture2D
-var debug_open := true
+var debug_open := false
 var session_status := "started"
 var low_sensory := false
 
@@ -331,19 +331,23 @@ func _emit(event_type: String, payload: Dictionary) -> void:
     events.append(bridge.emit_event(event_type, payload))
 
 func _draw() -> void:
-    draw_rect(Rect2(Vector2.ZERO, VIEW_SIZE), Color("#10243a"))
+    # 背景：暖米白生态舱内壁，替代调试深蓝
+    draw_rect(Rect2(Vector2.ZERO, VIEW_SIZE), Color("#f2ecdd"))
+    # 顶部标题带
+    draw_style_box(_box(Color("#e7dfc9"), 20, Color("#c9bd99")), Rect2(24, 20, 552, 96))
     var title := "星图生态舱｜%s" % (game_pack_id if not game_pack_id.is_empty() else "%s代表关" % slice_id)
-    draw_string(ThemeDB.fallback_font, Vector2(55, 82), title, HORIZONTAL_ALIGNMENT_LEFT, -1, 32, Color("#f5fbff"))
+    draw_string(ThemeDB.fallback_font, Vector2(48, 62), title, HORIZONTAL_ALIGNMENT_LEFT, -1, 28, Color("#33473f"))
     var subtitle := str(game_config.get("title", "按 1 / 3 / 4 切换难度纵切"))
-    draw_string(ThemeDB.fallback_font, Vector2(55, 125), subtitle, HORIZONTAL_ALIGNMENT_LEFT, -1, 21, Color("#a9c5dd"))
-    draw_string(ThemeDB.fallback_font, Vector2(55, 155), "回合 %d / %d" % [mini(round_index + 1, rounds.size()), rounds.size()], HORIZONTAL_ALIGNMENT_LEFT, -1, 20, Color("#c7dded"))
-    _draw_button(Rect2(720, 40, 110, 58), "提示", Color("#286a86")); _draw_button(Rect2(850, 40, 100, 58), "退出", Color("#66566f"))
+    draw_string(ThemeDB.fallback_font, Vector2(48, 96), subtitle, HORIZONTAL_ALIGNMENT_LEFT, -1, 20, Color("#6b7d6e"))
+    draw_string(ThemeDB.fallback_font, Vector2(48, 96), "回合 %d / %d" % [mini(round_index + 1, rounds.size()), rounds.size()], HORIZONTAL_ALIGNMENT_RIGHT, 528, 20, Color("#6b7d6e"))
+    _draw_button(Rect2(604, 20, 116, 44), "提示", Color("#8fa58b")); _draw_button(Rect2(732, 20, 116, 44), "退出", Color("#a68f8a"))
+    # 舞台：暖米白区域，融入生态
     if background: draw_texture_rect(background, STAGE, false)
-    else: draw_rect(STAGE, Color("#17324b"), true)
-    draw_rect(STAGE, Color("#d9e8df"), false, 3)
+    else:
+        draw_style_box(_box(Color("#e9e2cf"), 28, Color("#cdc2a4")), STAGE)
+        draw_style_box(_box(Color("#dfd5b9"), 24, Color("#c2b594")), STAGE.grow(-10))
     if low_sensory:
-        # low-sensory: reduce border weight and add a soft calm overlay
-        draw_rect(STAGE, Color(0.93, 0.97, 0.95, 0.14), true)
+        draw_rect(STAGE, Color(0.95, 0.97, 0.93, 0.18), true)
     for region_name in regions: _draw_region(region_name, regions[region_name])
     if feedback_region != "" and Time.get_ticks_msec() < feedback_until_ms:
         _draw_feedback(feedback_region)
@@ -351,15 +355,14 @@ func _draw() -> void:
     var object_pos := drag_position if drag_object else object_rect.get_center()
     if selected_region != "": object_pos = regions[selected_region].rect.get_center()
     _draw_object(object_pos, str(data.get("target_display_name", data.get("object", "对象"))), Color(str(data.get("object_color", "#8ed0b2"))), current_object_texture)
-    # Multi-target frozen opportunities are presented sequentially inside one opportunity,
-    # so the child still acts on one clear target at a time.
     _draw_rule(data)
-    draw_rect(Rect2(190, 1050, 620, 58), Color(0.05, 0.12, 0.18, 0.88), true)
-    draw_string(ThemeDB.fallback_font, Vector2(215, 1088), message, HORIZONTAL_ALIGNMENT_CENTER, 570, 25, message_tone)
+    # 底部消息带：暖米白
+    draw_style_box(_box(Color(0.95, 0.92, 0.84, 0.94), 18, Color("#c9bd99")), Rect2(24, 1180, 552, 52))
+    draw_string(ThemeDB.fallback_font, Vector2(48, 1214), message, HORIZONTAL_ALIGNMENT_LEFT, 504, 24, message_tone)
     if session_status != "started":
-        draw_rect(Rect2(245, 520, 510, 180), Color(0.04, 0.12, 0.2, 0.94), true)
-        draw_string(ThemeDB.fallback_font, Vector2(285, 610), message, HORIZONTAL_ALIGNMENT_CENTER, 430, 34, message_tone)
-    if debug_open: draw_string(ThemeDB.fallback_font, Vector2(55, 1205), "DEBUG %s events=%d attempts=%d errors=%d hints=%d" % [session_status, events.size(), attempt_count, error_count, hint_count], HORIZONTAL_ALIGNMENT_LEFT, -1, 17, Color("#7fa2bd"))
+        draw_style_box(_box(Color(0.93, 0.89, 0.80, 0.96), 22, Color("#b8aa85")), Rect2(180, 560, 440, 130))
+        draw_string(ThemeDB.fallback_font, Vector2(220, 640), message, HORIZONTAL_ALIGNMENT_CENTER, 360, 30, message_tone)
+
 
 func _draw_feedback(region_name: String) -> void:
     var region: Dictionary = regions.get(region_name, {})
@@ -384,7 +387,7 @@ func _draw_rule(data: Dictionary) -> void:
     if examples.is_empty() and data.has("target_display_name"):
         examples = ["目标：" + str(data.get("target_display_name", "")), "特征：" + str(data.get("semantic_feature", ""))]
     if not examples.is_empty():
-        draw_string(ThemeDB.fallback_font, Vector2(310, 282), "范例：" + "　".join(examples), HORIZONTAL_ALIGNMENT_CENTER, 380, 19, Color("#f7f2dc"))
+        draw_string(ThemeDB.fallback_font, Vector2(310, 282), "范例：" + "　".join(examples), HORIZONTAL_ALIGNMENT_CENTER, 380, 19, Color("#667866"))
 
 func _draw_region(name: String, data: Dictionary) -> void:
     var rect: Rect2 = data.rect
