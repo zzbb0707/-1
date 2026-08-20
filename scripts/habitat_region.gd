@@ -15,22 +15,31 @@ var _tween: Tween
 var _lit := false
 
 func _ready() -> void:
-    # 简洁槽位：圆润半透明底 + 高光描边（不再用整张生态大图）
-    var panel := Panel.new()
-    panel.position = Vector2(-150, -170)
-    panel.size = Vector2(300, 340)
-    var sb := StyleBoxFlat.new()
-    sb.bg_color = Color(0.94, 0.90, 0.78, 0.35)
-    sb.border_color = Color("#a8b894")
-    sb.border_width_left = 5; sb.border_width_right = 5
-    sb.border_width_top = 5; sb.border_width_bottom = 5
-    sb.corner_radius_top_left = 30; sb.corner_radius_top_right = 30
-    sb.corner_radius_bottom_left = 30; sb.corner_radius_bottom_right = 30
-    panel.add_theme_stylebox_override("panel", sb)
-    add_child(panel)
-    # 中心图标（对象形状提示）
+    # 槽位：若提供背景素材则用它做生态衬底，否则半透明圆角槽
+    if texture:
+        var tex_sprite := Sprite2D.new()
+        tex_sprite.texture = texture
+        tex_sprite.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+        tex_sprite.centered = true
+        tex_sprite.scale = Vector2(0.28, 0.28)  # 1254大图缩到槽位大小
+        tex_sprite.modulate = Color(0.92, 0.94, 0.90, 0.5)
+        add_child(tex_sprite)
+    else:
+        var panel := Panel.new()
+        panel.position = Vector2(-150, -170)
+        panel.size = Vector2(300, 340)
+        var sb := StyleBoxFlat.new()
+        sb.bg_color = Color(0.94, 0.90, 0.78, 0.35)
+        sb.border_color = Color("#a8b894")
+        sb.border_width_left = 5; sb.border_width_right = 5
+        sb.border_width_top = 5; sb.border_width_bottom = 5
+        sb.corner_radius_top_left = 30; sb.corner_radius_top_right = 30
+        sb.corner_radius_bottom_left = 30; sb.corner_radius_bottom_right = 30
+        panel.add_theme_stylebox_override("panel", sb)
+        add_child(panel)
+    # 中心形状提示图标（●/■）
     var icon := Label.new()
-    icon.text = "●" if region_name == "round" else "■"
+    icon.text = "●" if _is_round_name() else "■"
     icon.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
     icon.position = Vector2(-150, -60)
     icon.size = Vector2(300, 90)
@@ -43,6 +52,9 @@ func _ready() -> void:
     rect.size = Vector2(300, 340)
     shape.shape = rect
     add_child(shape)
+
+func _is_round_name() -> bool:
+    return region_name.contains("圆") or region_name.contains("区") or region_name.contains("水")
 
 func set_label_text(t: String) -> void:
     if not label:

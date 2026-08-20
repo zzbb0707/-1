@@ -194,14 +194,54 @@ func _build_regions() -> void:
     _region_a = REGION_SCRIPT.new()
     _region_a.region_name = _region_a_name
     _region_a.position = Vector2(260, 640)
+    _region_a.texture = _match_region_texture(_region_a_name)
     _region_a.set_label_text(_region_a_name)
     add_child(_region_a)
 
     _region_b = REGION_SCRIPT.new()
     _region_b.region_name = _region_b_name
     _region_b.position = Vector2(740, 640)
+    _region_b.texture = _match_region_texture(_region_b_name)
     _region_b.set_label_text(_region_b_name)
     add_child(_region_b)
+
+func _match_region_texture(region_name: String) -> Texture2D:
+    # 按区域名关键词匹配生态瓦片素材（找不到返回 null → 简洁槽位）
+    var candidates := {
+        "水": "res://assets/processed/v001/GAME004_asset_region_water_v001.png",
+        "林": "res://assets/processed/v001/GAME004_asset_region_forest_v001.png",
+        "阳光": "res://assets/processed/v001/GAME004_asset_region_sun_v001.png",
+        "光": "res://assets/processed/v001/GAME004_asset_region_sun_v001.png",
+        "工具": "res://assets/processed/v001/GAME004_asset_region_tool_v001.png",
+    }
+    for kw in candidates:
+        if region_name.contains(kw):
+            var p := candidates[kw]
+            if ResourceLoader.exists(p):
+                return load(p)
+    # 兜底：banana 区域素材按名匹配
+    var fname := "res://assets/candidates/banana/approved_candidate/region_%s_grid_v001.png" % _region_slug(region_name)
+    if ResourceLoader.exists(fname):
+        return load(fname)
+    return null
+
+func _region_slug(region_name: String) -> String:
+    var map := {
+        "圆区": "round_zone", "方区": "square_zone", "水区": "aquatic_zone",
+        "天空区": "flying", "天空": "flying", "飞行区": "flying",
+        "花园": "food_zone", "工具台": "tools_zone",
+        "食物区": "food_zone", "交通区": "traffic", "餐具区": "kitchen_zone",
+        "穿戴区": "clothing", "土地区": "land_zone", "光区": "bluelight_zone",
+        "岩区": "land_zone", "植物区": "plant", "玩具区": "toys_zone",
+        "清洁区": "cleaning_zone", "水果区": "fruit_zone", "蓝光区": "bluelight_zone",
+        "蓝区": "blue_zone", "陆地区": "land_zone", "中区": "medium_zone",
+        "小区": "small_zone", "衣物区": "clothing", "卧室区": "bedroom_zone",
+        "阅读区": "book_zone", "厨房区": "kitchen_zone",
+    }
+    for k in map:
+        if region_name.contains(k):
+            return map[k]
+    return ""
 
 func _spawn_round(round_no: int) -> void:
     _round_index = round_no
@@ -216,7 +256,13 @@ func _spawn_round(round_no: int) -> void:
     var obj_path := str(r.get("target_asset_path", ""))
     var tex: Texture2D = null
     if obj_path != "" and ResourceLoader.exists(obj_path):
-        tex = load(obj_path)
+        # 优先用抠图透明版
+        var base := obj_path.get_file().get_basename()
+        var cutout := "res://assets/processed/cutout_v001/%s_alpha.png" % base
+        if ResourceLoader.exists(cutout):
+            tex = load(cutout)
+        else:
+            tex = load(obj_path)
 
     # 正确区域名来自配置 correct_region_label
     var correct := _region_a_name
@@ -248,15 +294,17 @@ func _on_dropped(correct: bool, region_name: String) -> void:
     var target: HabitatRegion = _region_a if region_name == _region_a_name else _region_b
     if correct:
         completed_count += 1
-        target.glow()
-        effects.burst("glow", target.position + Vector2(0, 20))
+        if not low_sensory:
+            target.glow()
+            effects.burst("glow", target.position + Vector2(0, 20))
         _message_label.text = "太棒了！区域启动了"
         _emit("success", {"round_index": _round_index + 1, "attempt_count": attempt_count})
         await get_tree().create_timer(0.9).timeout
         _spawn_round(_round_index + 1)
     else:
         error_count += 1
-        effects.burst("spark", current_object.position, 10)
+        if not low_sensory:
+            effects.burst("spark", current_object.position, 10)
         _message_label.text = "再试一次，看看哪个区域"
         _emit("error", {"round_index": _round_index + 1, "attempt_count": attempt_count, "error_count": error_count})
 
@@ -266,9 +314,10 @@ func _finish_game() -> void:
     if current_object:
         current_object.queue_free()
         current_object = null
-    effects.burst("glow", Vector2(500, 400), 40)
-    effects.burst("glow", Vector2(300, 500), 30)
-    effects.burst("glow", Vector2(700, 500), 30)
+    if not low_sensory:
+        effects.burst("glow", Vector2(500, 400), 40)
+        effects.burst("glow", Vector2(300, 500), 30)
+        effects.burst("glow", Vector2(700, 500), 30)
     _emit("game_complete", {
         "game_pack_id": _pack_id, "completed_count": completed_count,
         "attempt_count": attempt_count, "error_count": error_count,
