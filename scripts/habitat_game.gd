@@ -237,7 +237,7 @@ func _match_region_texture(region_name: String) -> Texture2D:
     }
     for kw in candidates:
         if region_name.contains(kw):
-            var p := candidates[kw]
+            var p: String = candidates[kw]
             if ResourceLoader.exists(p):
                 return load(p)
     # 天空区专用：skyperch 素材（更贴"天空"语义）
@@ -270,8 +270,10 @@ func _region_slug(region_name: String) -> String:
         "正确配对": "matching_image",
     }
     for k in map:
-        if region_name.contains(k):
-            return map[k]
+        var key: String = k
+        if region_name.contains(key):
+            var val: String = map[k]
+            return val
     return ""
 
 func _spawn_round(round_no: int) -> void:
@@ -287,10 +289,10 @@ func _spawn_round(round_no: int) -> void:
     var obj_path := str(r.get("target_asset_path", ""))
     var tex: Texture2D = null
     if obj_path != "" and ResourceLoader.exists(obj_path):
-        # 优先用抠图透明版
+        # 优先用抠图透明版（用 FileAccess 检查物理文件，兼容未注册资源）
         var base := obj_path.get_file().get_basename()
         var cutout := "res://assets/processed/cutout_v001/%s_alpha.png" % base
-        if ResourceLoader.exists(cutout):
+        if FileAccess.file_exists(cutout) or ResourceLoader.exists(cutout):
             tex = load(cutout)
         else:
             tex = load(obj_path)
@@ -310,7 +312,7 @@ func _spawn_round(round_no: int) -> void:
         _region_b_name: Rect2(Vector2(740 - 150, 640 - 170), Vector2(300, 340)),
     }
     current_object.position = Vector2(500, 430)
-    current_object.scale = Vector2(0.7, 0.7)
+    current_object.scale = Vector2(1.25, 1.25)
     current_object.dropped.connect(_on_dropped)
     add_child(current_object)
     _round_label.text = "回合 %d / %d" % [round_no + 1, _rounds.size()]

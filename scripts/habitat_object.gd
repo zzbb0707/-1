@@ -67,7 +67,7 @@ func _unhandled_input(event: InputEvent) -> void:
             _dragging = false
             _kill_tween()
             _tween = create_tween()
-            _tween.tween_property(self, "scale", Vector2.ONE * 0.7, 0.15) \
+            _tween.tween_property(self, "scale", Vector2.ONE * 1.25, 0.15) \
                 .set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
             _resolve_drop()
     elif event is InputEventMouseMotion and _dragging:
