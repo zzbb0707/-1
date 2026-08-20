@@ -20,12 +20,35 @@ func _ready() -> void:
     sprite.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
     sprite.centered = true
     add_child(sprite)
+    # 无素材时兜底：画一个彩色圆/方占位，保证不崩
+    if texture == null:
+        var fallback := _make_fallback_texture()
+        sprite.texture = fallback
     var shape := CollisionShape2D.new()
     var circle := CircleShape2D.new()
     circle.radius = max(sprite.texture.get_width(), sprite.texture.get_height()) * 0.5
     shape.shape = circle
     add_child(shape)
     _start_pos = position
+
+func _make_fallback_texture() -> ImageTexture:
+    var size := 128
+    var img := Image.create(size, size, false, Image.FORMAT_RGBA8)
+    img.fill(Color(0, 0, 0, 0))
+    if correct_region.contains("方") or correct_region.contains("square"):
+        for y in size:
+            for x in size:
+                var d := 8.0
+                if x > d and x < size - d and y > d and y < size - d:
+                    img.set_pixel(x, y, Color("#7fa8b8"))
+    else:
+        for y in size:
+            for x in size:
+                var dx := x - size * 0.5
+                var dy := y - size * 0.5
+                if dx * dx + dy * dy < (size * 0.44) * (size * 0.44):
+                    img.set_pixel(x, y, Color("#d98f7a"))
+    return ImageTexture.create_from_image(img)
 
 func _unhandled_input(event: InputEvent) -> void:
     if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
