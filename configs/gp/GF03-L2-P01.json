@@ -138,7 +138,8 @@
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R03",
                        "implementation_status":  "semantic_defined_needs_art",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_red_lit_grid_v001.png"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_red_lit_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redflower2_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R04",
@@ -177,7 +178,8 @@
                        "natural_outcome_id":  "OUT-GF03-L2-P01-R04",
                        "implementation_status":  "semantic_defined_needs_art",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_blue_lit_grid_v001.png",
-                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_blue_zone_grid_v001.png"
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_blue_zone_grid_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bluesquare_v001.jpg"
                    },
                    {
                        "opportunity_id":  "GF03-L2-P01-R05",

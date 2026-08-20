@@ -51,10 +51,10 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R01",
                        "target_asset_id":  "AS-GAME004-L1-PURPLE_SQUARE_TOOL",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/processed/objects_v001/red_circle_seed_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_redcircleseed_v001.png",
                        "secondary_target_display_name":  "当前目标图",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/blue_square_crystal_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/red_circle_zone_idle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_red_zone_grid_v001.png",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:视觉图像完全一致"
@@ -135,7 +135,7 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R03",
                        "target_asset_id":  "AS-GAME004-L1-ROUND_ICON",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_roundicon_v001.jpg",
                        "secondary_target_display_name":  "方形对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_largezone_v001.jpg",
@@ -219,10 +219,10 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R05",
                        "target_asset_id":  "AS-GAME004-L1-FISH",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_roundicon_v001.jpg",
                        "secondary_target_display_name":  "当前配对对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/white_drop_zone_idle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_waterpool_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:配对关系；位置无关"
@@ -261,10 +261,10 @@
                        "natural_outcome_id":  "OUT-GF03-L1-P04-R06",
                        "target_asset_id":  "AS-GAME004-L1-BIRD",
                        "implementation_status":  "asset_bound_approved_candidate",
-                       "target_asset_path":  "res://assets/processed/objects_v001/round_icon_v001.png",
+                       "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_roundicon_v001.jpg",
                        "secondary_target_display_name":  "新外观形状对象",
                        "secondary_target_asset_path":  "res://assets/processed/objects_v001/square_icon_v001.png",
-                       "correct_region_asset_path":  "res://assets/processed/regions_l1p01_v001/purple_tool_zone_idle_v001.png",
+                       "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_toolzone_v001.jpg",
                        "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_roundresponse_v001.jpg",
                        "examples":  [
                                         "semantic-feature:形状恒常性"

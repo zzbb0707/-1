@@ -6,9 +6,8 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 [display]
 window/size/viewport_width=1000
 window/size/viewport_height=1250
-window/size/window_width_override=600
-window/size/window_height_override=750
 window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 window/handheld/orientation=1
 
 [rendering]

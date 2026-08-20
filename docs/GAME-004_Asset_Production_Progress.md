@@ -6,10 +6,10 @@
 
 ## 已完成
 
-- **素材批量生产进行中**：Banana 单对象模式，前5批完成，第6批生成中。
-  - 第一批 8/8、第二批 8/8、第三批 7/8（白圆水滴v3通过）、第四批 8/8、第五批 7/8（黄方待出）
-  - 累计 approved_candidate：46个
-  - approved_candidate 目录：`assets/candidates/banana/approved_candidate/`（39个文件已复制）
+- **素材批量生产进行中**：Banana 单对象模式，已覆盖 L1 完整 + L2-L4 大量对象/区域/结果。
+  - 累计 approved_candidate：155+（第十批生成中）
+  - approved_candidate 目录：151个文件（对象95 / 区域25 / 结果31）
+  - 已推送 git：26f90e9 / a0bf748 / a650965
 - Banana 风格母版：`assets/candidates/banana/master/L1_objects_master_banana_v001.jpg`（Atlas 审核 PASS）
 - 母版 manifest：`assets/candidates/banana/manifest.json`
 - 120 回合交付清单：`handoff/asset_production_v001/delivery_checklist.json`
