@@ -214,14 +214,14 @@ func _build_regions() -> void:
 
     _region_a = REGION_SCRIPT.new()
     _region_a.region_name = _region_a_name
-    _region_a.position = Vector2(260, 640)
+    _region_a.position = Vector2(260, 830)
     _region_a.texture = _match_region_texture(_region_a_name)
     _region_a.set_label_text(_region_a_name)
     add_child(_region_a)
 
     _region_b = REGION_SCRIPT.new()
     _region_b.region_name = _region_b_name
-    _region_b.position = Vector2(740, 640)
+    _region_b.position = Vector2(740, 830)
     _region_b.texture = _match_region_texture(_region_b_name)
     _region_b.set_label_text(_region_b_name)
     add_child(_region_b)
@@ -308,10 +308,10 @@ func _spawn_round(round_no: int) -> void:
     current_object.texture = tex
     current_object.correct_region = correct
     current_object.region_rects = {
-        _region_a_name: Rect2(Vector2(260 - 150, 640 - 170), Vector2(300, 340)),
-        _region_b_name: Rect2(Vector2(740 - 150, 640 - 170), Vector2(300, 340)),
+        _region_a_name: Rect2(Vector2(260 - 150, 830 - 190), Vector2(300, 380)),
+        _region_b_name: Rect2(Vector2(740 - 150, 830 - 190), Vector2(300, 380)),
     }
-    current_object.position = Vector2(500, 430)
+    current_object.position = Vector2(500, 520)
     current_object.scale = Vector2(1.25, 1.25)
     current_object.dropped.connect(_on_dropped)
     add_child(current_object)

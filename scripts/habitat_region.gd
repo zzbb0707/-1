@@ -26,8 +26,8 @@ func _ready() -> void:
         add_child(tex_sprite)
     else:
         var panel := Panel.new()
-        panel.position = Vector2(-150, -170)
-        panel.size = Vector2(300, 340)
+        panel.position = Vector2(-150, -190)
+        panel.size = Vector2(300, 380)
         var sb := StyleBoxFlat.new()
         sb.bg_color = Color(0.94, 0.90, 0.78, 0.35)
         sb.border_color = Color("#a8b894")
@@ -37,19 +37,19 @@ func _ready() -> void:
         sb.corner_radius_bottom_left = 30; sb.corner_radius_bottom_right = 30
         panel.add_theme_stylebox_override("panel", sb)
         add_child(panel)
-    # 中心形状提示图标（●/■）
+    # 中心形状提示图标（●/■）放大
     var icon := Label.new()
     icon.text = "●" if _is_round_name() else "■"
     icon.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-    icon.position = Vector2(-150, -60)
-    icon.size = Vector2(300, 90)
-    icon.add_theme_font_size_override("font_size", 72)
+    icon.position = Vector2(-150, -100)
+    icon.size = Vector2(300, 120)
+    icon.add_theme_font_size_override("font_size", 96)
     icon.add_theme_color_override("font_color", Color("#6f8a76"))
     add_child(icon)
     # 碰撞区
     var shape := CollisionShape2D.new()
     var rect := RectangleShape2D.new()
-    rect.size = Vector2(300, 340)
+    rect.size = Vector2(300, 380)
     shape.shape = rect
     add_child(shape)
 
@@ -62,7 +62,7 @@ func set_label_text(t: String) -> void:
         label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
         label.add_theme_font_size_override("font_size", 30)
         label.add_theme_color_override("font_color", Color("#4a5c50"))
-        label.position = Vector2(-120, 130)
+        label.position = Vector2(-120, 150)
         label.size = Vector2(240, 40)
         add_child(label)
     label.text = t
