@@ -351,12 +351,31 @@ func _finish_game() -> void:
         effects.burst("glow", Vector2(500, 400), 40)
         effects.burst("glow", Vector2(300, 500), 30)
         effects.burst("glow", Vector2(700, 500), 30)
-    _emit("game_complete", {
+    var summary := {
         "game_pack_id": _pack_id, "completed_count": completed_count,
         "attempt_count": attempt_count, "error_count": error_count,
+        "round_total": _rounds.size(),
         "duration_sec": (Time.get_ticks_msec() - session_started_ms) / 1000.0,
-    })
-    bridge.build_result(session_status, {
-        "game_pack_id": _pack_id, "completed_count": completed_count,
-        "attempt_count": attempt_count, "error_count": error_count,
-    })
+    }
+    _save_daily_progress(summary)
+    _emit("game_complete", summary)
+    bridge.build_result(session_status, summary)
+
+func _save_daily_progress(summary: Dictionary) -> void:
+    var path := "user://game004_daily_progress.json"
+    var existing: Dictionary = {}
+    var file := FileAccess.open(path, FileAccess.READ)
+    if file:
+        var parsed = JSON.parse_string(file.get_as_text())
+        if parsed is Dictionary: existing = parsed
+        file.close()
+    existing[_pack_id] = {
+        "game_pack_id": _pack_id, "last_status": session_status,
+        "last_completed_count": summary.get("completed_count", 0),
+        "round_total": summary.get("round_total", 6),
+        "completed_at": Time.get_datetime_string_from_system(),
+    }
+    var save := FileAccess.open(path, FileAccess.WRITE)
+    if save:
+        save.store_string(JSON.stringify(existing))
+        save.close()
