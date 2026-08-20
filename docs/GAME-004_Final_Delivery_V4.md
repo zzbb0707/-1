@@ -41,7 +41,8 @@ Godot_v4.7.1-stable_win64.exe --path <proj> \
 
 - habitat 20 包加载：**20/20 ✅**
 - 原测试回归：**6/6 ✅**
-- L1P01/P03、L2P01/P02 画面审核：polish 6-9（L2P01 最佳 9 分）
+- 画面审核（BlackAI GPT-5.6）：L1P01 8 / L1P02 7 / L1P03 8 / L1P04 6 / L2P01 9 / L2P02 8 / L3P01 9 / L4P01 8
+- 布局优化：区域 y830 / 对象 y520 / 槽位 380 高 —— whitespace_issue=false（L1P03/L4P01 确认）
 - 透明抠图游戏内验证：✅ 边缘纯净无贴纸感
 
 ## 6. 明确未验证（unverified）
