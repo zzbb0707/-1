@@ -43,10 +43,11 @@ Godot_v4.7.1-stable_win64.exe --path <proj>
 
 - 20 包画面审核：**全部 polish 8-9**（BlackAI GPT-5.6）
 - 20 包加载回归：**20/20**
-- 原测试回归：**6/6**
+- **测试套件：13/13 PASS**（12 项核心 + habitat 玩法测试 8/8）
+- habitat 玩法测试覆盖：配置加载/对象生成/拖拽判定/回合推进/成功事件/跨日写入
 - 布局均衡（whitespace_issue=false）、透明无贴纸感
-- 交付包：`D:\deepseek\GAME004_星图生态舱_交付包.zip`（116KB）
-- git：main 分支（最新 36abdac）
+- 交付包：`D:\deepseek\GAME004_星图生态舱_交付包.zip`
+- git：main 分支（最新 dc5c5a0）
 
 ## 5. 明确未验证（需真实环境，unverified）
 
