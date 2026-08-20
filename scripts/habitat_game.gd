@@ -5,6 +5,24 @@ extends Node2D
 const REGION_SCRIPT := preload("res://scripts/habitat_region.gd")
 const OBJECT_SCRIPT := preload("res://scripts/habitat_object.gd")
 const EFFECTS_SCRIPT := preload("res://scripts/habitat_effects.gd")
+const AppBridgeScript := preload("res://scripts/app_bridge.gd")
+
+var bridge = AppBridgeScript.new()
+var events: Array = []
+var launch_context: Dictionary = {
+    "schema_version": "game-bridge-v1", "task_id": "GAME-004",
+    "game_config_id": "GAMECFG-GAME-004-GF03", "task_session_id": "preview-session",
+    "child_profile_id": "preview-child", "daily_plan_id": "preview-plan", "debug": false,
+    "low_sensory": false, "launch_mode": "preview", "content_version": "GAME-004-V2",
+    "ruleset_version": "GAME004-SLICE-V1"
+}
+var low_sensory := false
+var attempt_count := 0
+var error_count := 0
+var hint_count := 0
+var completed_count := 0
+var session_started_ms := 0
+var session_status := "started"
 
 var effects: HabitatEffects
 var current_object: HabitatObject
@@ -26,6 +44,10 @@ var _region_a_name := ""
 var _region_b_name := ""
 
 func _ready() -> void:
+    for arg in OS.get_cmdline_user_args():
+        if arg == "--low-sensory": low_sensory = true
+    bridge.load_context(launch_context)
+    session_started_ms = Time.get_ticks_msec()
     _load_config()
     _build_shell()
     effects = EFFECTS_SCRIPT.new()
@@ -33,6 +55,11 @@ func _ready() -> void:
     _build_ui()
     _build_regions()
     _spawn_round(0)
+    _emit("game_start", {"game_pack_id": _pack_id, "round_count": _rounds.size(), "low_sensory": low_sensory})
+
+func _emit(event_type: String, payload: Dictionary) -> void:
+    var ev := bridge.emit_event(event_type, payload)
+    events.append(ev)
 
 func _load_config() -> void:
     var pack := "GF03-L1-P03"
@@ -211,25 +238,43 @@ func _spawn_round(round_no: int) -> void:
     add_child(current_object)
     _round_label.text = "回合 %d / %d" % [round_no + 1, _rounds.size()]
     _message_label.text = "把 %s 放到正确的区域" % str(r.get("target_display_name", "对象"))
+    _emit("opportunity_presented", {
+        "game_pack_id": _pack_id, "round_index": round_no + 1, "round_total": _rounds.size(),
+        "target": str(r.get("target_display_name", "")), "correct_region": correct,
+    })
 
 func _on_dropped(correct: bool, region_name: String) -> void:
+    attempt_count += 1
     var target: HabitatRegion = _region_a if region_name == _region_a_name else _region_b
     if correct:
-        _correct_count += 1
+        completed_count += 1
         target.glow()
         effects.burst("glow", target.position + Vector2(0, 20))
         _message_label.text = "太棒了！区域启动了"
+        _emit("success", {"round_index": _round_index + 1, "attempt_count": attempt_count})
         await get_tree().create_timer(0.9).timeout
         _spawn_round(_round_index + 1)
     else:
+        error_count += 1
         effects.burst("spark", current_object.position, 10)
         _message_label.text = "再试一次，看看哪个区域"
+        _emit("error", {"round_index": _round_index + 1, "attempt_count": attempt_count, "error_count": error_count})
 
 func _finish_game() -> void:
     _message_label.text = "全部完成！你真是太棒了"
+    session_status = "completed"
     if current_object:
         current_object.queue_free()
         current_object = null
     effects.burst("glow", Vector2(500, 400), 40)
     effects.burst("glow", Vector2(300, 500), 30)
     effects.burst("glow", Vector2(700, 500), 30)
+    _emit("game_complete", {
+        "game_pack_id": _pack_id, "completed_count": completed_count,
+        "attempt_count": attempt_count, "error_count": error_count,
+        "duration_sec": (Time.get_ticks_msec() - session_started_ms) / 1000.0,
+    })
+    bridge.build_result(session_status, {
+        "game_pack_id": _pack_id, "completed_count": completed_count,
+        "attempt_count": attempt_count, "error_count": error_count,
+    })

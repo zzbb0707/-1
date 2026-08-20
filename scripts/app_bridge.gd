@@ -36,7 +36,12 @@ func emit_event(event_type: String, payload: Dictionary) -> Dictionary:
         "payload": payload
     }
     events.append(event)
-    var file := FileAccess.open("user://game004_events.ndjson", FileAccess.READ_WRITE)
+    # 确保文件存在（READ_WRITE 不会创建文件）
+    var path := "user://game004_events.ndjson"
+    if not FileAccess.file_exists(path):
+        var f0 := FileAccess.open(path, FileAccess.WRITE)
+        if f0: f0.close()
+    var file := FileAccess.open(path, FileAccess.READ_WRITE)
     if file:
         file.seek_end()
         file.store_line(JSON.stringify(event))
