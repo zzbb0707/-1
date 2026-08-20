@@ -25,17 +25,8 @@ func burst(kind: String, at: Vector2, count: int = 24) -> void:
     p.initial_velocity_max = 140.0
     p.scale_amount_min = 0.4
     p.scale_amount_max = 1.1
-    var mat := ParticleProcessMaterial.new()
-    mat.direction = Vector3(0, -1, 0)
-    mat.spread = 180.0
-    mat.initial_velocity_min = 40.0
-    mat.initial_velocity_max = 140.0
-    mat.gravity = Vector3(0, 120, 0)
-    mat.scale_min = 0.4
-    mat.scale_max = 1.1
     var col: Color = PALETTE.get(kind, PALETTE["glow"])
     p.color = col
-    p.process_material = mat
     add_child(p)
     p.emitting = true
     p.finished.connect(p.queue_free)
@@ -56,15 +47,6 @@ func ambient_glow(at: Vector2, on: bool) -> CPUParticles2D:
     p.scale_amount_min = 0.15
     p.scale_amount_max = 0.4
     p.color = Color(0.97, 0.91, 0.62, 0.9)
-    var mat := ParticleProcessMaterial.new()
-    mat.direction = Vector3(0, -1, 0)
-    mat.spread = 30.0
-    mat.gravity = Vector3.ZERO
-    mat.initial_velocity_min = 6.0
-    mat.initial_velocity_max = 18.0
-    mat.scale_min = 0.15
-    mat.scale_max = 0.4
-    p.process_material = mat
     p.emitting = on
     add_child(p)
     return p
