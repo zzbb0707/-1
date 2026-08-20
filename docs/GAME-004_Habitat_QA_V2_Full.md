@@ -31,6 +31,7 @@
 - 原测试回归：6/6 ✅
 - 布局均衡：区域 y830 / 对象 y520 / 槽位 380 —— whitespace_issue=false
 - 透明对象游戏内验证：✅ 无贴纸感
+- **全屏配置**：1000×1250 画布 / stretch=canvas_items / aspect=expand / 竖屏锁定 / 无窗口override —— 内容铺满居中，真机自适应 ✅
 
 ## 结论
 
