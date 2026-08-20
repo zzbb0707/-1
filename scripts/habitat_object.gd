@@ -31,12 +31,21 @@ func _unhandled_input(event: InputEvent) -> void:
     if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
         if event.pressed:
             var local := to_local(event.position)
-            if sprite.get_rect().has_point(local + sprite.offset):
+            var rect := sprite.get_rect()
+            var hit_rect := Rect2(rect.position - rect.size * 0.5, rect.size)
+            if hit_rect.has_point(local):
                 _dragging = true
                 _kill_tween()
                 z_index = 10
+                _tween = create_tween()
+                _tween.tween_property(self, "scale", Vector2.ONE * 1.12, 0.12) \
+                    .set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
         elif _dragging:
             _dragging = false
+            _kill_tween()
+            _tween = create_tween()
+            _tween.tween_property(self, "scale", Vector2.ONE * 0.7, 0.15) \
+                .set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
             _resolve_drop()
     elif event is InputEventMouseMotion and _dragging:
         position = get_global_mouse_position()
