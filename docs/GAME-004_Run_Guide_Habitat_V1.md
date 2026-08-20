@@ -1,5 +1,11 @@
 # GAME-004 星图生态舱 — 运行说明（Habitat 精品场景）
 
+## 首次打开（重要）
+
+从交付包解压后，**第一次用 Godot 打开项目会自动导入资源并注册全局类型**（class_name），
+首次导入需等待 1-2 分钟，之后启动即快。若首次启动报 "Could not find type Habitat*"，
+先运行一次 Godot 编辑器打开项目（或 `--headless --import`）完成导入即可。
+
 ## 默认启动（最简单）
 
 main.tscn 已指向 habitat 精品场景，直接运行项目即可（默认加载 GF03-L1-P01）：
