@@ -338,6 +338,11 @@ func _on_dropped(correct: bool, region_name: String) -> void:
         if not low_sensory:
             target.glow()
             effects.burst("glow", target.position + Vector2(0, 20))
+        # 自然结果：从配置读取 outcome 素材，在区域上方显示"生态启动"
+        var r: Dictionary = _rounds[_round_index] if _round_index < _rounds.size() else {}
+        var outcome_path := str(r.get("natural_outcome_asset_path", ""))
+        if outcome_path != "" and ResourceLoader.exists(outcome_path):
+            _show_outcome(load(outcome_path) as Texture2D)
         _message_label.text = "太棒了！区域启动了"
         _emit("success", {"round_index": _round_index + 1, "attempt_count": attempt_count})
         await get_tree().create_timer(0.9).timeout
@@ -348,6 +353,27 @@ func _on_dropped(correct: bool, region_name: String) -> void:
             effects.burst("spark", current_object.position, 10)
         _message_label.text = "再试一次，看看哪个区域"
         _emit("error", {"round_index": _round_index + 1, "attempt_count": attempt_count, "error_count": error_count})
+
+func _show_outcome(tex: Texture2D) -> void:
+    # 区域上方显示自然结果图标（淡入+上浮）
+    var s := Sprite2D.new()
+    s.texture = tex
+    s.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+    s.centered = true
+    var size := 160.0
+    var tw: float = tex.get_width()
+    var th: float = tex.get_height()
+    var sc: float = size / max(tw, th) if max(tw, th) > 0 else 1.0
+    s.scale = Vector2(sc, sc)
+    s.position = Vector2(500, 330)
+    s.modulate = Color(1, 1, 1, 0)
+    add_child(s)
+    var t := create_tween()
+    t.tween_property(s, "modulate", Color.WHITE, 0.4).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
+    t.parallel().tween_property(s, "position:y", 310, 0.4).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
+    t.tween_interval(0.8)
+    t.tween_property(s, "modulate:a", 0.0, 0.3)
+    t.tween_callback(s.queue_free)
 
 func _finish_game() -> void:
     _message_label.text = "全部完成！你真是太棒了"
