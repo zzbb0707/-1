@@ -99,7 +99,7 @@
                        "implementation_status":  "asset_bound_approved_candidate",
                        "target_asset_path":  "res://assets/candidates/banana/approved_candidate/object_bluesquarecrystal_v001.jpg",
                        "correct_region_asset_path":  "res://assets/candidates/banana/approved_candidate/region_mediumzone_v001.jpg",
-                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_lamp_glow_v001.jpg"
+                       "natural_outcome_asset_path":  "res://assets/candidates/banana/approved_candidate/outcome_workzone_start_grid_v001.png"
                    },
                    {
                        "opportunity_id":  "GF03-L1-P01-R03",
