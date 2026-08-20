@@ -179,9 +179,30 @@ func _style_button(btn: Button, color: Color) -> void:
     btn.add_theme_color_override("font_color", Color("#fdfaf2"))
 
 func _on_hint() -> void:
-    _message_label.text = "提示：观察对象形状，放到形状相同的区域"
+    hint_count += 1
+    var r: Dictionary = _rounds[_round_index] if _round_index < _rounds.size() else {}
+    var rule := str(r.get("rule_label", game_config_title()))
+    var feature := str(r.get("semantic_feature", ""))
+    var guidance := str(r.get("distractor_guidance", ""))
+    var hint := rule
+    if feature != "" and feature != "<null>":
+        hint += "（%s）" % feature
+    if guidance != "" and guidance != "<null>":
+        hint += "。提示：%s" % guidance
+    _message_label.text = hint
+    _emit("hint_shown", {"round_index": _round_index + 1, "hint_count": hint_count})
+
+func game_config_title() -> String:
+    return "观察环境，找到正确区域"
 
 func _on_exit() -> void:
+    session_status = "quit"
+    _emit("safe_exit", {"round_index": _round_index + 1, "completed_count": completed_count})
+    bridge.build_result("quit", {
+        "game_pack_id": _pack_id, "completed_count": completed_count,
+        "attempt_count": attempt_count, "error_count": error_count,
+        "round_index": _round_index + 1,
+    })
     get_tree().quit()
 
 func _build_regions() -> void:
