@@ -12,9 +12,11 @@ signal dropped(correct: bool, region_name: String)
 var sprite: Sprite2D
 var _dragging := false
 var _start_pos := Vector2.ZERO
+var _start_scale := Vector2.ONE
 var _tween: Tween
 
 func _ready() -> void:
+    _start_scale = scale
     sprite = Sprite2D.new()
     sprite.texture = texture
     sprite.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
@@ -61,13 +63,13 @@ func _unhandled_input(event: InputEvent) -> void:
                 _kill_tween()
                 z_index = 10
                 _tween = create_tween()
-                _tween.tween_property(self, "scale", Vector2.ONE * 1.12, 0.12) \
+                _tween.tween_property(self, "scale", _start_scale * 1.12, 0.12) \
                     .set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
         elif _dragging:
             _dragging = false
             _kill_tween()
             _tween = create_tween()
-            _tween.tween_property(self, "scale", Vector2.ONE * 1.25, 0.15) \
+            _tween.tween_property(self, "scale", _start_scale, 0.15) \
                 .set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
             _resolve_drop()
     elif event is InputEventMouseMotion and _dragging:

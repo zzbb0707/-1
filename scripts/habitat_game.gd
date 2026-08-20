@@ -311,8 +311,16 @@ func _spawn_round(round_no: int) -> void:
         _region_a_name: Rect2(Vector2(260 - 150, 830 - 190), Vector2(300, 380)),
         _region_b_name: Rect2(Vector2(740 - 150, 830 - 190), Vector2(300, 380)),
     }
-    current_object.position = Vector2(500, 520)
-    current_object.scale = Vector2(1.25, 1.25)
+    current_object.position = Vector2(500, 480)
+    # 对象自适应缩放：显示尺寸统一约 300px（大图缩小、小图放大）
+    if tex:
+        var tw: float = tex.get_width()
+        var th: float = tex.get_height()
+        var target := 300.0
+        var s: float = target / max(tw, th)
+        current_object.scale = Vector2(s, s)
+    else:
+        current_object.scale = Vector2(1.0, 1.0)
     current_object.dropped.connect(_on_dropped)
     add_child(current_object)
     _round_label.text = "回合 %d / %d" % [round_no + 1, _rounds.size()]
