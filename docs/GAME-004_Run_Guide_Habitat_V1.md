@@ -1,8 +1,14 @@
 # GAME-004 星图生态舱 — 运行说明（Habitat 精品场景）
 
-## 正确启动方式（关键！）
+## 默认启动（最简单）
 
-旧 main.tscn 会拦截 `--game-pack`，必须用 `--scene` 指定 habitat 场景：
+main.tscn 已指向 habitat 精品场景，直接运行项目即可（默认加载 GF03-L1-P01）：
+
+```bash
+Godot_v4.7.1-stable_win64.exe --path D:\deepseek\yunxiaoxing-game004
+```
+
+## 指定包启动（--scene 或直接参数）
 
 ```bash
 # 启动指定包（精品场景）
