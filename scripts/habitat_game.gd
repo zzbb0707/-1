@@ -62,7 +62,7 @@ func _emit(event_type: String, payload: Dictionary) -> void:
     events.append(ev)
 
 func _load_config() -> void:
-    var pack := "GF03-L1-P03"
+    var pack := "GF03-L1-P01"  # 默认第一个游戏日包
     # 支持 --game-pack=xxx 参数
     for arg in OS.get_cmdline_user_args():
         if arg.begins_with("--game-pack="):
